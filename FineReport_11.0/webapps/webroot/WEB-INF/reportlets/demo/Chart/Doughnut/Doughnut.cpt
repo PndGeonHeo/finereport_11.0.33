@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20211223" releaseVersion="11.0.0">
+<TableDataMap>
+<TableData name="Embedded1" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[null]]></DSName>
+<ColumnNames>
+<![CDATA[Categoty,,.,,Percentage1,,.,,Percentage2]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String,java.lang.String">
+<![CDATA[1ZUC>1U$upQA/X65fsAN2E0\P##]A%K5f2.Z!!~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<ToolBars/>
+<WebPage isPage="false" showAsImage="false" autoScale="false" tdHeavy="false" pageFixedRow="false" pageFixedRowCount="30"/>
+</WebPageContent>
+<WebWriteContent>
+<ToolBars/>
+<EditRowColor setColor="false"/>
+<WebWrite SheetPosition="3"/>
+<RptLocation isShowAtLeft="true"/>
+<UnloadCheck/>
+<ShowWidgets show="true"/>
+<OtherAttr autoStash="false"/>
+</WebWriteContent>
+</ReportWebAttr>
+<ElementCaseMobileAttr>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="1" zoom="true" refresh="false" isUseHTML="false" isMobileCanvasSize="false" appearRefresh="false" allowFullScreen="false" allowDoubleClickOrZoom="true" functionalWhenUnactivated="false"/>
+</ElementCaseMobileAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+<USE REPEAT="false" PAGE="false" WRITE="false"/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1333500,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,1981200,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<FloatElementList>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float104"/>
+<PrivilegeControl/>
+<Location leftDistance="203200" topDistance="152400" width="16764000" height="14058900"/>
+<O t="CC">
+<LayoutAttr selectedIndex="0"/>
+<ChangeAttr enable="false" changeType="button" timeInterval="5" showArrow="true">
+<TextAttr>
+<Attr alignText="0" themed="false"/>
+</TextAttr>
+<buttonColor>
+<FineColor color="-8421505" hor="-1" ver="-1"/>
+</buttonColor>
+<carouselColor>
+<FineColor color="-8421505" hor="-1" ver="-1"/>
+</carouselColor>
+</ChangeAttr>
+<Chart name="默认" chartClass="com.fr.chart.chartattr.Chart">
+<Chart class="com.fr.chart.chartattr.Chart">
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr gradientType="normal" shadow="false" autoBackground="false" themed="false">
+<gradientStartColor>
+<FineColor color="-12146441" hor="-1" ver="-1"/>
+</gradientStartColor>
+<gradientEndColor>
+<FineColor color="-9378161" hor="-1" ver="-1"/>
+</gradientEndColor>
+</Attr>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor autoColor="false" themed="false">
+<borderColor>
+<FineColor color="-6908266" hor="-1" ver="-1"/>
+</borderColor>
+</newColor>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<ChartAttr isJSDraw="true" isStyleGlobal="false"/>
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr gradientType="normal" shadow="false" autoBackground="false" themed="false">
+<gradientStartColor>
+<FineColor color="-12146441" hor="-1" ver="-1"/>
+</gradientStartColor>
+<gradientEndColor>
+<FineColor color="-9378161" hor="-1" ver="-1"/>
+</gradientEndColor>
+</Attr>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor autoColor="false" themed="false">
+<borderColor>
+<FineColor color="-6908266" hor="-1" ver="-1"/>
+</borderColor>
+</newColor>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[]]></O>
+<TextAttr>
+<Attr alignText="0" themed="false">
+<FRFont name=".SF NS Text" style="0" size="160">
+<foreground>
+<FineColor color="-5723992" hor="-1" ver="-1"/>
+</foreground>
+</FRFont>
+</Attr>
+</TextAttr>
+<TitleVisible value="false" position="2"/>
+</Title>
+<SwitchTitle>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr gradientType="normal" shadow="false" autoBackground="false" themed="false">
+<gradientStartColor>
+<FineColor color="-12146441" hor="-1" ver="-1"/>
+</gradientStartColor>
+<gradientEndColor>
+<FineColor color="-9378161" hor="-1" ver="-1"/>
+</gradientEndColor>
+</Attr>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor autoColor="false" themed="false">
+<borderColor>
+<FineColor color="-16777216" hor="-1" ver="-1"/>
+</borderColor>
+</newColor>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[]]></O>
+</SwitchTitle>
+<Plot class="com.fr.chart.chartattr.Donut2DPlot">
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr gradientType="normal" shadow="false" autoBackground="false" themed="false">
+<gradientStartColor>
+<FineColor color="-12146441" hor="-1" ver="-1"/>
+</gradientStartColor>
+<gradientEndColor>
+<FineColor color="-9378161" hor="-1" ver="-1"/>
+</gradientEndColor>
+</Attr>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="-1" seriesDragEnable="false" plotStyle="0" combinedSize="50.0"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${SERIES}${BR}${CATEGORY}${BR}${VALUE}"/>
+<Format class="com.fr.base.CoreDecimalFormat" roundingMode="6">
+<![CDATA[#.##]]></Format>
+<PercentFormat>
+<Format class="com.fr.base.CoreDecimalFormat" roundingMode="6">
+<![CDATA[#0.##%]]></Format>
+</PercentFormat>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name="">
+<AttrList>
+<Attr class="com.fr.chart.base.AttrContents">
+<AttrContents>
+<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
+<TextAttr>
+<Attr alignText="0" themed="false">
+<FRFont name="微软雅黑" style="1" size="72">
+<foreground>
+<FineColor color="-1" hor="-1" ver="-1"/>
+</foreground>
+</FRFont>
+</Attr>
+</TextAttr>
+<Format class="com.fr.base.CoreDecimalFormat" roundingMode="6">
+<![CDATA[#0%]]></Format>
+<PercentFormat>
+<Format class="com.fr.base.CoreDecimalFormat" roundingMode="6">
+<![CDATA[#.##%]]></Format>
+</PercentFormat>
+</AttrContents>
+</Attr>
+</AttrList>
+</ConditionAttr>
+</DefaultAttr>
+<ConditionAttrList>
+<List index="0">
+<ConditionAttr name="条件属性1">
+<AttrList>
+<Attr class="com.fr.chart.base.AttrBackground">
+<AttrBackground>
+<Background name="ColorBackground">
+<color>
+<FineColor color="-210176" hor="-1" ver="-1"/>
+</color>
+</Background>
+<Attr gradientType="normal" shadow="false" autoBackground="false" themed="false">
+<gradientStartColor>
+<FineColor color="-12146441" hor="-1" ver="-1"/>
+</gradientStartColor>
+<gradientEndColor>
+<FineColor color="-9378161" hor="-1" ver="-1"/>
+</gradientEndColor>
+</Attr>
+</AttrBackground>
+</Attr>
+</AttrList>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[分类序号]]></CNAME>
+<Compare op="0">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+</ConditionAttr>
+</List>
+<List index="1">
+<ConditionAttr name="条件属性2">
+<AttrList>
+<Attr class="com.fr.chart.base.AttrBackground">
+<AttrBackground>
+<Background name="ColorBackground">
+<color>
+<FineColor color="-14374913" hor="-1" ver="-1"/>
+</color>
+</Background>
+<Attr gradientType="normal" shadow="false" autoBackground="false" themed="false">
+<gradientStartColor>
+<FineColor color="-12146441" hor="-1" ver="-1"/>
+</gradientStartColor>
+<gradientEndColor>
+<FineColor color="-9378161" hor="-1" ver="-1"/>
+</gradientEndColor>
+</Attr>
+</AttrBackground>
+</Attr>
+</AttrList>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[分类序号]]></CNAME>
+<Compare op="0">
+<O>
+<![CDATA[2]]></O>
+</Compare>
+</Condition>
+</ConditionAttr>
+</List>
+<List index="2">
+<ConditionAttr name="条件属性3">
+<AttrList>
+<Attr class="com.fr.chart.base.AttrBackground">
+<AttrBackground>
+<Background name="ColorBackground">
+<color>
+<FineColor color="-7219979" hor="-1" ver="-1"/>
+</color>
+</Background>
+<Attr gradientType="normal" shadow="false" autoBackground="false" themed="false">
+<gradientStartColor>
+<FineColor color="-12146441" hor="-1" ver="-1"/>
+</gradientStartColor>
+<gradientEndColor>
+<FineColor color="-9378161" hor="-1" ver="-1"/>
+</gradientEndColor>
+</Attr>
+</AttrBackground>
+</Attr>
+</AttrList>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[分类序号]]></CNAME>
+<Compare op="0">
+<O>
+<![CDATA[3]]></O>
+</Compare>
+</Condition>
+</ConditionAttr>
+</List>
+<List index="3">
+<ConditionAttr name="条件属性4">
+<AttrList>
+<Attr class="com.fr.chart.base.AttrBackground">
+<AttrBackground>
+<Background name="ColorBackground">
+<color>
+<FineColor color="-1" hor="-1" ver="-1"/>
+</color>
+</Background>
+<Attr gradientType="normal" shadow="false" autoBackground="false" themed="false">
+<gradientStartColor>
+<FineColor color="-12146441" hor="-1" ver="-1"/>
+</gradientStartColor>
+<gradientEndColor>
+<FineColor color="-9378161" hor="-1" ver="-1"/>
+</gradientEndColor>
+</Attr>
+</AttrBackground>
+</Attr>
+</AttrList>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[系列序号]]></CNAME>
+<Compare op="0">
+<O>
+<![CDATA[2]]></O>
+</Compare>
+</Condition>
+</ConditionAttr>
+</List>
+</ConditionAttrList>
+</ConditionCollection>
+<Legend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr gradientType="normal" shadow="false" autoBackground="false" themed="false">
+<gradientStartColor>
+<FineColor color="-12146441" hor="-1" ver="-1"/>
+</gradientStartColor>
+<gradientEndColor>
+<FineColor color="-9378161" hor="-1" ver="-1"/>
+</gradientEndColor>
+</Attr>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor autoColor="false" themed="false">
+<borderColor>
+<FineColor color="-6908266" hor="-1" ver="-1"/>
+</borderColor>
+</newColor>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr position="4" visible="false" themed="false"/>
+<FRFont name="宋体" style="0" size="72"/>
+</Legend>
+<DataSheet>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr gradientType="normal" shadow="false" autoBackground="false" themed="false">
+<gradientStartColor>
+<FineColor color="-12146441" hor="-1" ver="-1"/>
+</gradientStartColor>
+<gradientEndColor>
+<FineColor color="-9378161" hor="-1" ver="-1"/>
+</gradientEndColor>
+</Attr>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
+<newColor autoColor="false" themed="false">
+<borderColor>
+<FineColor color="-16777216" hor="-1" ver="-1"/>
+</borderColor>
+</newColor>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isVisible="false" themed="false"/>
+<FRFont name="Microsoft JhengHei" style="0" size="72"/>
+</DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
+<newPlotFillStyle>
+<AttrFillStyle>
+<AFStyle colorStyle="1"/>
+<FillStyleName fillStyleName=""/>
+<isCustomFillStyle isCustomFillStyle="false"/>
+<PredefinedStyle themed="false"/>
+<ColorList>
+<OColor>
+<colvalue>
+<FineColor color="-14374913" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-7219979" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-210176" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-16750485" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-3658447" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-10331231" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-7763575" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-6514688" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-16744620" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-6187579" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-15714713" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-945550" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-4092928" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-13224394" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-12423245" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-10043521" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-406154" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-13031292" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-16732559" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-7099690" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-11991199" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-331445" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-6991099" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-16686527" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-9205567" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-7397856" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-406154" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-2712831" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-4737097" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-11460720" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-6696775" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+<OColor>
+<colvalue>
+<FineColor color="-3685632" hor="-1" ver="-1"/>
+</colvalue>
+</OColor>
+</ColorList>
+</AttrFillStyle>
+</newPlotFillStyle>
+<DonutAttr innterRadiusPercent="0.4" seriesGap="0.0" categoryGap="0.0"/>
+</Plot>
+<ChartDefinition>
+<MoreNameCDDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[Embedded1]]></Name>
+</TableData>
+<CategoryName value="Categoty"/>
+<ChartSummaryColumn name="Percentage1" function="com.fr.data.util.function.NoneFunction" customName="Percentage1"/>
+<ChartSummaryColumn name="Percentage2" function="com.fr.data.util.function.NoneFunction" customName="Percentage2"/>
+</MoreNameCDDefinition>
+</ChartDefinition>
+</Chart>
+</Chart>
+</O>
+<Style index="0"/>
+</com.fr.report.cell.FloatElement>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float62"/>
+<PrivilegeControl/>
+<Location leftDistance="6614160" topDistance="4084320" width="5753100" height="3810000"/>
+<O>
+<![CDATA[Are you fulfilled?]]></O>
+<Style index="1"/>
+</com.fr.report.cell.FloatElement>
+</FloatElementList>
+<CellElementList>
+<C c="0" r="0" cs="2" s="2">
+<O>
+<![CDATA[Doughnut Chart]]></O>
+<PrivilegeControl/>
+<Expand>
+<cellSortAttr/>
+</Expand>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+<FollowingTheme background="false"/>
+<Background name="ColorBackground">
+<color>
+<FineColor color="-1" hor="-1" ver="-1"/>
+</color>
+</Background>
+</ReportSettings>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="false" currentIndex="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="160">
+<foreground>
+<FineColor color="-10243090" hor="-1" ver="-1"/>
+</foreground>
+</FRFont>
+<Background name="ColorBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="160">
+<foreground>
+<FineColor color="-5723992" hor="-1" ver="-1"/>
+</foreground>
+</FRFont>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="LAA"/>
+<PreviewType PreviewType="1"/>
+<TemplateThemeAttrMark class="com.fr.base.iofile.attr.TemplateThemeAttrMark">
+<TemplateThemeAttrMark name="Compatible Theme" dark="false"/>
+</TemplateThemeAttrMark>
+<TemplateIdAttMark class="com.fr.base.iofile.attr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="f0293ac1-c7d8-4b6c-89b1-798f5b4d7283"/>
+</TemplateIdAttMark>
+</WorkBook>

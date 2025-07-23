@@ -1,0 +1,399 @@
+<?xml version="1.0" ?><WorkBook releaseVersion="10.0.0" xmlVersion="20170720">
+<TableDataMap>
+<TableData class="com.fr.data.impl.DBTableData" name="ds1">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM Employe limit 9]]></Query>
+<PageQuery>
+</PageQuery>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[304800,1524000,723900,800100,609600,381000,1080000,1080000,1080000,1080000,1080000,1080000,722488,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[558800,4419600,1104900,5825066,1676400,2743200,2743200,5829300,1295400,2743200,2743200,5753100,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" s="0">
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="1" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" cs="3" r="1" s="1">
+<O>
+<![CDATA[Personnel Information Card]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="2" rs="3" s="2">
+<O t="DSColumn">
+<Attributes columnName="Full_name" dsName="ds1"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" left="C8" leftParentDefault="false"/>
+</C>
+<C c="2" cs="2" r="2" rs="4" s="3">
+<O t="DSColumn">
+<Attributes columnName="Photo" dsName="ds1"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" left="C7" leftParentDefault="false"/>
+</C>
+<C c="0" r="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="5" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="6" s="5">
+<O>
+<![CDATA[No ID:]]></O>
+<PrivilegeControl/>
+<Expand left="C7" leftParentDefault="false"/>
+</C>
+<C c="2" cs="2" r="6" s="6">
+<O t="DSColumn">
+<Attributes columnName="EmployeeID" dsName="ds1"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Present class="com.fr.report.cell.cellattr.BarcodePresent">
+<BarcodeAttr RCodeErrorCorrect="1" RCodeVersion="7" RcodeDrawPix="1" height="12" type="1"/>
+</Present>
+<Expand dir="0"/>
+</C>
+<C c="0" r="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="7" s="7">
+<O>
+<![CDATA[Job Position:]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" cs="2" r="7" s="8">
+<O t="DSColumn">
+<Attributes columnName="Job_position" dsName="ds1"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" left="C7" leftParentDefault="false"/>
+</C>
+<C c="0" r="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="8" s="5">
+<O>
+<![CDATA[Date of Birth:]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" cs="2" r="8" s="6">
+<O t="DSColumn">
+<Attributes columnName="Date_of_birth" dsName="ds1"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" left="C8" leftParentDefault="false"/>
+</C>
+<C c="0" r="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="9" s="7">
+<O>
+<![CDATA[Address:]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" cs="2" r="9" s="9">
+<O t="DSColumn">
+<Attributes columnName="Address" dsName="ds1"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" left="C7" leftParentDefault="false"/>
+</C>
+<C c="0" r="10">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="10" s="5">
+<O>
+<![CDATA[Zip Code:]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" cs="2" r="10" s="6">
+<O t="DSColumn">
+<Attributes columnName="Zip_code" dsName="ds1"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" up="C7" upParentDefault="false"/>
+</C>
+<C c="0" r="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="11" s="10">
+<O>
+<![CDATA[Contact:]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" cs="2" r="11" s="11">
+<O t="DSColumn">
+<Attributes columnName="Home_telephone" dsName="ds1"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" left="C7" leftParentDefault="false"/>
+</C>
+<C c="0" r="12">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="12">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="12">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="13">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" cs="3" r="13">
+<PrivilegeControl/>
+<Expand left="C7" leftParentDefault="false"/>
+</C>
+<C c="1" r="14" s="12">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="14">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="14">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="15">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="15">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="15">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="20" s="13">
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings footerHeight="0" headerHeight="0">
+<PaperSetting>
+<PaperSize height="60480000" width="42768000"/>
+<Margin bottom="286560" left="574560" right="574560" top="286560"/>
+</PaperSetting>
+<Background color="-1" name="ColorBackground"/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<WorkSheetAttr direction="0" end="13" indexsToCopy="1" maxRowOrColumn="36" start="2"/>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes align="0" delayPlaying="true" showWindow="true" useParamsTemplate="false" windowPosition="1"/>
+<PWTitle>
+<![CDATA[²ÎÊý]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Arial" size="62" style="0"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1" vertical_alignment="1">
+<FRFont foreground="-13421671" name="Arial" size="118" style="1"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Arial" size="94" style="0"/>
+<Background name="NullBackground"/>
+<Border>
+<Top color="-4144960" style="1"/>
+<Left color="-4144960" style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Arial" size="62" style="0"/>
+<Background name="NullBackground"/>
+<Border>
+<Top color="-4144960" style="1"/>
+<Right color="-4144960" style="1"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Arial" size="78" style="0"/>
+<Background name="NullBackground"/>
+<Border>
+<Left color="-4144960" style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Arial" size="78" style="0"/>
+<Background name="NullBackground"/>
+<Border>
+<Left color="-4144960" style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont foreground="-10066330" name="Arial" size="78" style="0"/>
+<Background name="NullBackground"/>
+<Border>
+<Right color="-4144960" style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.00]]></Format>
+<FRFont name="Arial" size="78" style="0"/>
+<Background color="-1645597" name="ColorBackground"/>
+<Border>
+<Left color="-4144960" style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont foreground="-10066330" name="Arial" size="78" style="0"/>
+<Background color="-1645597" name="ColorBackground"/>
+<Border>
+<Right color="-4144960" style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.00]]></Format>
+<FRFont foreground="-10066330" name="Arial" size="78" style="0"/>
+<Background color="-1645597" name="ColorBackground"/>
+<Border>
+<Right color="-4144960" style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.00]]></Format>
+<FRFont name="Arial" size="78" style="0"/>
+<Background color="-1645597" name="ColorBackground"/>
+<Border>
+<Bottom color="-4144960" style="1"/>
+<Left color="-4144960" style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.00]]></Format>
+<FRFont foreground="-10066330" name="Arial" size="78" style="0"/>
+<Background color="-1645597" name="ColorBackground"/>
+<Border>
+<Bottom color="-4144960" style="1"/>
+<Right color="-4144960" style="1"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Arial" size="78" style="0"/>
+<Background color="-1" name="ColorBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Arial" size="62" style="0"/>
+<Background color="-1" name="ColorBackground"/>
+<Border/>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="KAA"/>
+<PreviewType PreviewType="0"/>
+<TemplateIdAttMark class="com.fr.base.iofile.attr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="9f6a5b85-4aac-43b9-a176-3d6e0f8d5c40"/>
+</TemplateIdAttMark>
+</WorkBook>

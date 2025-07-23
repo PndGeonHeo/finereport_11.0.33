@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.8448742, 36.6808989] },
+      "properties": { "name": "예산군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.58154718189121, 36.56675695]
+      },
+      "properties": { "name": "홍성군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.8022, 36.4585999] },
+      "properties": { "name": "청양군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.6917006, 36.0804482] },
+      "properties": { "name": "서천군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.910107, 36.2753678] },
+      "properties": { "name": "부여군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.48815, 36.1087249] },
+      "properties": { "name": "금산군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.80674542490975, 36.9445155]
+      },
+      "properties": { "name": "당진시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.23766021826972, 36.287457599999996]
+      },
+      "properties": { "name": "계룡시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0987857, 36.1868623] },
+      "properties": { "name": "논산시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.46538022670035, 36.775373099999996]
+      },
+      "properties": { "name": "서산시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0128812, 36.783901] },
+      "properties": { "name": "아산시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.613165, 36.33401] },
+      "properties": { "name": "보령시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.10950160495184, 36.4591409]
+      },
+      "properties": { "name": "공주시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.1516634, 36.8067134] },
+      "properties": { "name": "천안시 동남구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.1552727, 36.8783935] },
+      "properties": { "name": "천안시 서북구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.29681073935859, 36.756940650000004]
+      },
+      "properties": { "name": "태안군" }
+    }
+  ]
+}

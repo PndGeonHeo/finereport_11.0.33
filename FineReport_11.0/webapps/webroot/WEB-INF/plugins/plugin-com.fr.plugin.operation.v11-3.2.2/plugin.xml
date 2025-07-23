@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <id>com.fr.plugin.operation.v11</id>
+    <name><![CDATA[系统运维]]></name>
+    <active>yes</active>
+    <auto-update>false</auto-update>
+    <version>3.2.2</version>
+    <env-version>11.0~11.0</env-version>
+    <jartime>2022-05-17</jartime>
+    <vendor email="bryant@fanruan.com">bryant</vendor>
+    <description><![CDATA[宕机时自动导出堆栈并重启]]></description>
+    <change-notes><![CDATA[
+        <p>[2024-01-11]修复GC事件导致误判宕机的问题</p>
+        <p>[2023-11-23]国际化更新</p>
+        <p>[2023-09-06]健康巡检支持更多快速修复项</p>
+        <p>[2023-06-02]国际化更新</p>
+        <p>[2023-02-09]宕机自动重启支持bi</p>
+        <p>[2023-01-09]username和客户自定义参数冲突</p>
+        <p>[2022-12-30]国际化更新</p>
+        <p>[2022-12-27]链路追踪用户名tag支持</p>
+        <p>[2022-11-23]备份支持</p>
+        <p>[2022-10-10]宕机自助处理推荐原因完善</p>
+        <p>[2022-09-16]宕机自动处理功能调整</p>
+        <p>[2022-08-25]插件热更新</p>
+        <p>[2022-08-24]宕机判断条件优化</p>
+        <p>[2022-08-08]安全问题</p>
+        <p>[2022-07-15]系统检查合并到宕机处理</p>
+        <p>[2022-07-06]权限控制更新</p>
+        <p>[2022-02-28]国际化更新</p>
+        <p>[2020-05-14]宕机处理工具-宕机时自动导出堆栈并重启</p>
+        <p>[2021-01-23]宕机自动处理工具内置</p>
+        <p>[2021-05-15]脱离jdk</p>
+        <p>[2021-07-01]优化判断算法</p>
+        <p>[2021-07-14]hs_err文件解析与通知</p>
+        <p>[2021-08-10]宕机自助分析向导</p>
+        ]]>
+    </change-notes>
+    <!--主包-->
+    <main-package>com.fr.plugin.system.operation</main-package>
+    <!--全局入口和出口-->
+    <lifecycle-monitor class = "com.fr.plugin.system.operation.SystemOperationLifecycle"/>
+    <extra-core>
+        <LocaleFinder class="com.fr.plugin.system.operation.SystemOperationLocaleFinder"/>
+        <LocaleFinder class="com.fr.plugin.system.operation.check.SystemCheckLocaleFinder"/>
+        <ClusterTicketProvider class="com.fr.plugin.system.operation.cluster.SystemOperationTicket"/>
+        <DBAccessProvider class="com.fr.plugin.system.operation.db.SystemOperationDBAccessBridge"/>
+    </extra-core>
+    <extra-decision>
+        <SystemOptionProvider class="com.fr.plugin.system.operation.crash.client.FineOperationOption"/>
+        <RequestPreHandleProvider class="com.fr.plugin.system.operation.ops.OpsRequestPreprocessor"/>
+        <SystemOptionProvider class="com.fr.plugin.system.operation.SystemOperationOption"/>
+        <ControllerRegisterProvider class="com.fr.plugin.system.operation.SystemOperationControllerRegister"/>
+        <GlobalRequestFilterProvider class="com.fr.plugin.system.operation.ops.filter.OpsIgnoreFilter"/>
+        <ComposeWebResourceProvider class="com.fr.plugin.system.operation.skywalking.SkywalkingWebResourceProvider" />
+        <ControllerRegisterProvider class="com.fr.plugin.system.operation.skywalking.SkywalkingControllerRegister"/>
+    </extra-decision>
+    <extra-report>
+        <JavaScriptFileHandler class="com.fr.plugin.system.operation.skywalking.SkywalkingJavaScriptFileHandler" />
+    </extra-report>
+    <function-recorder class="com.fr.plugin.system.operation.SystemOperationOption"/>
+    <function-recorder class="com.fr.plugin.system.operation.crash.client.FineOperationOption"/>
+    <prefer-packages>
+        <prefer-package>*</prefer-package>
+    </prefer-packages>
+  <plugin-xml-i18n resource="fr-plugin-fine-operation-*.jar" location="com.fr.plugin.system.operation.locale">
+      <name key="Plugin-Xml-I18n-OperationKEY_Name"/>
+      <description key="Plugin-Xml-I18n-OperationKEY_Description"/>
+      <change-notes key="Plugin-Xml-I18n-OperationKEY_Change_Notes"/>
+    </plugin-xml-i18n>
+</plugin>

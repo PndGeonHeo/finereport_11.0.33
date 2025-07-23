@@ -1,0 +1,161 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyN2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.4121764495, 23.6871378547 ]
+			},
+			"properties" : {
+				"name" : "Dongshan County",
+				"adcode" : "350626",
+				"adcode_s" : "3506",
+				"adcode_si" : "35",
+				"dname" : "Zhangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.5314728874, 24.9154983493 ]
+			},
+			"properties" : {
+				"name" : "Huaan County",
+				"adcode" : "350629",
+				"adcode_s" : "3506",
+				"adcode_si" : "35",
+				"dname" : "Zhangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.7960204004, 24.3926099679 ]
+			},
+			"properties" : {
+				"name" : "Longhai District",
+				"adcode" : "350681",
+				"adcode_s" : "3506",
+				"adcode_si" : "35",
+				"dname" : "Zhangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.7292346752, 24.5382909603 ]
+			},
+			"properties" : {
+				"name" : "Longwen District",
+				"adcode" : "350603",
+				"adcode_s" : "3506",
+				"adcode_si" : "35",
+				"dname" : "Zhangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.2818092145, 24.6656163207 ]
+			},
+			"properties" : {
+				"name" : "Nanjing County",
+				"adcode" : "350627",
+				"adcode_s" : "3506",
+				"adcode_si" : "35",
+				"dname" : "Zhangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.1895616585, 24.3210656122 ]
+			},
+			"properties" : {
+				"name" : "Pinghe County",
+				"adcode" : "350628",
+				"adcode_s" : "3506",
+				"adcode_si" : "35",
+				"dname" : "Zhangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.6091559842, 24.6010211647 ]
+			},
+			"properties" : {
+				"name" : "Xiangcheng District",
+				"adcode" : "350602",
+				"adcode_s" : "3506",
+				"adcode_si" : "35",
+				"dname" : "Zhangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.3262817342, 23.9817868072 ]
+			},
+			"properties" : {
+				"name" : "Yunxiao County",
+				"adcode" : "350622",
+				"adcode_s" : "3506",
+				"adcode_si" : "35",
+				"dname" : "Zhangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.6831626644, 24.130764716 ]
+			},
+			"properties" : {
+				"name" : "Zhangpu County",
+				"adcode" : "350623",
+				"adcode_s" : "3506",
+				"adcode_si" : "35",
+				"dname" : "Zhangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.8000316524, 24.7407321228 ]
+			},
+			"properties" : {
+				"name" : "Changtai District",
+				"adcode" : "350625",
+				"adcode_s" : "3506",
+				"adcode_si" : "35",
+				"dname" : "Zhangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.1219202761, 23.8690873164 ]
+			},
+			"properties" : {
+				"name" : "Zhaoan County",
+				"adcode" : "350624",
+				"adcode_s" : "3506",
+				"adcode_si" : "35",
+				"dname" : "Zhangzhou City"
+			}
+		}
+	]
+}
+

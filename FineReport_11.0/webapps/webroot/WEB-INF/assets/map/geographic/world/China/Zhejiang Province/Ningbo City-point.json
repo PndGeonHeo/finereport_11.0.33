@@ -1,0 +1,147 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyName2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 121.8658432292, 29.8671863096 ]
+			},
+			"properties" : {
+				"name" : "Beilun District",
+				"adcode" : "330206",
+				"adcode_s" : "3302",
+				"adcode_si" : "33",
+				"dname" : "Ningbo City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 121.3260179822, 30.2058306027 ]
+			},
+			"properties" : {
+				"name" : "Cixi City",
+				"adcode" : "330282",
+				"adcode_s" : "3302",
+				"adcode_si" : "33",
+				"dname" : "Ningbo City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 121.3654706256, 29.6131611044 ]
+			},
+			"properties" : {
+				"name" : "Fenghua District",
+				"adcode" : "330213",
+				"adcode_s" : "3302",
+				"adcode_si" : "33",
+				"dname" : "Ningbo City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 121.6647996465, 29.7553481191 ]
+			},
+			"properties" : {
+				"name" : "Yinzhou District",
+				"adcode" : "330212",
+				"adcode_s" : "3302",
+				"adcode_si" : "33",
+				"dname" : "Ningbo City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 121.4605400945, 29.3041484543 ]
+			},
+			"properties" : {
+				"name" : "Ninghai County",
+				"adcode" : "330226",
+				"adcode_s" : "3302",
+				"adcode_si" : "33",
+				"dname" : "Ningbo City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 121.8335970955, 29.4132991375 ]
+			},
+			"properties" : {
+				"name" : "Xiangshan County",
+				"adcode" : "330225",
+				"adcode_s" : "3302",
+				"adcode_si" : "33",
+				"dname" : "Ningbo City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 121.3487913831, 29.8258234507 ]
+			},
+			"properties" : {
+				"name" : "Haishu District",
+				"adcode" : "330203",
+				"adcode_s" : "3302",
+				"adcode_si" : "33",
+				"dname" : "Ningbo City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 121.291062058, 29.9883024018 ]
+			},
+			"properties" : {
+				"name" : "Yuyao City",
+				"adcode" : "330281",
+				"adcode_s" : "3302",
+				"adcode_si" : "33",
+				"dname" : "Ningbo City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 121.6001370053, 29.9928077339 ]
+			},
+			"properties" : {
+				"name" : "Zhenhai District",
+				"adcode" : "330211",
+				"adcode_s" : "3302",
+				"adcode_si" : "33",
+				"dname" : "Ningbo City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 121.4834936511, 29.9621060347 ]
+			},
+			"properties" : {
+				"name" : "Jiangbei District",
+				"adcode" : "330205",
+				"adcode_s" : "3302",
+				"adcode_si" : "33",
+				"dname" : "Ningbo City"
+			}
+		}
+	]
+}
+

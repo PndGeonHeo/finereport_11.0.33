@@ -1,0 +1,226 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    129.075556,
+                    35.179444
+                ]
+            },
+            "properties": {
+                "name": "부산광역시"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.65685,
+                    36.82153
+                ]
+            },
+            "properties": {
+                "name": "충청북도"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.75,
+                    36.5
+                ]
+            },
+            "properties": {
+                "name": "충청남도"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    128.601389,
+                    35.871389
+                ]
+            },
+            "properties": {
+                "name": "대구광역시"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.385,
+                    36.351
+                ]
+            },
+            "properties": {
+                "name": "대전광역시"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    128.25,
+                    37.5
+                ]
+            },
+            "properties": {
+                "name": "강원도"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.916667,
+                    35.166667
+                ]
+            },
+            "properties": {
+                "name": "광주광역시"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.25,
+                    37.5
+                ]
+            },
+            "properties": {
+                "name": "경기도"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    128.75,
+                    36.25
+                ]
+            },
+            "properties": {
+                "name": "경상북도"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    128.691934,
+                    35.237838
+                ]
+            },
+            "properties": {
+                "name": "경상남도"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.633333,
+                    37.483333
+                ]
+            },
+            "properties": {
+                "name": "인천광역시"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.533333,
+                    33.366667
+                ]
+            },
+            "properties": {
+                "name": "제주특별자치도"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.15,
+                    35.816667
+                ]
+            },
+            "properties": {
+                "name": "전라북도"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127,
+                    34.75
+                ]
+            },
+            "properties": {
+                "name": "전라남도"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.3183859,
+                    36.5584641
+                ]
+            },
+            "properties": {
+                "name": "세종특별자치시"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.966667,
+                    37.566667
+                ]
+            },
+            "properties": {
+                "name": "서울특별시"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    129.316667,
+                    35.55
+                ]
+            },
+            "properties": {
+                "name": "울산광역시"
+            }
+        }
+    ]
+}

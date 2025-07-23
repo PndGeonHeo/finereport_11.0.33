@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="10.0.0">
+<TableDataMap>
+<TableData name="ds1" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM 医院入库人信息]]></Query>
+<PageQuery>
+<![CDATA[]]></PageQuery>
+</TableData>
+<TableData name="ds2" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM 医院物品信息]]></Query>
+<PageQuery>
+<![CDATA[]]></PageQuery>
+</TableData>
+</TableDataMap>
+<ReportFitAttr fitStateInPC="2" fitFont="false"/>
+<ElementCaseMobileAttr>
+<ElementCaseMobileAttrProvider horizontal="4" vertical="4" zoom="true" refresh="false" isUseHTML="false" isMobileCanvasSize="true" appearRefresh="false" allowFullScreen="false" allowDoubleClickOrZoom="true" functionalWhenUnactivated="false"/>
+</ElementCaseMobileAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[2160000,1676400,2286000,288000,1440000,1440000,1440000,1440000,1440000,1440000,1440000,1440000,1440000,1440000,1440000,3139440,288000,288000,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[288000,288000,30650120,288000,288000,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="0" s="1">
+<O>
+<![CDATA[ Material receipt]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="1" s="3">
+<O>
+<![CDATA[Dear Colleagues：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="1" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="1" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="2" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="2" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="2" s="4">
+<O>
+<![CDATA[Recently, we have received donations from all walks of life. Please record the medical supplies that will enter the warehouse.]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="2" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="2" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="3" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="3" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="3" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="3" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="3" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="4" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="4" s="6">
+<O>
+<![CDATA[1. Name]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="4" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="5" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="5" s="7">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.ComboBox">
+<WidgetAttr description="">
+<MobileBookMark useBookMark="true" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Please Choose Your Name!]]></EMSG>
+<allowBlank>
+<![CDATA[false]]></allowBlank>
+<DirectEdit>
+<![CDATA[false]]></DirectEdit>
+<watermark>
+<![CDATA[Only warehouse administrators can make a record!]]></watermark>
+<CustomData>
+<![CDATA[false]]></CustomData>
+<Dictionary class="com.fr.data.impl.TableDataDictionary">
+<FormulaDictAttr kiName="仓库管理员" viName="仓库管理员"/>
+<TableDataDictAttr>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[ds1]]></Name>
+</TableData>
+</TableDataDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="5" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="6" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="6" s="6">
+<O>
+<![CDATA[2. Item]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="6" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="7" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="7" s="7">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.ComboBox">
+<WidgetAttr description="">
+<MobileBookMark useBookMark="true" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[ Please choose a stock item!]]></EMSG>
+<allowBlank>
+<![CDATA[false]]></allowBlank>
+<DirectEdit>
+<![CDATA[false]]></DirectEdit>
+<watermark>
+<![CDATA[ Please choose a stock item!]]></watermark>
+<CustomData>
+<![CDATA[false]]></CustomData>
+<Dictionary class="com.fr.data.impl.TableDataDictionary">
+<FormulaDictAttr kiName="物品名称" viName="物品名称"/>
+<TableDataDictAttr>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[ds2]]></Name>
+</TableData>
+</TableDataDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="7" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="8" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="8" s="6">
+<O>
+<![CDATA[3. Quantity]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="8" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="9" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="9" s="7">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<MobileBookMark useBookMark="true" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<allowBlank>
+<![CDATA[false]]></allowBlank>
+<NumberAttr allowDecimals="false" allowNegative="false">
+<watermark>
+<![CDATA[Please enter the quantity!]]></watermark>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="9" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="10" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="10" s="6">
+<O>
+<![CDATA[4. Time]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="10" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="11" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="11" s="7">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.DateEditor">
+<WidgetAttr description="">
+<MobileBookMark useBookMark="true" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<allowBlank>
+<![CDATA[false]]></allowBlank>
+<DirectEdit>
+<![CDATA[false]]></DirectEdit>
+<watermark>
+<![CDATA[ Please choose the storage time!]]></watermark>
+<DateAttr format="yyyy-MM-dd HH:mm:ss"/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="11" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="12" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="12" s="6">
+<O>
+<![CDATA[5. Source]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="12" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="13" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="13" s="7">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr description="">
+<MobileBookMark useBookMark="true" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<allowBlank>
+<![CDATA[false]]></allowBlank>
+<TextAttr allowBlank="false"/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<watermark>
+<![CDATA[Please record the source！]]></watermark>
+<widgetValue/>
+<MobileScanCodeAttr scanCode="false" textInputMode="1"/>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="13" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="14" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="14" s="6">
+<O>
+<![CDATA[6. Photo Verification]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="14" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="15" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="15" s="7">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.MultiFileEditor">
+<WidgetAttr description="">
+<MobileBookMark useBookMark="true" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Please leava a photo verification!]]></EMSG>
+<allowBlank>
+<![CDATA[false]]></allowBlank>
+<FileAttr maxSize="0.0">
+<MultiFileUploaderMobileAttr uploadMode="1"/>
+</FileAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="15" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="16" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="16" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="17" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="17" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="17" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="17" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="17" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting>
+<PaperSize width="24688800" height="43891200"/>
+</PaperSetting>
+<Background name="ColorBackground" color="-1"/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<ReportWriteAttr>
+<SubmitVisitor class="com.fr.report.write.BuiltInSQLSubmiter">
+<Name>
+<![CDATA[内置SQL1]]></Name>
+<Attributes dsName="FRDemo"/>
+<DMLConfig class="com.fr.write.config.InsertConfig">
+<Table schema="" name="医院物品入库"/>
+<ColumnConfig name="物品名称" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="7"/>
+</ColumnConfig>
+<ColumnConfig name="数量" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="9"/>
+</ColumnConfig>
+<ColumnConfig name="入库人" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="5"/>
+</ColumnConfig>
+<ColumnConfig name="入库时间" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="11"/>
+</ColumnConfig>
+<ColumnConfig name="物品来源" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="13"/>
+</ColumnConfig>
+<ColumnConfig name="入库照片" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="15"/>
+</ColumnConfig>
+<Condition class="com.fr.data.condition.ListCondition"/>
+</DMLConfig>
+</SubmitVisitor>
+</ReportWriteAttr>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="true"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-13522731"/>
+<Border>
+<Top style="1" color="-13522731"/>
+<Bottom style="1" color="-13522731"/>
+<Left style="1" color="-13522731"/>
+<Right style="1" color="-13522731"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="4">
+<FRFont name="微软雅黑" style="1" size="128" foreground="-1"/>
+<Background name="ColorBackground" color="-13522731"/>
+<Border>
+<Top style="1" color="-13522731"/>
+<Bottom style="1" color="-13522731"/>
+<Left style="1" color="-13522731"/>
+<Right style="1" color="-13522731"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-14706999"/>
+<Border>
+<Top style="1" color="-14706999"/>
+<Bottom style="1" color="-14706999"/>
+<Left style="1" color="-14706999"/>
+<Right style="1" color="-14706999"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="112" foreground="-1"/>
+<Background name="ColorBackground" color="-14706999"/>
+<Border>
+<Top style="1" color="-14706999"/>
+<Bottom style="1" color="-14706999"/>
+<Left style="1" color="-14706999"/>
+<Right style="1" color="-14706999"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-14706999"/>
+<Border>
+<Top style="1" color="-14706999"/>
+<Bottom style="1" color="-14706999"/>
+<Left style="1" color="-14706999"/>
+<Right style="1" color="-14706999"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-13522731"/>
+<Border>
+<Top style="1" color="-13522731"/>
+<Bottom style="1" color="-13522731"/>
+<Left style="1" color="-13522731"/>
+<Right style="1" color="-13522731"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="112"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="112"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="17" color="-4144960"/>
+<Bottom style="17" color="-4144960"/>
+<Left style="17" color="-4144960"/>
+<Right style="17" color="-4144960"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="KAA"/>
+<PreviewType PreviewType="1"/>
+<MobileOnlyTemplateAttrMark class="com.fr.base.iofile.attr.MobileOnlyTemplateAttrMark"/>
+<TemplateIdAttMark class="com.fr.base.iofile.attr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="7e9a60fe-055e-4bca-a532-7dd8409f9d46"/>
+</TemplateIdAttMark>
+</WorkBook>

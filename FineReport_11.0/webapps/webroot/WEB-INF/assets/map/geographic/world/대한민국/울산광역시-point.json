@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.2426, 35.5219] },
+      "properties": { "name": "울주군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.3604, 35.5826] },
+      "properties": { "name": "북구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.4272036562182, 35.5863707]
+      },
+      "properties": { "name": "동구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.34585752694252, 35.49879045]
+      },
+      "properties": { "name": "남구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.333, 35.5691] },
+      "properties": { "name": "중구" }
+    }
+  ]
+}

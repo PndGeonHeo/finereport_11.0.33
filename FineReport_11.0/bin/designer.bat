@@ -1,0 +1,2 @@
+@echo 此Bat将启动大内存版本的设计器
+..\jre\bin\java -cp ../jre/lib/*;../.install4j/*;../lib/*;../server/lib/*;../webapps/webroot/WEB-INF/lib/*;../webapps/webroot/WEB-INF/customLib/*;../webapps/webroot/WEB-INF/classes com.fr.start.Designer

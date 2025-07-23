@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="10.0.0">
+<TableDataMap>
+<TableData name="ds1" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[Longitude,,.,,Latitude,,.,,Area Name,,.,,Gross Proit]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.math.BigDecimal,java.math.BigDecimal,java.lang.String,java.math.BigDecimal]]></ColumnTypes>
+<RowData ColumnTypes="java.math.BigDecimal,java.math.BigDecimal,java.lang.String,java.math.BigDecimal">
+<![CDATA['okQe__;K%ccRd/JI'H),l:[N^%<0<!7Mi!-n-Fes/Xq@AXHaI6)GdHJ.2l$APorjlW/Qj%[
+1?.B%b?QQnsrg"HU66mfiga5Z'86P#UIQ&=#Kr@K)gG)5"[W<QE69;(-+/,m@XRN5Q>HqU3C
+8[eBD4k?`Ks*#<`RE[F#i0R7im3#/ro8)NWV]Ap/3q~
+]]></RowData>
+</TableData>
+<TableData name="ds2" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[Origin,,.,,Longitude_1,,.,,Latitude_1,,.,,Destination,,.,,Longitude_2,,.,,Latitude_2,,.,,Export]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String">
+<![CDATA[I?$#lK.m^&BD3*F!%X'C-Q*M#4/*c=C/Y_DKaP]AqlX#+dZN#:Nj'7oZ6lqbTG6'[2U*T(/Y5
++P'kQR.V+mQpiN0-]A+"%%>P:Y9AEg>(N8X_>QY7[KX$rC=MF6c#cHSLX&#D<9GF/[r$0l`1s
+gAZLk#4dgu>Y]AiP;5tgPrK0D<g%EI>6r3$&dN#YFX%)'s/#BgCjm10~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<ToolBars/>
+<WebPage isPage="false" showAsImage="false" autoScale="false" tdHeavy="false"/>
+</WebPageContent>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1600200,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" cs="8" s="0">
+<O>
+<![CDATA[   Scene Switching Map]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1" cs="9" rs="23">
+<O t="CC">
+<LayoutAttr selectedIndex="0"/>
+<ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-6710887" carouselColor="-8421505" showArrow="true">
+<TextAttr>
+<Attr alignText="0" predefinedStyle="false">
+<FRFont name="PingFangSC-Regular" style="0" size="96" foreground="-1"/>
+</Attr>
+</TextAttr>
+</ChangeAttr>
+<Chart name="Default" chartClass="com.fr.plugin.chart.u3d.geoland.UGeoLandChart">
+<attr refreshEnabled="false" refreshTime="10.0"/>
+<SceneList>
+<SingleScene name="Scene1">
+<UGeoLandScene geourl="assets/map/geographic/world-3d.json" simplifyModel="true" turnInterval="6.0" callLink="true" openTurn="false" auto="false" number="60.0">
+<GroupDataDefinition>
+<dataMap>
+<SingleDefinition key="area">
+<DataDefinition class="com.fr.plugin.chart.u3d.geoland.data.AreaGeoLandDataDefinition" pluginID="com.fr.plugin.bigScreen.v10" fromBottomData="true" drill="false">
+<GroupDataDefinition>
+<dataMap>
+<SingleDefinition key="normal">
+<DataDefinition class="com.fr.plugin.chart.u3d.geoland.data.DataSetDefinitionWithMapMatch" pluginID="com.fr.plugin.bigScreen.v10">
+<dataDefinition>
+<AbstractColumnFieldCollection class="com.fr.plugin.chart.u3d.geoland.data.compatible.AreaMapColumnFieldCollection" pluginID="com.fr.plugin.bigScreen.v10">
+<areaName type="ColumnField">
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</areaName>
+<SeriesValueCorrelationDefinition>
+<attr customFieldValue="false"/>
+<seriesValueFieldList>
+<SeriesValueField>
+<series>
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</series>
+<value>
+<ColumnField>
+<attr fieldName="" function="com.fr.data.util.function.NoneFunction"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</value>
+</SeriesValueField>
+</seriesValueFieldList>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</SeriesValueCorrelationDefinition>
+</AbstractColumnFieldCollection>
+</dataDefinition>
+<matchResult>
+<CustomResult/>
+</matchResult>
+</DataDefinition>
+</SingleDefinition>
+<SingleDefinition key="bottom">
+<DataDefinition class="com.fr.plugin.chart.u3d.geoland.data.DataSetDefinitionWithMapMatch" pluginID="com.fr.plugin.bigScreen.v10">
+<dataDefinition>
+<AbstractColumnFieldCollection class="com.fr.plugin.chart.u3d.geoland.data.compatible.AreaMapColumnFieldCollection" pluginID="com.fr.plugin.bigScreen.v10">
+<areaName type="ColumnField">
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</areaName>
+<SeriesValueCorrelationDefinition>
+<attr customFieldValue="false"/>
+<seriesValueFieldList>
+<SeriesValueField>
+<series>
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</series>
+<value>
+<ColumnField>
+<attr fieldName="" function="com.fr.data.util.function.NoneFunction"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</value>
+</SeriesValueField>
+</seriesValueFieldList>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</SeriesValueCorrelationDefinition>
+</AbstractColumnFieldCollection>
+</dataDefinition>
+<matchResult>
+<CustomResult/>
+</matchResult>
+</DataDefinition>
+</SingleDefinition>
+<SingleDefinition key="0">
+<DataDefinition class="com.fr.plugin.chart.u3d.geoland.data.DataSetDefinitionWithMapMatch" pluginID="com.fr.plugin.bigScreen.v10">
+<dataDefinition>
+<AbstractColumnFieldCollection class="com.fr.plugin.chart.u3d.geoland.data.compatible.AreaMapColumnFieldCollection" pluginID="com.fr.plugin.bigScreen.v10">
+<areaName type="ColumnField">
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</areaName>
+<SeriesValueCorrelationDefinition>
+<attr customFieldValue="false"/>
+<seriesValueFieldList>
+<SeriesValueField>
+<series>
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</series>
+<value>
+<ColumnField>
+<attr fieldName="" function="com.fr.data.util.function.NoneFunction"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</value>
+</SeriesValueField>
+</seriesValueFieldList>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</SeriesValueCorrelationDefinition>
+</AbstractColumnFieldCollection>
+</dataDefinition>
+<matchResult>
+<CustomResult/>
+</matchResult>
+</DataDefinition>
+</SingleDefinition>
+</dataMap>
+</GroupDataDefinition>
+</DataDefinition>
+</SingleDefinition>
+<SingleDefinition key="point">
+<DataDefinition class="com.fr.plugin.chart.u3d.geoland.data.DataSetDefinitionWithMapMatch" pluginID="com.fr.plugin.bigScreen.v10">
+<dataDefinition>
+<AbstractColumnFieldCollection class="com.fr.plugin.chart.u3d.geoland.data.compatible.PointMapColumnFieldCollection" pluginID="com.fr.plugin.bigScreen.v10" useAreaName="false">
+<lng type="ColumnField">
+<ColumnField>
+<attr fieldName="Longitude"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</lng>
+<areaName type="ColumnField">
+<ColumnField>
+<attr fieldName="Area Name"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</areaName>
+<lat type="ColumnField">
+<ColumnField>
+<attr fieldName="Latitude"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</lat>
+<SeriesValueCorrelationDefinition>
+<attr customFieldValue="true"/>
+<seriesValueFieldList>
+<SeriesValueField>
+<series>
+<ColumnField>
+<attr fieldName="Gross Proit"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</series>
+<value>
+<ColumnField>
+<attr fieldName="Gross Proit" function="com.fr.data.util.function.NoneFunction"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</value>
+</SeriesValueField>
+</seriesValueFieldList>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</SeriesValueCorrelationDefinition>
+</AbstractColumnFieldCollection>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[ds1]]></Name>
+</TableData>
+</dataDefinition>
+<matchResult>
+<CustomResult/>
+</matchResult>
+</DataDefinition>
+</SingleDefinition>
+<SingleDefinition key="line">
+<DataDefinition class="com.fr.plugin.chart.u3d.geoland.data.DataSetDefinitionWithMapMatch" pluginID="com.fr.plugin.bigScreen.v10">
+<dataDefinition>
+<AbstractColumnFieldCollection class="com.fr.plugin.chart.u3d.geoland.data.compatible.LineMapColumnFieldCollection" pluginID="com.fr.plugin.bigScreen.v10" useAreaName="false">
+<fromAreaName type="ColumnField">
+<ColumnField>
+<attr fieldName="Origin"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</fromAreaName>
+<toLat type="ColumnField">
+<ColumnField>
+<attr fieldName="Latitude_2"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</toLat>
+<fromLat type="ColumnField">
+<ColumnField>
+<attr fieldName="Latitude_1"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</fromLat>
+<toAreaName type="ColumnField">
+<ColumnField>
+<attr fieldName="Destination"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</toAreaName>
+<fromLng type="ColumnField">
+<ColumnField>
+<attr fieldName="Longitude_1"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</fromLng>
+<lineName type="ColumnField">
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</lineName>
+<toLng type="ColumnField">
+<ColumnField>
+<attr fieldName="Longitude_2"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</toLng>
+<SeriesValueCorrelationDefinition>
+<attr customFieldValue="false"/>
+<seriesValueFieldList>
+<SeriesValueField>
+<series>
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</series>
+<value>
+<ColumnField>
+<attr fieldName="" function="com.fr.data.util.function.NoneFunction"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</value>
+</SeriesValueField>
+</seriesValueFieldList>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</SeriesValueCorrelationDefinition>
+</AbstractColumnFieldCollection>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[ds2]]></Name>
+</TableData>
+</dataDefinition>
+<matchResult>
+<CustomResult/>
+</matchResult>
+</DataDefinition>
+</SingleDefinition>
+<SingleDefinition key="cylinder">
+<DataDefinition class="com.fr.plugin.chart.u3d.geoland.data.DataSetDefinitionWithMapMatch" pluginID="com.fr.plugin.bigScreen.v10">
+<dataDefinition>
+<AbstractColumnFieldCollection class="com.fr.plugin.chart.u3d.geoland.data.compatible.PointMapColumnFieldCollection" pluginID="com.fr.plugin.bigScreen.v10" useAreaName="true">
+<lng type="ColumnField">
+<ColumnField>
+<attr/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</lng>
+<areaName type="ColumnField">
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</areaName>
+<lat type="ColumnField">
+<ColumnField>
+<attr/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</lat>
+<SeriesValueCorrelationDefinition>
+<attr customFieldValue="false"/>
+<seriesValueFieldList>
+<SeriesValueField>
+<series>
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</series>
+<value>
+<ColumnField>
+<attr fieldName="" function="com.fr.data.util.function.NoneFunction"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</value>
+</SeriesValueField>
+</seriesValueFieldList>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</SeriesValueCorrelationDefinition>
+</AbstractColumnFieldCollection>
+</dataDefinition>
+<matchResult>
+<CustomResult/>
+</matchResult>
+</DataDefinition>
+</SingleDefinition>
+</dataMap>
+</GroupDataDefinition>
+<GeoLandStyle theme="0">
+<PointGraphic type="1" bottomCircles="true" radiusScale="1.0" auto="true" color="-6750208">
+<gradientColor auto="true" startColor="-1" endColor="-16777216"/>
+<GeoLandLabel fontScaleSize="1.0" alwaysShow="true" fontColor="-1">
+<LabelItems>
+<itemList>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+</itemList>
+</LabelItems>
+</GeoLandLabel>
+</PointGraphic>
+<LineGraphic alpha="20.0" toCircles="true" fromCircles="true" auto="true" color="-9176074">
+<GeoLandLabel fontScaleSize="1.0" alwaysShow="true" fontColor="-1">
+<LabelItems>
+<itemList>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+</itemList>
+</LabelItems>
+</GeoLandLabel>
+</LineGraphic>
+<CylinderGraphic bottomCircles="true" widthScale="1.0" heightScale="1.0" auto="true" startColor="-14929473" endColor="-4251969">
+<GeoLandLabel fontScaleSize="1.0" alwaysShow="true" fontColor="-1">
+<LabelItems>
+<itemList>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+</itemList>
+</LabelItems>
+</GeoLandLabel>
+</CylinderGraphic>
+<AreaGraphic>
+<fill auto="true" color="-10971649"/>
+<border auto="true" color="-16589569"/>
+<GeoLandLabel fontScaleSize="1.0" alwaysShow="true" fontColor="-1">
+<LabelItems>
+<itemList>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+</itemList>
+</LabelItems>
+</GeoLandLabel>
+</AreaGraphic>
+<GeoLandBackground particles="true" meteor="true" gear="true" flowEffect="true" backLand="true" skyBox="0"/>
+</GeoLandStyle>
+<PositionAndRotation>
+<position x="123.0" y="29.0" z="-7.0"/>
+<rotation x="33.0" y="351.0" z="0.0"/>
+</PositionAndRotation>
+<pointhyper/>
+<linehyper/>
+<cylinderhyper/>
+<areahyper/>
+<drillhyper/>
+</UGeoLandScene>
+</SingleScene>
+<SingleScene name="Scene2">
+<UGeoLandScene geourl="assets/map/geographic/world-3d.json" simplifyModel="true" turnInterval="6.0" callLink="true" openTurn="false" auto="false" number="60.0">
+<GroupDataDefinition>
+<dataMap>
+<SingleDefinition key="area">
+<DataDefinition class="com.fr.plugin.chart.u3d.geoland.data.AreaGeoLandDataDefinition" pluginID="com.fr.plugin.bigScreen.v10" fromBottomData="true" drill="false">
+<GroupDataDefinition>
+<dataMap>
+<SingleDefinition key="normal">
+<DataDefinition class="com.fr.plugin.chart.u3d.geoland.data.DataSetDefinitionWithMapMatch" pluginID="com.fr.plugin.bigScreen.v10">
+<dataDefinition>
+<AbstractColumnFieldCollection class="com.fr.plugin.chart.u3d.geoland.data.compatible.AreaMapColumnFieldCollection" pluginID="com.fr.plugin.bigScreen.v10">
+<areaName type="ColumnField">
+<ColumnField>
+<attr fieldName="Destination"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</areaName>
+<SeriesValueCorrelationDefinition>
+<attr customFieldValue="true"/>
+<seriesValueFieldList>
+<SeriesValueField>
+<series>
+<ColumnField>
+<attr fieldName="Export"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</series>
+<value>
+<ColumnField>
+<attr fieldName="Export" function="com.fr.data.util.function.NoneFunction"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</value>
+</SeriesValueField>
+</seriesValueFieldList>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</SeriesValueCorrelationDefinition>
+</AbstractColumnFieldCollection>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[ds2]]></Name>
+</TableData>
+</dataDefinition>
+<matchResult>
+<CustomResult/>
+</matchResult>
+</DataDefinition>
+</SingleDefinition>
+<SingleDefinition key="bottom">
+<DataDefinition class="com.fr.plugin.chart.u3d.geoland.data.DataSetDefinitionWithMapMatch" pluginID="com.fr.plugin.bigScreen.v10">
+<dataDefinition>
+<AbstractColumnFieldCollection class="com.fr.plugin.chart.u3d.geoland.data.compatible.AreaMapColumnFieldCollection" pluginID="com.fr.plugin.bigScreen.v10">
+<areaName type="ColumnField">
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</areaName>
+<SeriesValueCorrelationDefinition>
+<attr customFieldValue="false"/>
+<seriesValueFieldList>
+<SeriesValueField>
+<series>
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</series>
+<value>
+<ColumnField>
+<attr fieldName="" function="com.fr.data.util.function.NoneFunction"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</value>
+</SeriesValueField>
+</seriesValueFieldList>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</SeriesValueCorrelationDefinition>
+</AbstractColumnFieldCollection>
+</dataDefinition>
+<matchResult>
+<CustomResult/>
+</matchResult>
+</DataDefinition>
+</SingleDefinition>
+<SingleDefinition key="0">
+<DataDefinition class="com.fr.plugin.chart.u3d.geoland.data.DataSetDefinitionWithMapMatch" pluginID="com.fr.plugin.bigScreen.v10">
+<dataDefinition>
+<AbstractColumnFieldCollection class="com.fr.plugin.chart.u3d.geoland.data.compatible.AreaMapColumnFieldCollection" pluginID="com.fr.plugin.bigScreen.v10">
+<areaName type="ColumnField">
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</areaName>
+<SeriesValueCorrelationDefinition>
+<attr customFieldValue="false"/>
+<seriesValueFieldList>
+<SeriesValueField>
+<series>
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</series>
+<value>
+<ColumnField>
+<attr fieldName="" function="com.fr.data.util.function.NoneFunction"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</value>
+</SeriesValueField>
+</seriesValueFieldList>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</SeriesValueCorrelationDefinition>
+</AbstractColumnFieldCollection>
+</dataDefinition>
+<matchResult>
+<CustomResult/>
+</matchResult>
+</DataDefinition>
+</SingleDefinition>
+</dataMap>
+</GroupDataDefinition>
+</DataDefinition>
+</SingleDefinition>
+<SingleDefinition key="point">
+<DataDefinition class="com.fr.plugin.chart.u3d.geoland.data.DataSetDefinitionWithMapMatch" pluginID="com.fr.plugin.bigScreen.v10">
+<dataDefinition>
+<AbstractColumnFieldCollection class="com.fr.plugin.chart.u3d.geoland.data.compatible.PointMapColumnFieldCollection" pluginID="com.fr.plugin.bigScreen.v10" useAreaName="true">
+<lng type="ColumnField">
+<ColumnField>
+<attr/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</lng>
+<areaName type="ColumnField">
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</areaName>
+<lat type="ColumnField">
+<ColumnField>
+<attr/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</lat>
+<SeriesValueCorrelationDefinition>
+<attr customFieldValue="false"/>
+<seriesValueFieldList>
+<SeriesValueField>
+<series>
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</series>
+<value>
+<ColumnField>
+<attr fieldName="" function="com.fr.data.util.function.NoneFunction"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</value>
+</SeriesValueField>
+</seriesValueFieldList>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</SeriesValueCorrelationDefinition>
+</AbstractColumnFieldCollection>
+</dataDefinition>
+<matchResult>
+<CustomResult/>
+</matchResult>
+</DataDefinition>
+</SingleDefinition>
+<SingleDefinition key="line">
+<DataDefinition class="com.fr.plugin.chart.u3d.geoland.data.DataSetDefinitionWithMapMatch" pluginID="com.fr.plugin.bigScreen.v10">
+<dataDefinition>
+<AbstractColumnFieldCollection class="com.fr.plugin.chart.u3d.geoland.data.compatible.LineMapColumnFieldCollection" pluginID="com.fr.plugin.bigScreen.v10" useAreaName="true">
+<fromAreaName type="ColumnField">
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</fromAreaName>
+<toLat type="ColumnField">
+<ColumnField>
+<attr/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</toLat>
+<fromLat type="ColumnField">
+<ColumnField>
+<attr/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</fromLat>
+<toAreaName type="ColumnField">
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</toAreaName>
+<fromLng type="ColumnField">
+<ColumnField>
+<attr/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</fromLng>
+<lineName type="ColumnField">
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</lineName>
+<toLng type="ColumnField">
+<ColumnField>
+<attr/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</toLng>
+<SeriesValueCorrelationDefinition>
+<attr customFieldValue="false"/>
+<seriesValueFieldList>
+<SeriesValueField>
+<series>
+<ColumnField>
+<attr fieldName=""/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</series>
+<value>
+<ColumnField>
+<attr fieldName="" function="com.fr.data.util.function.NoneFunction"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</value>
+</SeriesValueField>
+</seriesValueFieldList>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</SeriesValueCorrelationDefinition>
+</AbstractColumnFieldCollection>
+</dataDefinition>
+<matchResult>
+<CustomResult/>
+</matchResult>
+</DataDefinition>
+</SingleDefinition>
+<SingleDefinition key="cylinder">
+<DataDefinition class="com.fr.plugin.chart.u3d.geoland.data.DataSetDefinitionWithMapMatch" pluginID="com.fr.plugin.bigScreen.v10">
+<dataDefinition>
+<AbstractColumnFieldCollection class="com.fr.plugin.chart.u3d.geoland.data.compatible.PointMapColumnFieldCollection" pluginID="com.fr.plugin.bigScreen.v10" useAreaName="false">
+<lng type="ColumnField">
+<ColumnField>
+<attr fieldName="Longitude"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</lng>
+<areaName type="ColumnField">
+<ColumnField>
+<attr fieldName="Area Name"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</areaName>
+<lat type="ColumnField">
+<ColumnField>
+<attr fieldName="Latitude"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</lat>
+<SeriesValueCorrelationDefinition>
+<attr customFieldValue="true"/>
+<seriesValueFieldList>
+<SeriesValueField>
+<series>
+<ColumnField>
+<attr fieldName="Gross Proit"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</series>
+<value>
+<ColumnField>
+<attr fieldName="Gross Proit" function="com.fr.data.util.function.NoneFunction"/>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</ColumnField>
+</value>
+</SeriesValueField>
+</seriesValueFieldList>
+<DataFilterProperties>
+<attr useTop="false" top="0" merge="false" hideNull="false"/>
+</DataFilterProperties>
+</SeriesValueCorrelationDefinition>
+</AbstractColumnFieldCollection>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[ds1]]></Name>
+</TableData>
+</dataDefinition>
+<matchResult>
+<CustomResult/>
+</matchResult>
+</DataDefinition>
+</SingleDefinition>
+</dataMap>
+</GroupDataDefinition>
+<GeoLandStyle theme="0">
+<PointGraphic type="1" bottomCircles="true" radiusScale="1.0" auto="true" color="-6750208">
+<gradientColor auto="true" startColor="-1" endColor="-16777216"/>
+<GeoLandLabel fontScaleSize="1.0" alwaysShow="true" fontColor="-1">
+<LabelItems>
+<itemList>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+</itemList>
+</LabelItems>
+</GeoLandLabel>
+</PointGraphic>
+<LineGraphic alpha="20.0" toCircles="true" fromCircles="true" auto="true" color="-9176074">
+<GeoLandLabel fontScaleSize="1.0" alwaysShow="true" fontColor="-1">
+<LabelItems>
+<itemList>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+</itemList>
+</LabelItems>
+</GeoLandLabel>
+</LineGraphic>
+<CylinderGraphic bottomCircles="true" widthScale="1.0" heightScale="1.0" auto="true" startColor="-14929473" endColor="-4251969">
+<GeoLandLabel fontScaleSize="1.0" alwaysShow="true" fontColor="-1">
+<LabelItems>
+<itemList>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+</itemList>
+</LabelItems>
+</GeoLandLabel>
+</CylinderGraphic>
+<AreaGraphic>
+<fill auto="true" color="-10971649"/>
+<border auto="true" color="-16589569"/>
+<GeoLandLabel fontScaleSize="1.0" alwaysShow="true" fontColor="-1">
+<LabelItems>
+<itemList>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+</itemList>
+</LabelItems>
+</GeoLandLabel>
+</AreaGraphic>
+<GeoLandBackground particles="true" meteor="true" gear="true" flowEffect="true" backLand="true" skyBox="0"/>
+</GeoLandStyle>
+<PositionAndRotation>
+<position x="108.879723" y="33.86879" z="-3.355652"/>
+<rotation x="39.500023" y="10.0" z="-7.0E-6"/>
+</PositionAndRotation>
+</UGeoLandScene>
+</SingleScene>
+</SceneList>
+<SwitchSceneAttr>
+<buttonOrCarouselInterval auto="false" number="8.0"/>
+</SwitchSceneAttr>
+</Chart>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+<Background name="ColorBackground" color="-1"/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="true" currentIndex="0"/>
+<PWTitle>
+<![CDATA[Parameter]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style imageLayout="1">
+<FRFont name="Arial" style="0" size="128" foreground="-6908266"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="KAA"/>
+<PreviewType PreviewType="0"/>
+<TemplateIdAttMark class="com.fr.base.iofile.attr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="c0bdba92-000d-4648-9940-8d38bb334b6b"/>
+</TemplateIdAttMark>
+</WorkBook>

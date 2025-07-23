@@ -1,0 +1,77 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "County2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 123.7092553011, 45.4242765524 ]
+			},
+			"properties" : {
+				"name" : "Da’an City",
+				"adcode" : "220882",
+				"adcode_s" : "2208",
+				"adcode_si" : "22",
+				"dname" : "Baicheng City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 122.8463720509, 45.6358453746 ]
+			},
+			"properties" : {
+				"name" : "Taobei District",
+				"adcode" : "220802",
+				"adcode_s" : "2208",
+				"adcode_si" : "22",
+				"dname" : "Baicheng City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 122.49437175, 45.3375301413 ]
+			},
+			"properties" : {
+				"name" : "Taonan City",
+				"adcode" : "220881",
+				"adcode_s" : "2208",
+				"adcode_si" : "22",
+				"dname" : "Baicheng City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 122.7315480321, 44.7765826903 ]
+			},
+			"properties" : {
+				"name" : "Tongyu County",
+				"adcode" : "220822",
+				"adcode_s" : "2208",
+				"adcode_si" : "22",
+				"dname" : "Baicheng City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 123.4935691169, 45.9787468648 ]
+			},
+			"properties" : {
+				"name" : "Zhenlai County",
+				"adcode" : "220821",
+				"adcode_s" : "2208",
+				"adcode_si" : "22",
+				"dname" : "Baicheng City"
+			}
+		}
+	]
+}
+

@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.4312, 35.7753] },
+      "properties": { "name": "달성군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.533094, 35.8297006] },
+      "properties": { "name": "달서구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.6305, 35.8584] },
+      "properties": { "name": "수성구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.5828858, 35.8855] },
+      "properties": { "name": "북구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.5977207, 35.845728] },
+      "properties": { "name": "남구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.5591, 35.8716] },
+      "properties": { "name": "서구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.6355, 35.8865] },
+      "properties": { "name": "동구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.6059471, 35.8692588] },
+      "properties": { "name": "중구" }
+    }
+  ]
+}

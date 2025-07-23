@@ -1,0 +1,55 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.7220068, 37.5070221] },
+      "properties": { "name": "부평구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.6502, 37.4636] },
+      "properties": { "name": "미추홀구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.429, 37.533] },
+      "properties": { "name": "옹진군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.488, 37.746] },
+      "properties": { "name": "강화군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.676, 37.545] },
+      "properties": { "name": "서구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.7379078, 37.5373539] },
+      "properties": { "name": "계양구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.7315126, 37.446902] },
+      "properties": { "name": "남동구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.6787, 37.4098] },
+      "properties": { "name": "연수구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.643227, 37.4736019] },
+      "properties": { "name": "동구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.6214081, 37.4735389] },
+      "properties": { "name": "중구" }
+    }
+  ]
+}

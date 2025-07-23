@@ -1,0 +1,1877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="10.0.0">
+<TableDataMap>
+<TableData name="ds_info" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[Workcode,,.,,Name,,.,,Sex,,.,,Birthday,,.,,NativePlace,,.,,LeaderCode,,.,,InJstiDate]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String">
+<![CDATA[1GIku81dCb;K,3%9Z^#Qj7H'i8`_e9ZnToc0E`Rp^XR:XaS_cK:*A<4^q^R,$ig~
+]]></RowData>
+</TableData>
+<TableData name="ds_study" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[StudyDate,,.,,StudyType,,.,,SchoolRecord,,.,,School,,.,,Professional]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String">
+<![CDATA[FjA/;_CuOTiH9O*]AKfk`7<.X1<tL6"&Ai)cEfnJN`Jr2]A'EeSFT:_0S!ENg+n(PVubYfI9&<
+'FR[EDl3X!:R6-opNjU(Oqtgse7&lQF9[o7V7X=b+Mn?VL,VRF[WArar`hQH:lHIC`6AjJN)
+uVtk?kcM&1T*GV/;(nHaA%f~
+]]></RowData>
+</TableData>
+<TableData name="ds_work" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[OnDutyDate,,.,,Company,,.,,Position]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String,java.lang.String">
+<![CDATA[?-]A\^!\k+6iV@kY]AKi/>>.e!;'QrmLkJ5'CW%!B@DEb]A*3aK3'hk.hiC^n5t0(IEW8?O0DCa
+,BIhs=KJklk]A4)H[g$U,QaAcI:L?X+OX+-ZkDg:Og"#U0)?fRW^5*.VrZ%_I^24^@3+Om15@
+^hqSH/4KIi@rKOMNkW$kJqu?~
+]]></RowData>
+</TableData>
+<TableData name="ds_title" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[TitleType,,.,,TitleName,,.,,SetDate]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String,java.lang.String">
+<![CDATA[$cssA8`^@Uc-+<a;K0lRccf$V/`JTB0JM*91]Aej$~
+]]></RowData>
+</TableData>
+<TableData name="ds_training" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[TrainingContent,,.,,TrainingDate,,.,,Trainer,,.,,TrainingPlace]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String,java.lang.String,java.lang.String">
+<![CDATA[?-bZ/_a"b:i7a^\FYjSs[1e2ARID^Q873Q4\MAe#MHRjbRYZtc^^3"-CBtX=7X?lZdjuI*pD
+pD]A"#7=+d/cZBWQ?P-9n7V[db"AO3h-gOV62gh=<\d_#,RB1c;pKALM6o\6n63I&^Lt2et1^
+SZ$'%(QE/$H9@"*/S]A)%&GLg8tf4+#0:*g/\>B#+f3H)i).NuYhHiJg<)p]A9I2TECN-qql;]A
+,7jU3RKhD`QuKlf"-sS_0)qc)1$UEV<Zh7koZh^=UOlcn$Ap#+]A:q+`'UInC2He[Ej-I]AFPX
+pGS0OefdN.s!~
+]]></RowData>
+</TableData>
+<TableData name="ds_praise" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[PraiseName,,.,,PraiseItem,,.,,PraiseDate,,.,,PraiseLevel,,.,,PraiseOrder,,.,,CertificateCode,,.,,InOrOut]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String">
+<![CDATA[F%S#:;$b97bt[:&P6rqA`L5t9S43^;VRjdY7\"@a7E$RC#)48]AR9,PTPa@c4i)lRQPQCg~
+]]></RowData>
+</TableData>
+<TableData name="ds_specialissue" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[IssueName,,.,,IssueNo,,.,,Inventer,,.,,ApplyDate,,.,,NoticeDate]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String">
+<![CDATA[F%a^b.S\,c#Y6L<bq%a00]A[?"8Zbg.c:H4?1bpaAdC%=Y">NSm%<W*\~
+]]></RowData>
+</TableData>
+<TableData name="ds_paper" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[PaperName,,.,,PublishJournal,,.,,PublishDate,,.,,Author]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String,java.lang.String,java.lang.String">
+<![CDATA[NKDn0!^R5[T=80i*uO3Xl\^a%Wj!3%ip$cE2S&uHR:VOJrVMVA-\^i,aN;QW#f4A6X_:C25n
+hI2nLJi%!23cni#'?trAHoj&>`J\<lU,/n68ka=9/.9\t&I3UK$omSXHIF6+%a>X=1S#*E%?
+$=_XK7p%mOC]A7AuDZ8JguEa;-NZ@b$R0c\<IPi8BQ_247E,hBTOWG,%IA*]Acqa=#hk=Y32H]A
+X<e9BT0'Q]Ab0)ue(QP#Ikc75+j\QTb>CWb`Vl8>;sM##rUC*~
+]]></RowData>
+</TableData>
+<TableData name="ds_book" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[BookName,,.,,Press,,.,,PublishDate,,.,,ExcuteDate,,.,,Editor]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String">
+<![CDATA[o12SL;/j]A0.P:abH)X*/"o1S5S8O1/6)BE`$3<Sp`Pn?:#)4J9B"E^.L'<YN?BeTU=p+g~
+]]></RowData>
+</TableData>
+<TableData name="ds_academic" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[MeetingName,,.,,MeetingTheme,,.,,Organizer,,.,,MeetingDate,,.,,MeetingPlace]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String">
+<![CDATA[NQsh)__;W*d'\4XIfL?uCr`N]A1C4AA\Bon,Z4tF1(3QDsb:2<@%_Z:H;K_;*G+X=Mml0AaM=
+tUNK!B0uOdl"2o-uZ6]Ajn,1@FR3g*g2J,OZoYq&u\hkrI4e9E^c3H1QH.m\ML@rW,JE7m`\h
+C:>ooJP"Nk3?EFNS_(k-r_o'ZrI1Y:3pVLLQR(F4JFqVZFFY&Bi`[gE3JD.H[b7J=9W/-=GY
+1M6b]A"aSDrjTFoBZanV&C5Sg?A'pp<-X]A^S=KV8kl`=WSp>e~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.page.First">
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="0.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('ReportServerP-First')}]]></Text>
+<Hotkeys>
+<![CDATA[]]></Hotkeys>
+<IconName>
+<![CDATA[first]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Previous">
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="0.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('ReportServerP-Previous')}]]></Text>
+<Hotkeys>
+<![CDATA[]]></Hotkeys>
+<IconName>
+<![CDATA[previous]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.PageNavi">
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="0.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Next">
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="0.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('ReportServerP-Next')}]]></Text>
+<Hotkeys>
+<![CDATA[]]></Hotkeys>
+<IconName>
+<![CDATA[next]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Last">
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="0.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('ReportServerP-Last')}]]></Text>
+<Hotkeys>
+<![CDATA[]]></Hotkeys>
+<IconName>
+<![CDATA[last]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.Print">
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="0.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Print')}]]></Text>
+<Hotkeys>
+<![CDATA[]]></Hotkeys>
+<IconName>
+<![CDATA[print]]></IconName>
+<PrintButtons/>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="0.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<Hotkeys>
+<![CDATA[]]></Hotkeys>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="false" excelO="true" excelS="true" word="true" image="true" html="true"/>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<WebPage isPage="true" showAsImage="false" autoScale="false" tdHeavy="false"/>
+</WebPageContent>
+<WebViewContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.Print">
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="0.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Print')}]]></Text>
+<Hotkeys>
+<![CDATA[]]></Hotkeys>
+<IconName>
+<![CDATA[print]]></IconName>
+<PrintButtons/>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="0.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<Hotkeys>
+<![CDATA[]]></Hotkeys>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="true" excelO="true" excelS="true" word="true" image="true" html="true"/>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<SortFuncCheck check="true"/>
+<ConditionFuncCheck check="true"/>
+<ListFuncCheck check="true"/>
+</WebViewContent>
+<WebWriteContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.Print">
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="0.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Print')}]]></Text>
+<Hotkeys>
+<![CDATA[]]></Hotkeys>
+<IconName>
+<![CDATA[print]]></IconName>
+<PrintButtons/>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="0.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<Hotkeys>
+<![CDATA[]]></Hotkeys>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="true" excelO="true" excelS="true" word="true" image="true" html="true"/>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<EditRowColor setColor="false"/>
+<WebWrite SheetPosition="3"/>
+<RptLocation isShowAtLeft="true"/>
+<UnloadCheck/>
+<ShowWidgets/>
+<OtherAttr autoStash="false"/>
+</WebWriteContent>
+</ReportWebAttr>
+<ElementCaseMobileAttr>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="1" zoom="true" refresh="false" isUseHTML="false" isMobileCanvasSize="false" appearRefresh="false" allowFullScreen="false" allowDoubleClickOrZoom="true" functionalWhenUnactivated="false"/>
+</ElementCaseMobileAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR F="0" T="1"/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1258529,235974,1152000,864000,864000,864000,1152000,1008000,983225,1152000,1008000,825909,1152000,1008000,825909,1152000,1219200,825909,1152000,1219200,825909,1152000,1143000,786580,1152000,1008000,825909,1152000,1008000,825909,1152000,1008000,825909,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[576000,2592000,2595716,1258529,4320000,4011561,3500283,2949677,3067664,3932903,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="0" cs="9" s="1">
+<O>
+<![CDATA[Resume]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" cs="9" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="2" cs="5" s="3">
+<O>
+<![CDATA[Personal Info]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="2" cs="5" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="3">
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n.!3/C)'9,d.?/mK$55Sh?$H'm&6'h9F\^^shj.H(rV6]AoY$+-R
+_\uXc$te1-+LSr/9`e=048r[hLnH`U'ghlbQo1&"VD`;X'.[k8<c#(_bd\Y.VU#oVA/M9008
+rEM3Ps=>,'7\)*&e]A7R^N+]AXR@BFTTlX.RQrVh?As~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="3" s="5">
+<O>
+<![CDATA[ID]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="3" cs="4" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_info" columnName="LeaderCode"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="6" r="3" s="5">
+<O>
+<![CDATA[Name]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="3" cs="3" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_info" columnName="Name"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="0" r="4" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="4" s="5">
+<O>
+<![CDATA[Gender]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="4" cs="4" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_info" columnName="Sex"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="6" r="4" s="5">
+<O>
+<![CDATA[Origin]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="4" cs="3" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_info" columnName="NativePlace"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="0" r="5" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="5" s="5">
+<O>
+<![CDATA[Age]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="5" cs="4" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_info" columnName="Birthday"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[IF(ISNULL($$$),'',DATEDIF(TODATE($$$),TODAY(),'Y'))]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="6" r="5" s="5">
+<O>
+<![CDATA[Hire Date]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="5" cs="3" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_info" columnName="InJstiDate"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[ROUND(IF(ISNULL($$$),'',DATEDIF(TODATE($$$),TODAY(),'M'))/12,1)]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="0" r="6" cs="5" s="8">
+<O>
+<![CDATA[Education]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B9) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="5" r="6" cs="5" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="7">
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n.!3/C)'9,d.?/mK$55Sh?$H'm&6'h9F\^^shj.H(rV6]AoY$+-R
+_\uXc$te1-+LSr/9`e=048r[hLnH`U'ghlbQo1&"VD`;X'.[k8<c#(_bd\Y.VU#oVA/M9008
+rEM3Ps=>,'7\)*&e]A7R^N+]AXR@BFTTlX.RQrVh?As~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="7" cs="4" s="5">
+<O>
+<![CDATA[Duration]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B9) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="5" r="7" s="5">
+<O>
+<![CDATA[Type]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="7" s="5">
+<O>
+<![CDATA[Credential]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="7" cs="2" s="5">
+<O>
+<![CDATA[School]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="7" s="5">
+<O>
+<![CDATA[Major]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="8" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="8" cs="4" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_study" columnName="StudyDate"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B9) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="5" r="8" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_study" columnName="StudyType"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="6" r="8" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_study" columnName="SchoolRecord"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="7" r="8" cs="2" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_study" columnName="School"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="9" r="8" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_study" columnName="Professional"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="0" r="9" cs="5" s="8">
+<O>
+<![CDATA[Occupation]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[Row Height]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B12) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="5" r="9" cs="5" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="10">
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n.!3/C)'9,d.?/mK$55Sh?$H'm&6'h9F\^^shj.H(rV6]AoY$+-R
+_\uXc$te1-+LSr/9`e=048r[hLnH`U'ghlbQo1&"VD`;X'.[k8<c#(_bd\Y.VU#oVA/M9008
+rEM3Ps=>,'7\)*&e]A7R^N+]AXR@BFTTlX.RQrVh?As~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="10" cs="4" s="5">
+<O>
+<![CDATA[Duration]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[Row Height]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B12) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="5" r="10" cs="3" s="5">
+<O>
+<![CDATA[Department/Company]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="10" cs="2" s="5">
+<O>
+<![CDATA[Position]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="11" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="11" cs="4" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_work" columnName="OnDutyDate"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[Row Height]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B12) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="5" r="11" cs="3" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_work" columnName="Company"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="8" r="11" cs="2" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_work" columnName="Position"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="0" r="12" cs="5" s="8">
+<O>
+<![CDATA[Qualification]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[Row Height]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B15) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="5" r="12" cs="5" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="13">
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n.!3/C)'9,d.?/mK$55Sh?$H'm&6'h9F\^^shj.H(rV6]AoY$+-R
+_\uXc$te1-+LSr/9`e=048r[hLnH`U'ghlbQo1&"VD`;X'.[k8<c#(_bd\Y.VU#oVA/M9008
+rEM3Ps=>,'7\)*&e]A7R^N+]AXR@BFTTlX.RQrVh?As~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="13" cs="4" s="5">
+<O>
+<![CDATA[Type]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B15) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="5" r="13" cs="3" s="5">
+<O>
+<![CDATA[Title]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="13" cs="2" s="5">
+<O>
+<![CDATA[Date]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="14" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="14" cs="4" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_title" columnName="TitleType"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B15) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="5" r="14" cs="3" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_title" columnName="TitleName"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="8" r="14" cs="2" s="9">
+<O t="DSColumn">
+<Attributes dsName="ds_title" columnName="SetDate"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="0" r="15" cs="5" s="8">
+<O>
+<![CDATA[Trainning]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B18) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="5" r="15" cs="5" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="16">
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n.!3/C)'9,d.?/mK$55Sh?$H'm&6'h9F\^^shj.H(rV6]AoY$+-R
+_\uXc$te1-+LSr/9`e=048r[hLnH`U'ghlbQo1&"VD`;X'.[k8<c#(_bd\Y.VU#oVA/M9008
+rEM3Ps=>,'7\)*&e]A7R^N+]AXR@BFTTlX.RQrVh?As~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="16" cs="4" s="5">
+<O>
+<![CDATA[Content]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B18) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="5" r="16" cs="2" s="5">
+<O>
+<![CDATA[Date]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="16" s="5">
+<O>
+<![CDATA[Instructor]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="16" cs="2" s="5">
+<O>
+<![CDATA[Location]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="17" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="17" cs="4" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_training" columnName="TrainingContent"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B18) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="5" r="17" cs="2" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_training" columnName="TrainingDate"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="7" r="17" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_training" columnName="Trainer"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="8" r="17" cs="2" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_training" columnName="TrainingPlace"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="0" r="18" cs="5" s="8">
+<O>
+<![CDATA[Awards]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B21) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="5" r="18" cs="5" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="19">
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n.!3/C)'9,d.?/mK$55Sh?$H'm&6'h9F\^^shj.H(rV6]AoY$+-R
+_\uXc$te1-+LSr/9`e=048r[hLnH`U'ghlbQo1&"VD`;X'.[k8<c#(_bd\Y.VU#oVA/M9008
+rEM3Ps=>,'7\)*&e]A7R^N+]AXR@BFTTlX.RQrVh?As~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="19" cs="2" s="5">
+<O>
+<![CDATA[Name]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B21) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="3" r="19" cs="2" s="10">
+<O>
+<![CDATA[Item]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="19" s="5">
+<O>
+<![CDATA[Date]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="19" s="10">
+<O>
+<![CDATA[Level]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="19" s="5">
+<O>
+<![CDATA[Ranking]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="19" s="10">
+<O>
+<![CDATA[NO]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="19" s="10">
+<O>
+<![CDATA[Type]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="20" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="20" cs="2" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_praise" columnName="PraiseName"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B21) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="3" r="20" cs="2" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_praise" columnName="PraiseItem"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="5" r="20" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_praise" columnName="PraiseDate"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="6" r="20" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_praise" columnName="PraiseLevel"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="7" r="20" s="9">
+<O t="DSColumn">
+<Attributes dsName="ds_praise" columnName="PraiseOrder"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="8" r="20" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_praise" columnName="CertificateCode"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="9" r="20" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_praise" columnName="InOrOut"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="0" r="21" cs="5" s="8">
+<O>
+<![CDATA[Patents]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B24) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="5" r="21" cs="5" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="22">
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n.!3/C)'9,d.?/mK$55Sh?$H'm&6'h9F\^^shj.H(rV6]AoY$+-R
+_\uXc$te1-+LSr/9`e=048r[hLnH`U'ghlbQo1&"VD`;X'.[k8<c#(_bd\Y.VU#oVA/M9008
+rEM3Ps=>,'7\)*&e]A7R^N+]AXR@BFTTlX.RQrVh?As~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="22" cs="4" s="5">
+<O>
+<![CDATA[Name]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B24) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="5" r="22" s="10">
+<O>
+<![CDATA[Issue NO]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="22" cs="2" s="10">
+<O>
+<![CDATA[Inventor]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="22" s="10">
+<O>
+<![CDATA[Application]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="22" s="10">
+<O>
+<![CDATA[Notice]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="23" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="23" cs="4" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_specialissue" columnName="IssueName"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B24) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="5" r="23" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_specialissue" columnName="IssueNo"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="6" r="23" cs="2" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_specialissue" columnName="Inventer"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="8" r="23" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_specialissue" columnName="ApplyDate"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="9" r="23" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_specialissue" columnName="NoticeDate"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="0" r="24" cs="5" s="8">
+<O>
+<![CDATA[Academic Achievements]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B27) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="5" r="24" cs="5" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="25">
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n.!3/C)'9,d.?/mK$55Sh?$H'm&6'h9F\^^shj.H(rV6]AoY$+-R
+_\uXc$te1-+LSr/9`e=048r[hLnH`U'ghlbQo1&"VD`;X'.[k8<c#(_bd\Y.VU#oVA/M9008
+rEM3Ps=>,'7\)*&e]A7R^N+]AXR@BFTTlX.RQrVh?As~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="25" cs="5" s="5">
+<O>
+<![CDATA[Name]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B27) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="6" r="25" cs="2" s="5">
+<O>
+<![CDATA[Journal]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="25" s="5">
+<O>
+<![CDATA[Date]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="25" s="5">
+<O>
+<![CDATA[Author]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="26" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="26" cs="5" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_paper" columnName="PaperName"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B27) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="6" r="26" cs="2" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_paper" columnName="PublishJournal"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="8" r="26" s="9">
+<O t="DSColumn">
+<Attributes dsName="ds_paper" columnName="PublishDate"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="9" r="26" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_paper" columnName="Author"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="0" r="27" cs="5" s="8">
+<O>
+<![CDATA[Publications]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B30) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="5" r="27" cs="5" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="28">
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n.!3/C)'9,d.?/mK$55Sh?$H'm&6'h9F\^^shj.H(rV6]AoY$+-R
+_\uXc$te1-+LSr/9`e=048r[hLnH`U'ghlbQo1&"VD`;X'.[k8<c#(_bd\Y.VU#oVA/M9008
+rEM3Ps=>,'7\)*&e]A7R^N+]AXR@BFTTlX.RQrVh?As~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="28" cs="3" s="5">
+<O>
+<![CDATA[Title]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B30) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="4" r="28" s="10">
+<O>
+<![CDATA[Press]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="28" s="10">
+<O>
+<![CDATA[Publish]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="28" s="5">
+<O>
+<![CDATA[Execute]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="28" cs="3" s="5">
+<O>
+<![CDATA[Role]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="29" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="29" cs="3" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_book" columnName="BookName"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B30) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="4" r="29" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_book" columnName="Press"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="5" r="29" s="9">
+<O t="DSColumn">
+<Attributes dsName="ds_book" columnName="PublishDate"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="6" r="29" s="9">
+<O t="DSColumn">
+<Attributes dsName="ds_book" columnName="ExcuteDate"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="7" r="29" cs="3" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_book" columnName="Editor"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="0" r="30" cs="5" s="8">
+<O>
+<![CDATA[Conferences]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B33) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="5" r="30" cs="5" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="31">
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n.!3/C)'9,d.?/mK$55Sh?$H'm&6'h9F\^^shj.H(rV6]AoY$+-R
+_\uXc$te1-+LSr/9`e=048r[hLnH`U'ghlbQo1&"VD`;X'.[k8<c#(_bd\Y.VU#oVA/M9008
+rEM3Ps=>,'7\)*&e]A7R^N+]AXR@BFTTlX.RQrVh?As~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="31" cs="3" s="5">
+<O>
+<![CDATA[Name]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[行高]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B33) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="4" r="31" s="10">
+<O>
+<![CDATA[Theme]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="31" s="10">
+<O>
+<![CDATA[Date]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="31" s="5">
+<O>
+<![CDATA[Host]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="31" cs="3" s="5">
+<O>
+<![CDATA[Address]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="32" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="32" cs="3" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_academic" columnName="MeetingName"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[Row Height]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(B33) = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="4" r="32" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_academic" columnName="MeetingTheme"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="5" r="32" s="9">
+<O t="DSColumn">
+<Attributes dsName="ds_academic" columnName="MeetingDate"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="6" r="32" s="11">
+<O t="DSColumn">
+<Attributes dsName="ds_academic" columnName="Organizer"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="7" r="32" cs="3" s="6">
+<O t="DSColumn">
+<Attributes dsName="ds_academic" columnName="MeetingPlace"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="864000">
+<PaperSetting>
+<PaperSize width="36000000" height="36000000"/>
+<Margin top="1440000" left="288000" bottom="1440000" right="288000"/>
+</PaperSetting>
+<Background name="ColorBackground" color="-1"/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList>
+<HFElement className="com.fr.base.headerfooter.FormulaHFElement">
+<FRFont name="SimSun" style="0" size="72"/>
+<Formula content="$$page_number + &quot; / &quot; + $$totalPage_number" text="1 / 100"/>
+</HFElement>
+</CenterList>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="false" currentIndex="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-12566464"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Times New Roman" style="1" size="176" foreground="-15708810"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="1" size="144" foreground="-12566464"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="1" size="88" foreground="-15834999"/>
+<Background name="ColorBackground" color="-3938312"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-13619152"/>
+<Background name="ColorBackground" color="-1049860"/>
+<Border>
+<Top style="1" color="-3084292"/>
+<Bottom style="1" color="-3084292"/>
+<Left style="1" color="-3084292"/>
+<Right style="1" color="-3084292"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="1" size="80" foreground="-1"/>
+<Background name="ColorBackground" color="-11230522"/>
+<Border>
+<Top style="1" color="-3084292"/>
+<Bottom style="1" color="-3084292"/>
+<Left style="1" color="-3084292"/>
+<Right style="1" color="-3084292"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14912615"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-3084292"/>
+<Bottom style="1" color="-3084292"/>
+<Left style="1" color="-3084292"/>
+<Right style="1" color="-3084292"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-13619152"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="1" size="88" foreground="-15834999"/>
+<Background name="ColorBackground" color="-3873033"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.SimpleDateFormatThreadSafe">
+<![CDATA[yyyy-MM-dd]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14912615"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-3084292"/>
+<Bottom style="1" color="-3084292"/>
+<Left style="1" color="-3084292"/>
+<Right style="1" color="-3084292"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="1" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-11230522"/>
+<Border>
+<Top style="1" color="-3084292"/>
+<Bottom style="1" color="-3084292"/>
+<Left style="1" color="-3084292"/>
+<Right style="1" color="-3084292"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.TextFormat"/>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14912615"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-3084292"/>
+<Bottom style="1" color="-3084292"/>
+<Left style="1" color="-3084292"/>
+<Right style="1" color="-3084292"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="KAA"/>
+<PreviewType PreviewType="0"/>
+<TemplateIdAttMark class="com.fr.base.iofile.attr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="bb0f0f21-bb06-47ce-abd3-ba5b8e08b51b"/>
+</TemplateIdAttMark>
+</WorkBook>

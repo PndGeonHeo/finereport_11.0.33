@@ -1,0 +1,217 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyName2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 109.3467537346, 19.2120072063 ]
+			},
+			"properties" : {
+				"name" : "Baisha Li Autonomous County",
+				"adcode" : "469025",
+				"adcode_s" : "4690",
+				"adcode_si" : "46",
+				"dname" : "Hainan Autonomous Counties"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 109.6489362019, 18.5956836973 ]
+			},
+			"properties" : {
+				"name" : "Baoting Li and Miao Autonomous County",
+				"adcode" : "469029",
+				"adcode_s" : "4690",
+				"adcode_si" : "46",
+				"dname" : "Hainan Autonomous Counties"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 108.973555, 19.3279328189 ]
+			},
+			"properties" : {
+				"name" : "Changjiang Li Autonomous County",
+				"adcode" : "469026",
+				"adcode_s" : "4690",
+				"adcode_si" : "46",
+				"dname" : "Hainan Autonomous Counties"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 109.9846815097, 19.6901307616 ]
+			},
+			"properties" : {
+				"name" : "Dengmai County",
+				"adcode" : "469023",
+				"adcode_s" : "4690",
+				"adcode_si" : "46",
+				"dname" : "Hainan Autonomous Counties"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 110.3040898432, 19.4867438468 ]
+			},
+			"properties" : {
+				"name" : "Ding’an County",
+				"adcode" : "469021",
+				"adcode_s" : "4690",
+				"adcode_si" : "46",
+				"dname" : "Hainan Autonomous Counties"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 108.8403543169, 18.9936391989 ]
+			},
+			"properties" : {
+				"name" : "Dongfang City",
+				"adcode" : "469007",
+				"adcode_s" : "4690",
+				"adcode_si" : "46",
+				"dname" : "Hainan Autonomous Counties"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 109.0478462938, 18.6503998544 ]
+			},
+			"properties" : {
+				"name" : "Ledong Li Autonomous County",
+				"adcode" : "469027",
+				"adcode_s" : "4690",
+				"adcode_si" : "46",
+				"dname" : "Hainan Autonomous Counties"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 109.7122775894, 19.8020824853 ]
+			},
+			"properties" : {
+				"name" : "Lingao County",
+				"adcode" : "469024",
+				"adcode_s" : "4690",
+				"adcode_si" : "46",
+				"dname" : "Hainan Autonomous Counties"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 109.9482221005, 18.5647445942 ]
+			},
+			"properties" : {
+				"name" : "Lingshui Li Autonomous County",
+				"adcode" : "469028",
+				"adcode_s" : "4690",
+				"adcode_si" : "46",
+				"dname" : "Hainan Autonomous Counties"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 110.4004792735, 19.2101064327 ]
+			},
+			"properties" : {
+				"name" : "Qionghai City",
+				"adcode" : "469002",
+				"adcode_s" : "4690",
+				"adcode_si" : "46",
+				"dname" : "Hainan Autonomous Counties"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 109.8504612056, 19.0324416639 ]
+			},
+			"properties" : {
+				"name" : "Qiongzhong Li Miao Autonomous County",
+				"adcode" : "469030",
+				"adcode_s" : "4690",
+				"adcode_si" : "46",
+				"dname" : "Hainan Autonomous Counties"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 110.0453784419, 19.3424311237 ]
+			},
+			"properties" : {
+				"name" : "Tunchang County",
+				"adcode" : "469022",
+				"adcode_s" : "4690",
+				"adcode_si" : "46",
+				"dname" : "Hainan Autonomous Counties"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 110.2864520955, 18.8390948342 ]
+			},
+			"properties" : {
+				"name" : "Wanning City",
+				"adcode" : "469006",
+				"adcode_s" : "4690",
+				"adcode_si" : "46",
+				"dname" : "Hainan Autonomous Counties"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 110.7689010561, 19.7467995267 ]
+			},
+			"properties" : {
+				"name" : "Wenchang City",
+				"adcode" : "469005",
+				"adcode_s" : "4690",
+				"adcode_si" : "46",
+				"dname" : "Hainan Autonomous Counties"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 109.5044151656, 18.8291508192 ]
+			},
+			"properties" : {
+				"name" : "Wuzhishan City",
+				"adcode" : "469001",
+				"adcode_s" : "4690",
+				"adcode_si" : "46",
+				"dname" : "Hainan Autonomous Counties"
+			}
+		}
+	]
+}
+

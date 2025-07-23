@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugin>
+    <id>com.fr.ad.window</id>
+    <main-package>com.fr.ad.window</main-package>
+    <name><![CDATA[Ad Window]]></name>
+    <active>yes</active>
+    <hidden>yes</hidden>
+    <version>2.1</version>
+    <env-version>10.0~11.0</env-version>
+    <jartime>2020-08-04</jartime>
+    <vendor>FRInternational</vendor>
+    <description><![CDATA[Ad Window]]></description>
+    <change-notes><![CDATA[
+        <p>[2024-01-09] update JP concat</p>
+        <p>[2022-03-23] Fix the bug of error display during remote design </p>
+        <p>[2022-03-23] Fix the bug of 'plugin manager pane' conflict </p>
+        <p>[2022-03-23] Fix the bug of macos12 </p>
+        <p>[2020-10-16] Fix the bug of safety </p>
+        <p>[2020-10-16] Initialization. </p>
+        <p>[2020-12-21] Monitor window close. </p>
+        <p>[2021-4-12] Fix the bug of opening with demo.exe. </p>
+        <p>[2021-5-17] Update the appearance. Use JavaFX. </p>
+        <p>[2021-10-11] Provide JP & KR version in the same plugin. </p>
+    ]]>
+    </change-notes>
+    <extra-designer>
+        <DesignerStartOpenFileProcessor class="com.fr.ad.window.AdDesignerStartOpenFileProvider"/>
+        <GlobalListenerProvider class="com.fr.ad.window.AdGlobalListener"/>
+    </extra-designer>
+    <extra-core>
+        <LocaleFinder class="com.fr.ad.window.LocaleFinder"/>
+    </extra-core>
+    <function-recorder class="com.fr.ad.window.AdGlobalListener"/>
+
+</plugin>

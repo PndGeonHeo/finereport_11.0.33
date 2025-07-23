@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="10.0.0">
+<TableDataMap>
+<TableData name="Embedded1" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[Message]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String">
+<![CDATA[ND[ko__;Y7k:?625V8#ua0tV:#um^$l?V]A3Oqk,?lqL@PHIcfZ'Z>Qljdhs1SJbePeiStNi+
+=g;^iBP#I2s_*p+F4_NrhsUfS5nM>*q10SPJiVaBC4<)1l!VQY/7l\E8^o']Ap,lKS?-f*B6q
+pR!rMc@7JC&>Jf+K7T9iRJj43L+hJbN$4_rn/ZK0P?Y"6I7G<_8%]AlH%Zl49fBAaX2!@&_g:
+Ul,KesC4FP,VQBg"l\(o#,Y.fV%=Zm+gUW]A<Xe\Y@0O3_2c\`:q)KulQ[:hmK]A"J`k2/HbcV
+JA01.TF<;OrgrIgV(Y6G<npGKMt/4[f/"$J]AC*`F,*A#)o":\[VoCJPF=NPUamQK[/5fu&j\
+mn]Ams>CRg?=YmQ9[qdmK*(Z7=7`Xef&05NclW&.AE*\K=p*6C`/]A9OSmD2U10!qB1cCP6Co0
+UE-FX:QJTX48L~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1447800,2362200,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[0,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<O t="DSColumn">
+<Attributes dsName="Embedded1" columnName="Message"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="0" cs="7" s="0">
+<O>
+<![CDATA[Message]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" cs="7" s="1">
+<O t="XMLable" class="com.fr.base.Formula">
+<Attributes>
+<![CDATA[="<marquee id='affiche'  style='text-align:center;display:table-cell;vertical-align:middle;' behavior='scroll' bgcolor='#ffffff' direction='left' height='100%' width='500%' hspace='0' vspace='2' loop='-1' scrollamount='10' scrolldelay='100' onMouseOut='this.start()' onMouseOver='this.stop()'>" + REPLACE(A1, ",", "  ") + "</marquee>"]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0" showAsHTML="true"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+<Background name="ColorBackground" color="-1"/>
+</ReportSettings>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="true" currentIndex="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Arial" style="0" size="112" foreground="-1"/>
+<Background name="ColorBackground" color="-13408513"/>
+<Border>
+<Top style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Arial" style="0" size="80"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="KAA"/>
+<PreviewType PreviewType="0"/>
+<TemplateIdAttMark class="com.fr.base.iofile.attr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="5fb6d9af-54b1-41d4-9e69-fbb8dc535526"/>
+</TemplateIdAttMark>
+</WorkBook>

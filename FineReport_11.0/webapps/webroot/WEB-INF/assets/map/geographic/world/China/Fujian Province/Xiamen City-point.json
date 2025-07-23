@@ -1,0 +1,91 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyName2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.9739157925, 24.5318023944 ]
+			},
+			"properties" : {
+				"name" : "Haicang District",
+				"adcode" : "350205",
+				"adcode_s" : "3502",
+				"adcode_si" : "35",
+				"dname" : "Xiamen City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.1332417831, 24.5207197125 ]
+			},
+			"properties" : {
+				"name" : "Huli District",
+				"adcode" : "350206",
+				"adcode_s" : "3502",
+				"adcode_si" : "35",
+				"dname" : "Xiamen City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.0174649494, 24.637984057 ]
+			},
+			"properties" : {
+				"name" : "Jimei District",
+				"adcode" : "350211",
+				"adcode_s" : "3502",
+				"adcode_si" : "35",
+				"dname" : "Xiamen City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.1263000878, 24.4667327578 ]
+			},
+			"properties" : {
+				"name" : "Siming District",
+				"adcode" : "350203",
+				"adcode_s" : "3502",
+				"adcode_si" : "35",
+				"dname" : "Xiamen City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.1045779213, 24.775566966 ]
+			},
+			"properties" : {
+				"name" : "Tongan District",
+				"adcode" : "350212",
+				"adcode_s" : "3502",
+				"adcode_si" : "35",
+				"dname" : "Xiamen City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.2686584709, 24.6723842484 ]
+			},
+			"properties" : {
+				"name" : "Xiangan District",
+				"adcode" : "350213",
+				"adcode_s" : "3502",
+				"adcode_si" : "35",
+				"dname" : "Xiamen City"
+			}
+		}
+	]
+}
+

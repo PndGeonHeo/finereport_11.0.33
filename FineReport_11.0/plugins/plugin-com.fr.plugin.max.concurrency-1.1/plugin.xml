@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <id>com.fr.plugin.max.concurrency</id>
+    <name><![CDATA[View system concurrency]]></name>
+    <active>yes</active>
+    <version>1.1</version>
+    <env-version>10.0</env-version>
+    <jartime>2018-07-31</jartime>
+    <vendor>FRInternational</vendor>
+    <description><![CDATA[Display the current number of concurrency (the number of IPs accessed), and calculate the maximum number of concurrency per day and store it in finedb]]></description>
+    <change-notes></change-notes>
+    <main-package>com.fr.plugin</main-package>
+    <function-recorder class="com.fr.plugin.concurrency.count.JSCSSBridge"/>
+
+    <extra-core>
+        <DBAccessProvider class="com.fr.plugin.max.concurrency.bridge.DbAccessBridge"/>
+        <LocaleFinder class="com.fr.plugin.concurrency.count.LRGT"/>
+    </extra-core>
+
+    <extra-decision>
+        <GlobalRequestFilterProvider class="com.fr.plugin.max.concurrency.bridge.GlobalFilterBridge"/>
+        <WebResourceProvider class="com.fr.plugin.concurrency.count.JSCSSBridge"/>
+    </extra-decision>
+
+</plugin>

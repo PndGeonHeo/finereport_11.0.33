@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <id>com.fr.plugin.overseas.store.v11</id>
+    <name><![CDATA[Overseas Plugin Store]]></name>
+    <active>yes</active>
+    <version>2.0</version>
+    <env-version>11.0~11.0</env-version>
+    <jartime>2022-04-09</jartime>
+    <vendor>FRInternational</vendor>
+    <description><![CDATA[Overseas Plugin Store]]></description>
+    <change-notes><![CDATA[
+      [2023-07-03]fix bug of remote env<br/>
+      [2022-07-08]fix bug of i18n<br/>
+      [2021-12-17]Adapt to downloading 11.0 scripts<br/>
+      [2021-10-08]Adapt to 10.0.17<br/>
+      [2020-11-22]Initialization<br/>
+    ]]></change-notes>
+    <main-package>com.fr.plugin.overseas.store</main-package>
+    <lifecycle-monitor class="com.fr.plugin.overseas.store.OvPluginMonitor"/>
+    <function-recorder class="com.fr.plugin.overseas.store.OvStoreAction"/>
+    <extra-designer>
+        <PluginManagerProvider class="com.fr.plugin.overseas.store.OvPluginManager"/>
+    </extra-designer>
+    <extra-decision>
+        <ControllerRegisterProvider class="com.fr.plugin.overseas.store.provider.OvControllerBridge"/>
+        <WebResourceProvider class="com.fr.plugin.overseas.store.provider.OvWebResourceBridge"/>
+        <GlobalRequestFilterProvider class="com.fr.plugin.overseas.store.filter.OVStoreGlobalRequestFilterProvider"/>
+    </extra-decision>
+    <extra-core>
+        <LocaleFinder class="com.fr.plugin.overseas.store.provider.OvLocaleBridge"/>
+    </extra-core>
+
+</plugin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <id>com.fr.plugin.overseas</id>
+    <name><![CDATA[Overseas]]></name>
+    <active>yes</active>
+    <hidden>yes</hidden>
+    <version>1.2</version>
+    <env-version>10.0</env-version>
+    <jartime>2019-05-01</jartime>
+    <vendor>finereport</vendor>
+    <description><![CDATA[Disabled some functions on Decision-making platform]]></description>
+    <change-notes><![CDATA[
+        <p>[2021-04-12]Enable the Plugin Management.</p>
+    ]]></change-notes>
+    <extra-decision>
+        <WebResourceProvider class="com.fr.plugin.Overseas"/>
+    </extra-decision>
+    <function-recorder class="com.fr.plugin.Overseas"/>
+</plugin>

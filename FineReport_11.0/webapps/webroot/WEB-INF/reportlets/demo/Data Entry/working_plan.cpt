@@ -1,0 +1,375 @@
+<?xml version="1.0" ?><WorkBook releaseVersion="10.0.0" xmlVersion="20170720">
+<ReportWebAttr>
+<ServerPrinter/>
+<WebWriteContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.write.Submit">
+<WidgetAttr description="">
+<MobileBookMark bookMarkName="" frozen="false" useBookMark="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Fine-Engine_Report_Utils_Submit')}]]></Text>
+<IconName>
+<![CDATA[submit]]></IconName>
+<Verify failVerifySubmit="false" value="true"/>
+<Sheet onlySubmitSelect="false"/>
+</Widget>
+<Widget class="com.fr.report.web.button.write.Verify">
+<WidgetAttr description="">
+<MobileBookMark bookMarkName="" frozen="false" useBookMark="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Fine-Engine_Report_Verify_Data')}]]></Text>
+<IconName>
+<![CDATA[verify]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.NewPrint">
+<WidgetAttr description="">
+<MobileBookMark bookMarkName="" frozen="false" useBookMark="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Fine-Engine_Print')}]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr description="">
+<MobileBookMark bookMarkName="" frozen="false" useBookMark="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons excelO="true" excelP="true" excelS="true" html="true" image="true" pdf="true" word="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.Email">
+<WidgetAttr description="">
+<MobileBookMark bookMarkName="" frozen="false" useBookMark="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Fine-Engine_Report_Email')}]]></Text>
+<IconName>
+<![CDATA[email]]></IconName>
+<EmailButton consigneeByDepartment="false" consigneeByRole="false" customConsignee="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.write.AppendColumnRow">
+<WidgetAttr description="">
+<MobileBookMark bookMarkName="" frozen="false" useBookMark="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Fine-Engine_Add_Record')}]]></Text>
+<IconName>
+<![CDATA[appendrow]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.write.ShowCellValue">
+<WidgetAttr description="">
+<MobileBookMark bookMarkName="" frozen="false" useBookMark="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<widgetValue/>
+<LabelAttr autoline="false" textalign="0" verticalcenter="true"/>
+<FRFont name="Arial" size="62" style="0"/>
+<border color="-723724" style="0"/>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<EditRowColor setColor="false"/>
+<WebWrite SheetPosition="3"/>
+<RptLocation isShowAtLeft="true"/>
+<UnloadCheck/>
+<ShowWidgets show="true"/>
+<OtherAttr autoStash="false"/>
+</WebWriteContent>
+</ReportWebAttr>
+<ElementCaseMobileAttr>
+<ElementCaseMobileAttrProvider allowDoubleClickOrZoom="true" allowFullScreen="false" appearRefresh="false" functionalWhenUnactivated="false" horizontal="1" isMobileCanvasSize="false" isUseHTML="false" refresh="false" vertical="1" zoom="true"/>
+</ElementCaseMobileAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[723900,723900,723900,288000,723900,288000,723900,288000,723900,288000,723900,288000,723900,288000,723900,288000,723900,288000,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[288000,6286500,6896100,288000,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" cs="4" r="0" rs="3" s="0">
+<O>
+<![CDATA[Working Plan]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="4">
+<O>
+<![CDATA[Name]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="4">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=$fine_username]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="6">
+<O>
+<![CDATA[Department]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="6">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.ComboBox">
+<WidgetAttr description="">
+<MobileBookMark bookMarkName="" frozen="false" useBookMark="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.DatabaseDictionary">
+<FormulaDictAttr kiName="department_name" viName="department_name"/>
+<DBDictAttr ki="-1" kiName="department_name" schemaName="" tableName="dim_department" vi="-1" viName="department_name"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[CoronaVirus]]></DatabaseName>
+</Connection>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="1" r="8">
+<O>
+<![CDATA[Contact]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="8">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr description="">
+<MobileBookMark bookMarkName="" frozen="false" useBookMark="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+<MobileScanCodeAttr scanCode="true" textInputMode="0"/>
+</Widget>
+<Expand/>
+</C>
+<C c="1" r="10">
+<O>
+<![CDATA[Current Location]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="10">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr description="">
+<MobileBookMark bookMarkName="" frozen="false" useBookMark="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+<MobileScanCodeAttr scanCode="true" textInputMode="0"/>
+</Widget>
+<Expand/>
+</C>
+<C c="1" r="12">
+<O>
+<![CDATA[To Wuhan or not?]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="12">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.ComboBox">
+<WidgetAttr description="">
+<MobileBookMark bookMarkName="" frozen="false" useBookMark="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="yes" value="yes"/>
+<Dict key="no" value="no"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="1" r="14">
+<O>
+<![CDATA[To Hubei or not?]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="14">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.ComboBox">
+<WidgetAttr description="">
+<MobileBookMark bookMarkName="" frozen="false" useBookMark="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="yes" value="yes"/>
+<Dict key="no" value="no"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="1" r="16">
+<O>
+<![CDATA[Contact Patient or not?]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="16">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.ComboBox">
+<WidgetAttr description="">
+<MobileBookMark bookMarkName="" frozen="false" useBookMark="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="yes" value="yes"/>
+<Dict key="no" value="no"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="1" r="18">
+<O>
+<![CDATA[Rerurn Date]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="18">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.DateEditor">
+<WidgetAttr description="">
+<MobileBookMark bookMarkName="" frozen="false" useBookMark="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<DateAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings footerHeight="0" headerHeight="0">
+<PaperSetting/>
+<Background color="-1" name="ColorBackground"/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<ReportWriteAttr>
+<SubmitVisitor class="com.fr.report.write.BuiltInSQLSubmiter">
+<Name>
+<![CDATA[Built-in SQL1]]></Name>
+<Attributes dsName="CoronaVirus"/>
+<DMLConfig class="com.fr.write.config.IntelliDMLConfig">
+<Table name="working_plan" schema=""/>
+<ColumnConfig isKey="true" name="id" skipUnmodified="false">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=uuid()]]></Attributes>
+</O>
+</ColumnConfig>
+<ColumnConfig isKey="false" name="name" skipUnmodified="false">
+<ColumnRow column="2" row="4"/>
+</ColumnConfig>
+<ColumnConfig isKey="false" name="department" skipUnmodified="false">
+<ColumnRow column="2" row="6"/>
+</ColumnConfig>
+<ColumnConfig isKey="false" name="phone_number" skipUnmodified="false">
+<ColumnRow column="2" row="8"/>
+</ColumnConfig>
+<ColumnConfig isKey="false" name="current_location" skipUnmodified="false">
+<ColumnRow column="2" row="10"/>
+</ColumnConfig>
+<ColumnConfig isKey="false" name="to_wuhan" skipUnmodified="false">
+<ColumnRow column="2" row="12"/>
+</ColumnConfig>
+<ColumnConfig isKey="false" name="to_hubei" skipUnmodified="false">
+<ColumnRow column="2" row="14"/>
+</ColumnConfig>
+<ColumnConfig isKey="false" name="contact_with_patient" skipUnmodified="false">
+<ColumnRow column="2" row="16"/>
+</ColumnConfig>
+<ColumnConfig isKey="false" name="return_time" skipUnmodified="false">
+<ColumnRow column="2" row="18"/>
+</ColumnConfig>
+<ColumnConfig isKey="false" name="update_time" skipUnmodified="false">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=now()]]></Attributes>
+</O>
+</ColumnConfig>
+<ColumnConfig isKey="false" name="update_user" skipUnmodified="false">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=$fine_username]]></Attributes>
+</O>
+</ColumnConfig>
+</DMLConfig>
+</SubmitVisitor>
+</ReportWriteAttr>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes align="0" delayPlaying="true" showWindow="true" useParamsTemplate="true" windowPosition="1"/>
+<PWTitle>
+<![CDATA[Parameter]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont foreground="-1" name="Arial" size="70" style="1"/>
+<Background color="-14374913" name="ColorBackground"/>
+<Border/>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="KAA"/>
+<PreviewType PreviewType="1"/>
+<TemplateIdAttMark class="com.fr.base.iofile.attr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="893b422c-b892-4796-8426-2a04c849cd7c"/>
+</TemplateIdAttMark>
+</WorkBook>

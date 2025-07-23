@@ -1,0 +1,13 @@
+# install4j response file for FineReport 11.0
+createDesktopLinkAction$Boolean=false
+createQuicklaunchIconAction$Boolean=false
+executeDemoAction$Boolean=true
+finereport.Xmx$Long=2048
+sys.adminRights$Boolean=true
+sys.fileAssociation.extensions$StringArray=
+sys.fileAssociation.launchers$StringArray=
+sys.installationDir=C\:\\00.\uC2E4\uD589\\01.FineReport\\FineReport_11.0
+sys.languageId=ko
+sys.programGroupAllUsers$Boolean=true
+sys.programGroupDisabled$Boolean=true
+sys.programGroupName=FineReport_11.0

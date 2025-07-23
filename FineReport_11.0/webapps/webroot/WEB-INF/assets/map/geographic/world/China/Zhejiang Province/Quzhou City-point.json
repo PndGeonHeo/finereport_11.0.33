@@ -1,0 +1,91 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyName2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.5359587513, 28.9707405098 ]
+			},
+			"properties" : {
+				"name" : "Changshan County",
+				"adcode" : "330822",
+				"adcode_s" : "3308",
+				"adcode_si" : "33",
+				"dname" : "QuzhouCity"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.5953247454, 28.578699233 ]
+			},
+			"properties" : {
+				"name" : "Jiangshan City",
+				"adcode" : "330881",
+				"adcode_s" : "3308",
+				"adcode_si" : "33",
+				"dname" : "QuzhouCity"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.3195813946, 29.1866194987 ]
+			},
+			"properties" : {
+				"name" : "Kaihua County",
+				"adcode" : "330824",
+				"adcode_s" : "3308",
+				"adcode_si" : "33",
+				"dname" : "QuzhouCity"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.8017488604, 28.9955912065 ]
+			},
+			"properties" : {
+				"name" : "Kecheng District",
+				"adcode" : "330802",
+				"adcode_s" : "3308",
+				"adcode_si" : "33",
+				"dname" : "QuzhouCity"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.1871148015, 28.9940361973 ]
+			},
+			"properties" : {
+				"name" : "Longyou County",
+				"adcode" : "330825",
+				"adcode_s" : "3308",
+				"adcode_si" : "33",
+				"dname" : "QuzhouCity"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.92353193, 28.7369255886 ]
+			},
+			"properties" : {
+				"name" : "Qujiang District",
+				"adcode" : "330803",
+				"adcode_s" : "3308",
+				"adcode_si" : "33",
+				"dname" : "QuzhouCity"
+			}
+		}
+	]
+}
+

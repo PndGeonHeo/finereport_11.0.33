@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.1658334, 35.5664445] },
+      "properties": { "name": "합천군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.9138505, 35.6872871] },
+      "properties": { "name": "거창군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.769045, 35.679475] },
+      "properties": { "name": "함양군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.97356449956573, 35.302736100000004]
+      },
+      "properties": { "name": "산청군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.80039, 35.10505] },
+      "properties": { "name": "하동군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.01432, 34.8622799] },
+      "properties": { "name": "남해군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.322233, 34.9732784] },
+      "properties": { "name": "고성군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.4904535386045, 35.543772149999995]
+      },
+      "properties": { "name": "창녕군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.5105562, 35.3925952] },
+      "properties": { "name": "함안군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.2550544, 35.3178295] },
+      "properties": { "name": "의령군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.03738769454912, 35.347038850000004]
+      },
+      "properties": { "name": "양산시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.619388, 34.8842024] },
+      "properties": { "name": "거제시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.7466992, 35.503839] },
+      "properties": { "name": "밀양시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.8647411834511, 35.2563307]
+      },
+      "properties": { "name": "김해시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.08253718938366, 34.93557615]
+      },
+      "properties": { "name": "사천시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.433205, 34.854254] },
+      "properties": { "name": "통영시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.09202712388378, 35.18677415]
+      },
+      "properties": { "name": "진주시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.5797, 35.2212] },
+      "properties": { "name": "창원시 마산회원구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.6401, 35.2537] },
+      "properties": { "name": "창원시 의창구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.7103, 35.1319] },
+      "properties": { "name": "창원시 진해구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.5673576, 35.1969737] },
+      "properties": { "name": "창원시 마산합포구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.7027, 35.1983] },
+      "properties": { "name": "창원시 성산구" }
+    }
+  ]
+}

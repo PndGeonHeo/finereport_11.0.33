@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Rich Charts</title>
+  <meta name="keywords" content="Data Visualization">
+  <meta name="description" content="FineReport">
+  <link rel="icon" href="/webroot/help/picture/chart/logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/webroot/help/picture/chart/logo.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="/webroot/help/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/webroot/help/css/codemirror.css" />
+  <script src="/webroot/help/css/jquery.js"></script>
+  <script src="/webroot/help/css/sea.js"></script>
+  <script src="https://g.alicdn.com/bui/bui/1.1.17/config.js"></script>
+  <script src="/webroot/help/css/script.js"></script>
+  <script type="text/javascript" src="/webroot/ReportServer?op=emb&resource=finereport.js"></script>
+  
+</head>
+<body>
+  <!--script type="text/javascript">
+    var href = window.location.href;
+    if (href.indexOf('site.alipay.net') !== -1) {
+      window.location.href = 'https://g2.alipay.com';
+    }
+  </script-->
+ 
+<div class="banner">
+  <div class="banner-inner">
+    <h1>Charts</h1>
+    <p class="intro">Rich types of charts which can be embed in reports<p/>
+    <p class="intro">Powerful Customization Function</p>
+  </div>
+</div>
+
+  <div class="main-container clearfix">
+<div class="body-content demo-body">
+  <div class="doc-content demo-doc">
+    <div class="doc-inner">
+      <h2 id="组合图">Combination</h2>
+      <ul class="demo-detail-list clearfix" id="J_组合图">
+	  <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Combination/VerticalLineBubbleChart.cpt" target="_blank" title="Vertical Line Bubble Chart">
+            <img class="lazy" data-original="/webroot/help/picture/chart/VerticalLineBubbleChart.png" width="316px" height="167px" />
+            <div class="des">Vertical Line Bubble Chart</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Combination/ColumnAreaChart.cpt" target="_blank"><!-- 这个是数据查询 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/ColumnAreaChart.png" width="316px" height="167px" />
+            <div class="des">Column Area Chart</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Combination/ColumnBubbleChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/ColumnBubbleChart.png" width="316px" height="167px" />
+            <div class="des">Column Bubble Chart</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Combination/ColumnLineChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/ColumnLineChart.png" width="316px" height="167px" />
+            <div class="des">Column Line Chart</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Combination/StackColumnLineChart.cpt" target="_blank"><!-- 这个是数据查询 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/StackColumnLineChart.png" width="316px" height="167px" />
+            <div class="des">Stack Column Line Chart</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Combination/ColumnPieChart.cpt" target="_blank"><!-- 这个是数据查询 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/ColumnPieChart.png" width="316px" height="167px" />
+            <div class="des">Column Pie Chart</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Combination/NormalDistributionChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/NormalDistributionChart.png" width="316px" height="167px" />
+            <div class="des">Normal Distribution Chart</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="地图">Map</h2>
+      <ul class="demo-detail-list clearfix" id="J_地图">
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Map/map.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/map2.png" width="316px" height="167px" />
+            <div class="des">Regional Map-General Legend</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Map/MapScatter.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/MapScatter.png" width="316px" height="167px" />
+            <div class="des">Point Map-Scattered Map</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Map/WorldMap.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/worldmap.png" width="316px" height="167px" />
+            <div class="des">World Map</div>
+          </a>
+        </li>
+		
+		<!-- 以上地图用的china，和数据集里中文地名不匹配 -->
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Map/AutomaticDrillDown.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/AutomaticDrillDown.png" width="316px" height="167px" />
+            <div class="des">Automatic Drilling</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Map/Market.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/market.png" width="316px" height="167px" />
+            <div class="des">Custom Map</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Map/CombinatorialMap.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/CombinatorialMap.png" width="316px" height="167px" />
+            <div class="des">Combined Map</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Map/FlowMap.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/FlowMap.png" width="316px" height="167px" />
+            <div class="des">Basic Flow Map</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Map/FlowMapPicture.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/FlowMapPicture.png" width="316px" height="167px" />
+            <div class="des">Picture Flow Map</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Map/FlowMapNoline.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/FlowMapNoline.png" width="316px" height="167px" />
+            <div class="des">No-Line Flow Map</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Map/FlowMapBigData.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/FlowMapBigdata.png" width="316px" height="167px" />
+            <div class="des">Data Flow Map</div>
+          </a>
+        </li>
+      </ul>
+	  <h2 id="热力地图">Heat Map</h2>
+      <ul class="demo-detail-list clearfix" id="J_热力地图">
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/HeatMap/HeatMap.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/HeatMap.png" width="316px" height="167px" />
+            <div class="des">Heat Map</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/HeatMap/WebPageHeatMap.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/WebPageHeatMap.png" width="316px" height="167px" />
+            <div class="des">Homepage Thermodynamics</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="柱形图">Column Chart</h2>
+      <ul class="demo-detail-list clearfix" id="J_柱形图">
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/ColumnChart/CustomAxisLabel.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/CustomAxisLabel3.png" width="316px" height="167px" />
+            <div class="des">Custom Stacking</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/ColumnChart/AxisCustom.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/AxisCustom2.png" width="316px" height="167px" />
+            <div class="des">Complex Axes</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/ColumnChart/StackedPercent.cpt" target="_blank"><!-- 这个是数据查询 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/StackedPercent.png" width="316px" height="167px" />
+            <div class="des">Percentage Accumulation Column</div>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/ColumnChart/ChangeWaterfall.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/Change_waterfall.png" width="316px" height="167px" />
+            <div class="des">Changing Waterfall</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/ColumnChart/DemensionalChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/DemensionalChart.png" width="316px" height="167px" />
+            <div class="des">Multidimensional</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/ColumnChart/Trendline.cpt" target="_blank"><!-- 这个是数据查询 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/Trendline.png" width="316px" height="167px" />
+            <div class="des">Trend Chart</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/ColumnChart/ChartScalingWidget.cpt" target="_blank"><!-- 这个是数据查询 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/NewChartscaling2.png" width="316px" height="167px" />
+            <div class="des">Graphic Zoom</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/ColumnChart/ChartScalingGesture.cpt" target="_blank"><!-- 这个是数据查询 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/NewChartscaling.png" width="316px" height="167px" />
+            <div class="des">Gesture Zoom</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/ColumnChart/FlashingColumnChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/FlashingColumnChart.png" width="316px" height="167px" />
+            <div class="des">Flashing Column</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="条形图">Bar Chart</h2>
+      <ul class="demo-detail-list clearfix" id="J_条形图">
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/BarChart/BarChartFloatElement.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/detail.png" width="316px" height="167px" />
+            <div class="des">Bar Chart Application</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/BarChart/PercentStackedBar.cpt" target="_blank"><!-- 这个是数据查询 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/PercentStackedBar.png" width="316px" height="167px" />
+            <div class="des">Stacked Percentage Bar</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/BarChart/BarChartOfPicture.cpt" target="_blank"><!-- 这个不对 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/BarChartOfPicture.png" width="316px" height="167px" />
+            <div class="des">Picture Fill Bar</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/BarChart/StackedFloatingBar.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/StackedFloatingBar.png" width="316px" height="167px" />
+            <div class="des">Multidimensional Bar</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/BarChart/CustomAxisLabel.cpt" target="_blank"><!-- 这个是数据查询 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/CustomAxisLabel.png" width="316px" height="167px" />
+            <div class="des">Axis Label Customization</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/BarChart/CustomAxis.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/CustomAxisLabel2.png" width="316px" height="167px" />
+            <div class="des">Axis Value Customization</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/BarChart/ColumnRange.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/Columnrange.png" width="316px" height="167px" />
+            <div class="des">Column Range</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="折线图">Line Chart</h2>
+      <ul class="demo-detail-list clearfix" id="J_折线图">
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/LineChart/BigData.cpt" target="_blank"><!-- 这个是数据查询 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/BigData.png" width="316px" height="167px" />
+            <div class="des">Big Data</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/LineChart/LogarithmicAxis.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/Logarithmic_axis.png" width="316px" height="167px" />
+            <div class="des">Logarithmic Axis</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/LineChart/CurveLineChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/CurveLineChart.png" width="316px" height="167px" />
+            <div class="des">Curve Line</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/LineChart/VerticalLineChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/VerticalLineChart.png" width="316px" height="167px" />
+            <div class="des">Vertical Line</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/LineChart/StackedLineChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/StackedLineChart.png" width="316px" height="167px" />
+            <div class="des">Stack Line</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/LineChart/TimedRefresh.cpt&op=write" target="_blank"><!-- 这个是数据查询 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/TimedRefresh.png" width="316px" height="167px" />
+            <div class="des">Timed Refresh</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/LineChart/LineWithDifferentColors.cpt&op=write" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/LineWithDifferentColors.png" width="316px" height="167px" />
+            <div class="des">Line with Different Colors</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/LineChart/LinechartCustomMarkType.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/LinechartCustomMarkType.png" width="316px" height="167px" />
+            <div class="des">Linechart Custom Mark Type</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/LineChart/FlashingLineChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/FlashingLineChart.png" width="316px" height="167px" />
+            <div class="des">Flashing Line Chart</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="面积图">Area Chart</h2>
+      <ul class="demo-detail-list clearfix" id="J_面积图">
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/AreaChart/cutpoint.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/cutpoint.png" width="316px" height="167px" />
+            <div class="des">Tip Point Customization</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/AreaChart/Areachart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/Areachart.png" width="316px" height="167px" />
+            <div class="des">Area Chart</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/AreaChart/PercentStackedArea.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/PercentStackedArea.png" width="316px" height="167px" />
+            <div class="des">Percent Stacked Area</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/AreaChart/CurveAreachart.cpt" target="_blank"><!-- 这个是数据查询 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/CurveAreachart.png" width="316px" height="167px" />
+            <div class="des">Curve Area Chart</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/AreaChart/StepLineChart.cpt" target="_blank"><!-- 这个是数据查询 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/StepLineChart.png" width="316px" height="167px" />
+            <div class="des">Step Line Chart</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/AreaChart/RangeAreachart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/RangeAreachart.png" width="316px" height="167px" />
+            <div class="des">Range Area chart</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/AreaChart/ReverseValueAxis.cpt" target="_blank"><!-- 这个是数据查询 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/ReverseValueAxis.png" width="316px" height="167px" />
+            <div class="des">Reverse Value Axis</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/AreaChart/Custom1.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/Custom1.png" width="316px" height="167px" />
+            <div class="des">Area Map Legend Customization</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/AreaChart/TimeCoordinates.cpt" target="_blank"><!-- 这个是数据查询 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/TimeCoordinates.png" width="316px" height="167px" />
+            <div class="des">Time Coordinate</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="散点图">Scatter Plot</h2>
+      <ul class="demo-detail-list clearfix" id="J_散点图">
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Scatter/Scatter.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/Scatter.png" width="316px" height="167px" />
+            <div class="des">Standard Scatter Plot</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Scatter/ConnectingScatterPlots.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/ConnectingScatterPlots.png" width="316px" height="167px" />
+            <div class="des">Connecting Scatter Plots</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Scatter/GradientScatter.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/GradientScatter.png" width="316px" height="167px" />
+            <div class="des">Gradient Scatter Plot</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Scatter/LegendRangeScatter.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/LegendRangeScatter.png" width="316px" height="167px" />
+            <div class="des">Legend Range Scatter</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Scatter/ScatterTrend.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/ScatterTrend.png" width="316px" height="167px" />
+            <div class="des">Scatter Trend</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="气泡图">Bubble Chart</h2>
+      <ul class="demo-detail-list clearfix" id="J_气泡图">
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Bubble/Bubble.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/Bubble.png" width="316px" height="167px" />
+            <div class="des">Standard Bubble</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Bubble/LegendRangeBubble.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/LegendRangeBubble.png" width="316px" height="167px" />
+            <div class="des">Legend Range Bubble</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Bubble/ForceBubble.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/ForceBubble.png" width="316px" height="167px" />
+            <div class="des">Mechanical Bubble</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Bubble/GradientBubble2.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/GradientBubble2.png" width="316px" height="167px" />
+            <div class="des">Gradient Bubble</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="仪表盘">Gauge</h2>
+      <ul class="demo-detail-list clearfix" id="J_仪表盘">
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Gauge/MultiPanelmeter.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/MultiPanelmeter.png" width="316px" height="167px" />
+            <div class="des">Multi-pointer Gauge 360 degrees</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Gauge/MultiPanelmeter180degrees.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/MultiPanelmeter180degrees.png" width="316px" height="167px" />
+            <div class="des">Multi-pointer Gauge 180 degrees</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Gauge/PercentGauge.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/PercentGauge.png" width="316px" height="167px" />
+            <div class="des">Percentage Ring Gauge</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Gauge/PercentScaleGauge.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/PercentScaleGauge.png" width="316px" height="167px" />
+            <div class="des">Percentage Scale Groove Gauge</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Gauge/TubeGauge.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/TubeGauge.png" width="316px" height="167px" />
+            <div class="des">Tube Gauge</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Gauge/GaugeAutoRefresh.cpt" target="_blank"><!-- 这个是数据查询 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/GaugeAutoRefresh.png" width="316px" height="167px" />
+            <div class="des">Auto Refresh</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="雷达图">Radar Chart</h2>
+      <ul class="demo-detail-list clearfix" id="J_雷达图">
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/RadarChart/Radar.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/Radar.png" width="316px" height="167px" />
+            <div class="des">Radar</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/RadarChart/CustomRadar.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/CustomRadar.png" width="316px" height="167px" />
+            <div class="des">Custom Radar</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/RadarChart/CustomMarkRadar.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/CustomMarkRadar.png" width="316px" height="167px" />
+            <div class="des">Custom Mark Radar</div>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/RadarChart/StackedRadar.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/StackedRadar.png" width="316px" height="167px" />
+            <div class="des">Stacked Radar</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/RadarChart/NagativeRadar.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/NagativeRadar.png" width="316px" height="167px" />
+            <div class="des">Nagative Radar</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/RadarChart/FlashingRadarCircle.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/FlashingRadarCircle.png" width="316px" height="167px" />
+            <div class="des">Flashing Radar Circle</div>
+          </a>
+        </li>
+
+      </ul>
+      <h2 id="饼图">Pie Chart</h2>
+      <ul class="demo-detail-list clearfix" id="J_饼图">
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/PieChart/PieChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/PieChart.png" width="316px" height="167px" />
+            <div class="des">Pie Chart</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/PieChart/DonutChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/DonutChart.png" width="316px" height="167px" />
+            <div class="des">Donut Chart</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/PieChart/RosesChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/RosesChart.png" width="316px" height="167px" />
+            <div class="des">Roses Chart</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/PieChart/CutPointimage.cpt&op=write" target="_blank"><!-- 这个是数据查询 -->
+            <img class="lazy" data-original="/webroot/help/picture/chart/CutPointimage.png" width="316px" height="167px" />
+            <div class="des">Cut Point Image</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/PieChart/Tooltip.cpt&op=write" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/Tooltip.png" width="316px" height="167px" />
+            <div class="des">Tooltip</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/PieChart/MultiLayerPie.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/MultiLayerPie.png" width="316px" height="167px" />
+            <div class="des">Multilayer Pie Chart</div>
+          </a>
+        </li>
+      </ul>
+	  <h2 id="矩形树图">Rectangular Tree</h2>
+      <ul class="demo-detail-list clearfix" id="J_矩形树图">
+	  <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Treemap/treemap.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/treemap.png" width="316px" height="167px" />
+            <div class="des">Rectangular Tree Graph</div>
+          </a>
+        </li>
+	  </ul>
+	  <h2 id="箱型图">Boxplot</h2>
+      <ul class="demo-detail-list clearfix" id="J_箱型图">
+	  <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/Boxplot/Boxplot.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/Boxplot.png" width="316px" height="167px" />
+            <div class="des">Boxplot</div>
+          </a>
+        </li>
+	  </ul>
+     
+     <h2 id="漏斗图">Funnel Chart</h2>
+      <ul class="demo-detail-list clearfix" id="J_漏斗图">
+	  <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/FunnelChart/DiscontinuousFunnelChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/DiscontinuousFunnelChart.png" width="316px" height="167px" />
+            <div class="des">Funnel Chart</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/FunnelChart/MultiFunnelChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/MultiFunnelChart.png" width="316px" height="167px" />
+            <div class="des">Combination Funnel Chart</div>
+          </a>
+        </li>
+	  </ul>
+	  <h2 id="词云">Word Cloud</h2>
+      <ul class="demo-detail-list clearfix" id="J_词云">
+	  <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/WordCloud/WordCloud.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/WordCloud.png" width="316px" height="167px" />
+            <div class="des">Word Cloud</div>
+          </a>
+        </li>
+	  </ul>
+	  <h2 id="框架图">Structure</h2>
+      <ul class="demo-detail-list clearfix" id="J_框架图">
+	  <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/StructureChart/VerticalStructureChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/VerticalStructureChart.png" width="316px" height="167px" />
+            <div class="des">Vertical Structure</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/StructureChart/HorizontalStructureChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/HorizontalStructureChart.png" width="316px" height="167px" />
+            <div class="des">Horizontal Structure</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/StructureChart/DivergentStructureChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/DivergentStructureChart.png" width="316px" height="167px" />
+            <div class="des">Divergent Structure</div>
+          </a>
+        </li>
+	  </ul>
+	  <h2 id="甘特图">Gantt Chart</h2>
+      <ul class="demo-detail-list clearfix" id="J_甘特图">
+	  <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/GanttChart/NewGanttChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/NewGanttChart.png" width="316px" height="167px" />
+            <div class="des">Gantt Chart</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/GanttChart/GanttMilestone.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/GanttMilestone.png" width="316px" height="167px" />
+            <div class="des">Gantt Milestone</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/GanttChart/GanttMachineState.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/GanttMachineState.png" width="316px" height="167px" />
+            <div class="des">Gantt Machine State</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/GanttChart/GanttTaskAssociation.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/GanttTaskAssociation.png" width="316px" height="167px" />
+            <div class="des">Gantt Task Association</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/GanttChart/MultiProjectGanttChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/MultiProjectGanttChart.png" width="316px" height="167px" />
+            <div class="des">Multi Project Gantt Chart</div>
+          </a>
+        </li>
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/GanttChart/DarkGanttChart.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/DarkGanttChart.png" width="316px" height="167px" />
+            <div class="des">Dark Gantt Chart</div>
+          </a>
+        </li>
+	  </ul>
+      <h2 id="其他图表">Other Charts</h2>
+      <ul class="demo-detail-list clearfix" id="J_其他图表">
+		<li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/GraphSwitching2.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/GraphSwitching2.png" width="316px" height="167px" />
+            <div class="des">Rotation</div>
+          </a>
+        </li>
+        <li>
+          <a href="/webroot/decision/view/report?viewlet=/demo/Chart/heat.cpt" target="_blank">
+            <img class="lazy" data-original="/webroot/help/picture/chart/heat.png" width="316px" height="167px" />
+            <div class="des">Thermodynamic Chart</div>
+          </a>
+        </li>
+      </ul>  
+    </div>
+  </div>
+</div>
+<div class="nav-menu hide" id="J_navMenu"></div>
+<script type="text/javascript" src="/webroot/help/css/jquery.lazyload.js"></script>
+<script type="text/javascript">
+  $(function() {
+    $("img.lazy").lazyload();
+  });
+</script>
+
+<script type="text/javascript" src="/webroot/help/css/nav-menu.js"></script>
+
+  </div>
+  
+ <a href="javascript:void(0);" id='toTop' title="Back to Top">
+	<i class="iconfont icon-to-top"></i>
+</a>
+</body>
+</html>

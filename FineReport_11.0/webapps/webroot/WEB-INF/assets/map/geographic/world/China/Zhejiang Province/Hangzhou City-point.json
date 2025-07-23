@@ -1,0 +1,189 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyName2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.1817419561, 30.1844925088 ]
+			},
+			"properties" : {
+				"name" : "Binjiang District",
+				"adcode" : "330108",
+				"adcode_s" : "3301",
+				"adcode_si" : "33",
+				"dname" : "Hangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.8842002777, 29.6108247998 ]
+			},
+			"properties" : {
+				"name" : "Chunan County",
+				"adcode" : "330127",
+				"adcode_s" : "3301",
+				"adcode_si" : "33",
+				"dname" : "Hangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.834839426, 29.9976027994 ]
+			},
+			"properties" : {
+				"name" : "Fuyang District",
+				"adcode" : "330111",
+				"adcode_s" : "3301",
+				"adcode_si" : "33",
+				"dname" : "Hangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.1559522069, 30.3305547658 ]
+			},
+			"properties" : {
+				"name" : "Gongshu District",
+				"adcode" : "330105",
+				"adcode_s" : "3301",
+				"adcode_si" : "33",
+				"dname" : "Hangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.54719899, 29.5615691155 ]
+			},
+			"properties" : {
+				"name" : "Jiande City",
+				"adcode" : "330182",
+				"adcode_s" : "3301",
+				"adcode_si" : "33",
+				"dname" : "Hangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.3384750051, 30.204034421 ]
+			},
+			"properties" : {
+				"name" : "Linan District",
+				"adcode" : "330112",
+				"adcode_s" : "3301",
+				"adcode_si" : "33",
+				"dname" : "Hangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.22461046, 30.449354984 ]
+			},
+			"properties" : {
+				"name" : "Linping District",
+				"adcode" : "330113",
+				"adcode_s" : "3301",
+				"adcode_si" : "33",
+				"dname" : "Hangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.5213033239, 30.3146906587 ]
+			},
+			"properties" : {
+				"name" : "Qiantang District",
+				"adcode" : "330114",
+				"adcode_s" : "3301",
+				"adcode_si" : "33",
+				"dname" : "Hangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.2143490547, 30.2897249163 ]
+			},
+			"properties" : {
+				"name" : "Shangcheng District",
+				"adcode" : "330102",
+				"adcode_s" : "3301",
+				"adcode_si" : "33",
+				"dname" : "Hangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.5494150361, 29.8332127817 ]
+			},
+			"properties" : {
+				"name" : "Tonglu County",
+				"adcode" : "330122",
+				"adcode_s" : "3301",
+				"adcode_si" : "33",
+				"dname" : "Hangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.2112659747, 30.0422856503 ]
+			},
+			"properties" : {
+				"name" : "Xiaoshan District",
+				"adcode" : "330109",
+				"adcode_s" : "3301",
+				"adcode_si" : "33",
+				"dname" : "Hangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.9081497146, 30.3694206908 ]
+			},
+			"properties" : {
+				"name" : "Yuhang District",
+				"adcode" : "330110",
+				"adcode_s" : "3301",
+				"adcode_si" : "33",
+				"dname" : "Hangzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.0774418615, 30.2034976386 ]
+			},
+			"properties" : {
+				"name" : "Xihu District",
+				"adcode" : "330103",
+				"adcode_s" : "3301",
+				"adcode_si" : "33",
+				"dname" : "Hangzhou City"
+			}
+		}
+	]
+}
+

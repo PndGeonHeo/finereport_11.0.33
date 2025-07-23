@@ -1,0 +1,115 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.3522531, 34.8331095] },
+      "properties": { "name": "신안군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.2629264, 34.4867515] },
+      "properties": { "name": "진도군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.7553933, 34.3110373] },
+      "properties": { "name": "완도군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.7844061, 35.3017065] },
+      "properties": { "name": "장성군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.5124504, 35.2769282] },
+      "properties": { "name": "영광군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.5166414, 35.0656537] },
+      "properties": { "name": "함평군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.4812377, 34.9905794] },
+      "properties": { "name": "무안군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.6970381, 34.800052] },
+      "properties": { "name": "영암군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.52431, 34.55269] },
+      "properties": { "name": "해남군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.7669591, 34.641917] },
+      "properties": { "name": "강진군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.906996, 34.6811762] },
+      "properties": { "name": "장흥군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9864311, 35.0643095] },
+      "properties": { "name": "화순군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0798978, 34.7711356] },
+      "properties": { "name": "보성군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.276384, 34.6044123] },
+      "properties": { "name": "고흥군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.473277, 35.2203329] },
+      "properties": { "name": "구례군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.2914673, 35.2818969] },
+      "properties": { "name": "곡성군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9883238, 35.320878] },
+      "properties": { "name": "담양군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.6959512, 34.9406452] },
+      "properties": { "name": "광양시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.7108313, 35.0158859] },
+      "properties": { "name": "나주시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.4872992, 34.9505457] },
+      "properties": { "name": "순천시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.659859, 34.7546257] },
+      "properties": { "name": "여수시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.3847547, 34.7903335] },
+      "properties": { "name": "목포시" }
+    }
+  ]
+}

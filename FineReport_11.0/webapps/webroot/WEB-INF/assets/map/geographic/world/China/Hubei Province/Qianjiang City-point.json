@@ -1,0 +1,21 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "Name2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 112.7567060466, 30.3400500041 ]
+			},
+			"properties" : {
+				"name" : "Qianjiang City",
+				"adcode" : "429005",
+				"adcode_s" : "4290",
+				"adcode_si" : "42",
+				"dname" : " Qianjiang City "
+			}
+		}
+	]
+}
+

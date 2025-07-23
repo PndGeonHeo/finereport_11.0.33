@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.6191, 38.0751] },
+      "properties": { "name": "양양군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.4678, 38.3808] },
+      "properties": { "name": "고성군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.1706, 38.0694] },
+      "properties": { "name": "인제군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.9900596, 38.1096812] },
+      "properties": { "name": "양구군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.708, 38.1063] },
+      "properties": { "name": "화천군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.3133, 38.1468] },
+      "properties": { "name": "철원군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.6608785, 37.3806081] },
+      "properties": { "name": "정선군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.3903, 37.3705] },
+      "properties": { "name": "평창군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.4619814, 37.1834983] },
+      "properties": { "name": "영월군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.985, 37.4916] },
+      "properties": { "name": "횡성군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.8888, 37.6967] },
+      "properties": { "name": "홍천군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.1652969, 37.4498745] },
+      "properties": { "name": "삼척시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.5913424, 38.2069574] },
+      "properties": { "name": "속초시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.9857176, 37.1637943] },
+      "properties": { "name": "태백시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.1146302, 37.5245142] },
+      "properties": { "name": "동해시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.8759523, 37.7525313] },
+      "properties": { "name": "강릉시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.9197603, 37.3420996] },
+      "properties": { "name": "원주시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.7297641, 37.8810569] },
+      "properties": { "name": "춘천시" }
+    }
+  ]
+}

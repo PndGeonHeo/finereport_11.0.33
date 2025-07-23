@@ -1,0 +1,20 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "Name2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 113.1142140995, 30.6453913513 ]
+			},
+			"properties" : {
+				"name" : "Tianmen City",
+				"adcode" : "429006",
+				"adcode_s" : "4290",
+				"adcode_si" : "42",
+				"dname" : "Tianmen City"
+			}
+		}
+	]
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugin>
+    <id>com.finebi.plugin.theme.kr.v11</id>
+    <name><![CDATA[kr theme]]></name>
+    <active>yes</active>
+    <hidden>yes</hidden>
+    <version>1.3.1</version>
+    <env-version>11.0~11.0</env-version>
+    <jartime>2021-12-01</jartime>
+    <vendor>FRInternational</vendor>
+    <description><![CDATA[]]></description>
+    <change-notes><![CDATA[
+
+    ]]></change-notes>
+    <function-recorder class="com.finebi.plugin.web.load.kr.PreLoadReqHandlerImpl"/>
+    <extra-core>
+        <LocaleFinder class="com.finebi.plugin.web.load.kr.LocaleFinder"/>
+        <StableKeyArgsProvider class="com.finebi.plugin.web.load.kr.reg.KrThemeRPCKeyProviderImpl"/>
+    </extra-core>
+    <extra-decision>
+        <RequestPreHandleProvider class="com.finebi.plugin.web.load.kr.PreLoadReqHandlerImpl"/>
+        <WebResourceProvider class="com.finebi.plugin.web.load.kr.web.KrRemindWebImpl"/>
+        <WebResourceProvider class="com.finebi.plugin.web.load.kr.web.KrExpiredWebImpl"/>
+        <WebResourceProvider class="com.finebi.plugin.web.load.kr.web.KrReportRemindWebImpl"/>
+        <WebResourceProvider class="com.finebi.plugin.web.load.kr.web.KrBiExpiredWebImpl"/>
+    </extra-decision>
+    <lifecycle-monitor class="com.finebi.plugin.web.load.kr.LifecycleMonitor"/>
+    <main-package>com.finebi</main-package>
+
+</plugin>

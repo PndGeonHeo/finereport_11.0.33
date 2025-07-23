@@ -1,0 +1,608 @@
+<?xml version="1.0" ?><WorkBook releaseVersion="10.0.0" xmlVersion="20170720">
+<TableDataMap>
+<TableData class="com.fr.data.impl.EmbeddedTableData" name="ds_1">
+<Parameters/>
+<DSName>
+</DSName>
+<ColumnNames>
+<![CDATA[ID,,.,,All,,.,,Type,,.,,Concretion,,.,,Amount]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String">
+<![CDATA[SXJ;/,!ccoYM5u5!VSi!2;(W-pC:7L-=416.heBi1BSuqp<*Ndo63rP_4?G?!U?G[)iDh^b:
+BpoX=#ZM\]ATh,I+1A-o-/Z;Ec^EDCcPYJe]A+f;ghlu.V4.,GgJ<:11=Z0Im&fjS`qui@MkO;
+H3VcmDPOSTDb`a]A\,'RJ$J'J^ZMer3g#X*Y6Eg*VRr*rOk'8NL2I@/ge03<&B]A9c<pC&*<=A
+Sc%?a-,ktd=FG%MuHOiqq/6uhs7O+F-Xc!LK)XA;MUOei($Q]Al*-p@1=Ijfc'-o-JHVI<YZ?
+F#"S<'__Kl;<J-?q?EW*SnVImPJf#$o1L33KJ8HTr0eS$YLXW>-7EV7p"Xe4PB4NfrgVhbO!
+GD%.DjPZ9BP9u-Ni>b"4m=)kMABQ0Akl;;Te3=pCP.IkW5unR8cVP,fVTA2u4Vr%KIgGGZ.F
+9pd-6=A44%Y)2p(62fLRTnT23/p(STLBBN-,9!M26mdbmNR;KSE2\\2Flc40)7hJMH9ed_nG
+hC)p\'4)!9OKAOeb0i(4D[6+p9l56`sRM]A^?rA<F8G0mJ1R4pK+(OW'j=H`%GHq6\V((emc7
+kuu'"=!IZR3"Pj'pX$%:^WR5-o05F.ME6Z>c/@Qj"@n0;V''t:cY44."nXV/1J>B[In#NZp9
+D3VW?A]AAYORnTTbPTV#2I;XWHK3p`h9^rO)H$m-YOtF:@,P*jVU6L=Ok8H1X\698iK#ll<.:
+5,9NtE7b2GM1c.M/W]Au#JI%/LDU%P(mp(.K%iC$Q&=R9GBrqW+@/\ICj>=*9-.#qc<LY1?.p
+BT(8!t8tii/.oD6i%_49bW'T"#?<k:OX=Gmc?Rr^+i#[h,m'L"OK(54d^@V>%Nn9u)LU=qa$
+He>$#eKERCbUWHQ\[d/HD(:#Sr#,+<F:md&pYgrm_?k!\`4(<DhHg/^iK#8?X9IrS6COlVmK
+a<n2EXd50?@<Q9/b]A=?YQYFK$PCrn+9?:%_X(kqD,Y,og(`8I2MLkk9qa^q;^eR-*$%f7`@<
+BH"*G:c+E5;6jJYSHG64`PYgT;_4SA!ph=0+/&2"k2@24kM+rXM4,*^+T)Km[iB,@&+ft*KM
+7gQ\8#to"tOP7hhNU&ciA1_KTk%q<)>iK&0&:W4S9.Fj^IIlJ%Y.nD!,?28dZ_oIpm-+m4He
+q*5T"YcB-S32P>TCGgr*Ag0R,LY*Jru02<LI5S0[QQT#<<a47aGt_nj0FM:nTHi9^7\Cec6"
+a#8%_8INR-2pVlhN\4Y>f0^OA;6ps\GIp,KVY`+kp.oI=q8PcD(^WA)^`$PQ6`'hLX3s,$+6
+,O%Ra'k8*ilfd59.rr2*:=)e'+l6iGE7P'/>Ro^P@Ca;_*V\2DaS%?.Y_c>-Y0rp@*"Anrs&
+~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[342900,1490133,381000,762000,762000,762000,762000,762000,1066800,723900,723900,711200,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[0,6863644,7947377,8788400,3810000,3810000,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" cs="6" r="1" s="0">
+<O>
+<![CDATA[Attendance Record Analysis]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" cs="6" r="2">
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="3" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="3" rs="2" s="2">
+<O>
+<![CDATA[Company]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="2" r="3" rs="2" s="2">
+<O>
+<![CDATA[Department]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="3" r="3" rs="2" s="2">
+<O>
+<![CDATA[Employer]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" cs="2" r="3" s="2">
+<O t="DSColumn">
+<Attributes columnName="Type" dsName="ds_1"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="1"/>
+</C>
+<C c="0" r="4" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="4" s="3">
+<O t="DSColumn">
+<Attributes columnName="Concretion" dsName="ds_1"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand dir="1"/>
+</C>
+<C c="5" r="4" s="3">
+<O>
+<![CDATA[Total]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="5" s="4">
+<O t="DSColumn">
+<Attributes columnName="ID" dsName="ds_1"/>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(ID) = 4]]></Formula>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand dir="0"/>
+</C>
+<C c="1" r="5" s="5">
+<O t="DSColumn">
+<Attributes columnName="All" dsName="ds_1"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr showAsImage="true"/>
+<CellPageAttr/>
+<Widget class="com.fr.report.web.button.form.TreeNodeToggleButton">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="2" r="5" s="6">
+<O>
+<![CDATA[Departments of Branch Office]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="3" r="5" s="6">
+<O>
+<![CDATA[Employers of Branch]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="5" s="6">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=sum(E7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="5" r="5" s="7">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=sum(F7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="6" s="8">
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="1" r="6" s="6">
+<O t="DSColumn">
+<Attributes columnName="ID" dsName="ds_1"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[1]]></CNUMBER>
+<CNAME>
+<![CDATA[ID]]></CNAME>
+<Compare op="6">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=A6]]></Attributes>
+</O>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(ID) = 8]]></Formula>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr previewContent="false" showAsDefault="true"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand dir="0" left="B6" leftParentDefault="false"/>
+</C>
+<C c="2" r="6" s="9">
+<O t="DSColumn">
+<Attributes columnName="All" dsName="ds_1"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Widget class="com.fr.report.web.button.form.TreeNodeToggleButton">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="3" r="6" s="9">
+<O>
+<![CDATA[Emplyers fo departments]]></O>
+<PrivilegeControl/>
+<Expand upParentDefault="false"/>
+</C>
+<C c="4" r="6" s="9">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=sum(E8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="5" r="6" s="10">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=sum(F8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="7" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="7" s="6">
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="2" r="7" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="7" s="6">
+<O t="DSColumn">
+<Attributes columnName="All" dsName="ds_1"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[1]]></CNUMBER>
+<CNAME>
+<![CDATA[ID]]></CNAME>
+<Compare op="6">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=B7]]></Attributes>
+</O>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(ID) = 12]]></Formula>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand dir="0" left="C7" leftParentDefault="false"/>
+</C>
+<C c="4" r="7" s="6">
+<O t="DSColumn">
+<Attributes columnName="Amount" dsName="ds_1"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="5" r="7" s="7">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=sum(E8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="8" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="8" s="1">
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="2" r="8" s="1">
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="3" r="8" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="8" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="8" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" cs="5" r="9" s="11">
+<O>
+<![CDATA[Instructions:]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand leftParentDefault="false" upParentDefault="false"/>
+</C>
+<C c="0" r="10">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" cs="5" r="10" s="12">
+<O>
+<![CDATA[Tree node button will only take effect when in Data Analysis mode (op=view).]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" cs="5" r="11" s="13">
+<O>
+<![CDATA[By clicking the parent cell, you can drop down or fold the subitems affiliated to it.]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand leftParentDefault="false" upParentDefault="false"/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings footerHeight="0" headerHeight="0">
+<PaperSetting>
+<PaperSize height="60482073" width="42768316"/>
+<Margin bottom="987552" left="727200" right="727200" top="987552"/>
+</PaperSetting>
+<Background color="-1" name="ColorBackground"/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<ReportWriteAttr/>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes align="1" delayPlaying="true" showWindow="false" useParamsTemplate="false" windowPosition="0"/>
+<PWTitle>
+<![CDATA[²ÎÊý]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont foreground="-1" name="Arial" size="134" style="0"/>
+<Background color="-10066279" name="ColorBackground"/>
+<Border>
+<Bottom color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Arial" size="62" style="0"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Arial" size="86" style="0"/>
+<Background color="-1" name="ColorBackground"/>
+<Border>
+<Top color="-4144960" style="14"/>
+<Bottom color="-4144960" style="14"/>
+<Left color="-4144960" style="14"/>
+<Right color="-4144960" style="14"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Arial" size="70" style="0"/>
+<Background color="-1" name="ColorBackground"/>
+<Border>
+<Top color="-4144960" style="14"/>
+<Bottom color="-4144960" style="14"/>
+<Left color="-4144960" style="14"/>
+<Right color="-4144960" style="14"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Arial" size="62" style="0"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1" textStyle="2">
+<FRFont foreground="-10066330" name="Arial" size="78" style="0"/>
+<Background color="-1" name="ColorBackground"/>
+<Border>
+<Top color="-4144960" style="14"/>
+<Bottom color="-4144960" style="14"/>
+<Left color="-4144960" style="14"/>
+<Right color="-4144960" style="14"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont foreground="-10066330" name="Arial" size="78" style="0"/>
+<Background color="-1" name="ColorBackground"/>
+<Border>
+<Top color="-4144960" style="14"/>
+<Bottom color="-4144960" style="14"/>
+<Left color="-4144960" style="14"/>
+<Right color="-4144960" style="14"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont foreground="-10066330" name="Arial" size="78" style="0"/>
+<Background color="-4144960" name="ColorBackground"/>
+<Border>
+<Top color="-4144960" style="14"/>
+<Bottom color="-4144960" style="14"/>
+<Left color="-4144960" style="14"/>
+<Right color="-4144960" style="14"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Arial" size="62" style="0"/>
+<Background name="NullBackground"/>
+<Border>
+<Right color="-6894375" style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1" textStyle="1">
+<FRFont foreground="-10066330" name="Arial" size="78" style="0"/>
+<Background color="-1" name="ColorBackground"/>
+<Border>
+<Top color="-4144960" style="14"/>
+<Bottom color="-4144960" style="14"/>
+<Left color="-4144960" style="14"/>
+<Right color="-4144960" style="14"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1" textStyle="1">
+<FRFont foreground="-10066330" name="Arial" size="78" style="0"/>
+<Background color="-4144960" name="ColorBackground"/>
+<Border>
+<Top color="-4144960" style="14"/>
+<Bottom color="-4144960" style="14"/>
+<Left color="-4144960" style="14"/>
+<Right color="-4144960" style="14"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Arial" size="78" style="0"/>
+<Background color="-328966" name="ColorBackground"/>
+<Border>
+<Top color="-4144960" style="3"/>
+<Left color="-4144960" style="3"/>
+<Right color="-4144960" style="3"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Arial" size="78" style="0"/>
+<Background color="-328966" name="ColorBackground"/>
+<Border>
+<Left color="-4144960" style="3"/>
+<Right color="-4144960" style="3"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Arial" size="78" style="0"/>
+<Background color="-328966" name="ColorBackground"/>
+<Border>
+<Bottom color="-4144960" style="3"/>
+<Left color="-4144960" style="3"/>
+<Right color="-4144960" style="3"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="KAA"/>
+<PreviewType PreviewType="2"/>
+<TemplateIdAttMark class="com.fr.base.iofile.attr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="d92d9e2d-7ecf-4f06-907d-e7fa21e2bc1d"/>
+</TemplateIdAttMark>
+</WorkBook>

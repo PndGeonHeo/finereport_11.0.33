@@ -1,0 +1,105 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyName2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.0926513906, 30.2559918699 ]
+			},
+			"properties" : {
+				"name" : "Huangshan District",
+				"adcode" : "341003",
+				"adcode_s" : "3410",
+				"adcode_si" : "34",
+				"dname" : "Huangshan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.2539641375, 29.9307039432 ]
+			},
+			"properties" : {
+				"name" : "Huizhou District",
+				"adcode" : "341004",
+				"adcode_s" : "3410",
+				"adcode_si" : "34",
+				"dname" : "Huangshan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.5892190304, 29.8700240255 ]
+			},
+			"properties" : {
+				"name" : "Qimen County",
+				"adcode" : "341024",
+				"adcode_s" : "3410",
+				"adcode_si" : "34",
+				"dname" : "Huangshan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.58079195, 29.8063167657 ]
+			},
+			"properties" : {
+				"name" : "Xi County",
+				"adcode" : "341021",
+				"adcode_s" : "3410",
+				"adcode_si" : "34",
+				"dname" : "Huangshan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.2895529457, 29.7415958784 ]
+			},
+			"properties" : {
+				"name" : "Tunxi District",
+				"adcode" : "341002",
+				"adcode_s" : "3410",
+				"adcode_si" : "34",
+				"dname" : "Huangshan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.0787594306, 29.6639037086 ]
+			},
+			"properties" : {
+				"name" : "Xiuning County",
+				"adcode" : "341022",
+				"adcode_s" : "3410",
+				"adcode_si" : "34",
+				"dname" : "Huangshan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.8994075381, 30.0116094378 ]
+			},
+			"properties" : {
+				"name" : "Yi County",
+				"adcode" : "341023",
+				"adcode_s" : "3410",
+				"adcode_si" : "34",
+				"dname" : "Huangshan City"
+			}
+		}
+	]
+}
+

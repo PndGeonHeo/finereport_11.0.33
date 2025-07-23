@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.4157, 36.3468] },
+      "properties": { "name": "대덕구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.3563, 36.3622] },
+      "properties": { "name": "유성구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.3544493, 36.2973919] },
+      "properties": { "name": "서구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.4148, 36.29812] },
+      "properties": { "name": "중구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.4551, 36.3122] },
+      "properties": { "name": "동구" }
+    }
+  ]
+}

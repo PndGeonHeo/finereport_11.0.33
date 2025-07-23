@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugin>
+    <id>com.fr.plugin.decision.mapbox.tool</id>
+    <name><![CDATA[Mapbox]]></name>
+    <active>yes</active>
+    <hidden>no</hidden>
+    <version>1.0.1</version>
+    <env-version>10.0~</env-version>
+    <jartime>2020-06-01</jartime>
+    <vendor>finereport</vendor>
+    <description><![CDATA[Mapbox]]></description>
+    <change-notes><![CDATA[
+    [2024-05-16]1.0.1:
+            修复俄文国际化适配问题<br/>
+    [2023-05-21]1.0:
+            v1.0：初始版本<br/>
+    ]]></change-notes>
+    <function-recorder class="com.fr.plugin.mapbox.resources.MapboxControllerBridge"/>
+    <extra-decision>
+        <WebResourceProvider class="com.fr.plugin.mapbox.web.WebResourceFile"/>
+        <ControllerRegisterProvider class="com.fr.plugin.mapbox.resources.MapboxControllerBridge"/>
+    </extra-decision>
+</plugin>

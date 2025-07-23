@@ -1,0 +1,83 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.7330195, 35.7316783] },
+      "properties": { "name": "부안군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.7021, 35.4355] },
+      "properties": { "name": "고창군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.1374, 35.3741] },
+      "properties": { "name": "순창군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.2893, 35.6174] },
+      "properties": { "name": "임실군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.5212, 35.647] },
+      "properties": { "name": "장수군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.6609, 36.007] },
+      "properties": { "name": "무주군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.4252, 35.7915] },
+      "properties": { "name": "진안군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.1622, 35.9039] },
+      "properties": { "name": "완주군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.880557, 35.803815] },
+      "properties": { "name": "김제시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.3903713, 35.4163118] },
+      "properties": { "name": "남원시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.8559787, 35.5697678] },
+      "properties": { "name": "정읍시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9578025, 35.9479291] },
+      "properties": { "name": "익산시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.72018734150654, 35.9646917]
+      },
+      "properties": { "name": "군산시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.1197, 35.8122] },
+      "properties": { "name": "전주시 완산구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.1342, 35.8294] },
+      "properties": { "name": "전주시 덕진구" }
+    }
+  ]
+}

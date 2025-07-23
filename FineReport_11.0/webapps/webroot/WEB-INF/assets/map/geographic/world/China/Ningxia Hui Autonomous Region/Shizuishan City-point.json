@@ -1,0 +1,49 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyN2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 106.3350065882, 39.0807187417 ]
+			},
+			"properties" : {
+				"name" : "Dawukou District",
+				"adcode" : "640202",
+				"adcode_s" : "6402",
+				"adcode_si" : "64",
+				"dname" : "Shizuishan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 106.649247581, 39.2208605071 ]
+			},
+			"properties" : {
+				"name" : "Huinong District",
+				"adcode" : "640205",
+				"adcode_s" : "6402",
+				"adcode_si" : "64",
+				"dname" : "Shizuishan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 106.5422002413, 38.8878826337 ]
+			},
+			"properties" : {
+				"name" : "Pingluo County",
+				"adcode" : "640221",
+				"adcode_s" : "6402",
+				"adcode_si" : "64",
+				"dname" : "Shizuishan City"
+			}
+		}
+	]
+}
+

@@ -1,0 +1,218 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0457771, 37.7849312] },
+      "properties": { "name": "양주시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.4875, 37.4916] },
+      "properties": { "name": "양평군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.4442373, 37.8736578] },
+      "properties": { "name": "가평군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0746, 38.0964] },
+      "properties": { "name": "연천군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.637033, 37.2982901] },
+      "properties": { "name": "여주시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.2007295, 37.8948267] },
+      "properties": { "name": "포천시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.255189, 37.4290844] },
+      "properties": { "name": "광주시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.8312632, 37.1994653] },
+      "properties": { "name": "화성시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.7157891, 37.615461] },
+      "properties": { "name": "김포시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.279971, 37.007773] },
+      "properties": { "name": "안성시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.4429132, 37.2808823] },
+      "properties": { "name": "이천시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.7801502, 37.7598955] },
+      "properties": { "name": "파주시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0972114, 37.3222928] },
+      "properties": { "name": "수지구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.1148, 37.2801] },
+      "properties": { "name": "기흥구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.2017, 37.2345] },
+      "properties": { "name": "처인구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.214948, 37.5392918] },
+      "properties": { "name": "하남시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9689861, 37.3449082] },
+      "properties": { "name": "의왕시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9349025, 37.3615229] },
+      "properties": { "name": "군포시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.8032255, 37.3798891] },
+      "properties": { "name": "시흥시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0774625, 37.1499376] },
+      "properties": { "name": "오산시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.2165051, 37.6359398] },
+      "properties": { "name": "남양주시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.1297917, 37.5941315] },
+      "properties": { "name": "구리시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9881655, 37.4289037] },
+      "properties": { "name": "과천시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.8322, 37.6369] },
+      "properties": { "name": "덕양구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.775, 37.6588] },
+      "properties": { "name": "일산동구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.7453605, 37.6779933] },
+      "properties": { "name": "일산서구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.8122, 37.319] },
+      "properties": { "name": "안산시 단원구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.8465, 37.3007] },
+      "properties": { "name": "안산시 상록구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0605175, 37.9030856] },
+      "properties": { "name": "동두천시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.1127168, 36.9924966] },
+      "properties": { "name": "평택시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.8631275, 37.4810539] },
+      "properties": { "name": "광명시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.7660139, 37.5014422] },
+      "properties": { "name": "부천시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9513089, 37.3923137] },
+      "properties": { "name": "안양시 동안구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9324, 37.3863] },
+      "properties": { "name": "안양시 만안구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.033929, 37.7381078] },
+      "properties": { "name": "의정부시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.1188, 37.3825999] },
+      "properties": { "name": "성남시 분당구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.137, 37.4307] },
+      "properties": { "name": "성남시 중원구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.1462933, 37.4503386] },
+      "properties": { "name": "성남시 수정구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.01614184294945, 37.274994050000004]
+      },
+      "properties": { "name": "수원시 팔달구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0105254, 37.3037639] },
+      "properties": { "name": "수원시 장안구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0466, 37.2593] },
+      "properties": { "name": "수원시 영통구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9719715, 37.2567361] },
+      "properties": { "name": "수원시 권선구" }
+    }
+  ]
+}

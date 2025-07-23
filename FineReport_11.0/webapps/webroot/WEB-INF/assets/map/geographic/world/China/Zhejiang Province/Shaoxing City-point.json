@@ -1,0 +1,91 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyName2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.632544585, 29.8495906415 ]
+			},
+			"properties" : {
+				"name" : "Keqiao District",
+				"adcode" : "330603",
+				"adcode_s" : "3306",
+				"adcode_si" : "33",
+				"dname" : "Shaoxing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.879232045, 29.976192638 ]
+			},
+			"properties" : {
+				"name" : "Shangyu District",
+				"adcode" : "330604",
+				"adcode_s" : "3306",
+				"adcode_si" : "33",
+				"dname" : "Shaoxing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.7507100341, 29.5879562887 ]
+			},
+			"properties" : {
+				"name" : "Shengzhou City",
+				"adcode" : "330683",
+				"adcode_s" : "3306",
+				"adcode_si" : "33",
+				"dname" : "Shaoxing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.9650718514, 29.4108080411 ]
+			},
+			"properties" : {
+				"name" : "Xinchang County",
+				"adcode" : "330624",
+				"adcode_s" : "3306",
+				"adcode_si" : "33",
+				"dname" : "Shaoxing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.63559653, 30.0446651244 ]
+			},
+			"properties" : {
+				"name" : "Yuecheng District",
+				"adcode" : "330602",
+				"adcode_s" : "3306",
+				"adcode_si" : "33",
+				"dname" : "Shaoxing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.2708265131, 29.6958931301 ]
+			},
+			"properties" : {
+				"name" : "Zhuji City",
+				"adcode" : "330681",
+				"adcode_s" : "3306",
+				"adcode_si" : "33",
+				"dname" : "Shaoxing City"
+			}
+		}
+	]
+}
+

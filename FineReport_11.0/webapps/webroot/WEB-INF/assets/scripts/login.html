@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/lib/bootstrap.min.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
+</head>
+<body>
+<div class="login-content">
+    <div class="transition"></div>
+    <div class="default-login">
+        <div class="login-close"></div>
+        <div class="login-title" id="login_title">FineReport Passport Login</div>
+        <input class="user-info" type="text" placeholder="Username/Email" autofocus="autofocus" id="username"/>
+        <input id="password" class="password" type="password" placeholder="Password"/>
+        <label class="error-msg"></label>
+        <input class="login-btn" type='button' value="Login"/>
+        <ul>
+            <li><span id="no_account_tip">No account ? | </span><a id="register" class="register">Sign Up Now</a></li>
+            <li><a id="forget" class="forget">Forgot Password</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="js/lib/jquery-2.2.2.min.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        assemb.build();
+    });
+</script>
+</html>

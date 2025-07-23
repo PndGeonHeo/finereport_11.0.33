@@ -1,0 +1,133 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyName2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.1810663878, 28.6630344906 ]
+			},
+			"properties" : {
+				"name" : "Jinyun County",
+				"adcode" : "331122",
+				"adcode_s" : "3311",
+				"adcode_si" : "33",
+				"dname" : "Lishui City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.6079127759, 27.8931490332 ]
+			},
+			"properties" : {
+				"name" : " Jingning She Autonomous County ",
+				"adcode" : "331127",
+				"adcode_s" : "3311",
+				"adcode_si" : "33",
+				"dname" : "Lishui City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.838658322, 28.4442564876 ]
+			},
+			"properties" : {
+				"name" : "Liandu District",
+				"adcode" : "331102",
+				"adcode_s" : "3311",
+				"adcode_si" : "33",
+				"dname" : "Lishui City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.0706586036, 28.0473903121 ]
+			},
+			"properties" : {
+				"name" : "Longquan City",
+				"adcode" : "331181",
+				"adcode_s" : "3311",
+				"adcode_si" : "33",
+				"dname" : "Lishui City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.1357635118, 28.205165975 ]
+			},
+			"properties" : {
+				"name" : "Qingtian County",
+				"adcode" : "331121",
+				"adcode_s" : "3311",
+				"adcode_si" : "33",
+				"dname" : "Lishui City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.16391248, 27.5820586145 ]
+			},
+			"properties" : {
+				"name" : "Qingyuan County",
+				"adcode" : "331126",
+				"adcode_s" : "3311",
+				"adcode_si" : "33",
+				"dname" : "Lishui City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.4296663662, 28.4089612787 ]
+			},
+			"properties" : {
+				"name" : "Songyang County",
+				"adcode" : "331124",
+				"adcode_s" : "3311",
+				"adcode_si" : "33",
+				"dname" : "Lishui City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.0777359411, 28.5224889358 ]
+			},
+			"properties" : {
+				"name" : "遂昌County",
+				"adcode" : "331123",
+				"adcode_s" : "3311",
+				"adcode_si" : "33",
+				"dname" : "Lishui City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.529981367, 28.1287519612 ]
+			},
+			"properties" : {
+				"name" : "Yunhe County",
+				"adcode" : "331125",
+				"adcode_s" : "3311",
+				"adcode_si" : "33",
+				"dname" : "Lishui City"
+			}
+		}
+	]
+}
+

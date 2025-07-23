@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="10.0.0">
+<TableDataMap>
+<TableData name="Embedded1" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[Message]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String">
+<![CDATA[NDe#=gFs&Mmj\#5l]AM>*4`PNscliQj+D40<D5+>s8TZlbkt=%FQ2s)6@Mn+&muKL7&(2%PDR
+SGrIY53R,,N5o-hn::5j]ALLOr$Rmq_>A-W?)C,a";R(Y`J#8Qh*@;Fa2Y,eZhV(-o;Er'4q$
+r08p\?Ur<-K:;Mpa;XbUBPqBtldVr1,i)'5p4X+M^2#1UTG\%m)bIt97B(]AdN"AF>b>&X]A[>
+\Mf(L7L:ts.s3]Ac'?b6N^%LVM1+m\N05m1G-c`-[l9u:^'3)[m%R#r1;V_[2(i[,Hs`[8Tf0
+h<Me?#^I/Lm#69h-8^i>OSNS^_J>_=&VXQ?Oc(;@u!GftGlScm>,mr#^Dg=$-!pPrSd/Sk!j
+D9f15%,'L91KA?]A-bA]AoEK1k6gn!0sR@BEIdZfE20GK3[>tQ.SU4VgCmCipq%]AG1!e93?JI[
+VGRMI3fU:$PsHG_"8qpFP$ZeQD%ihlNFT2$m92K\`c=.enbXSF8F0&k1uBYI?F)Q.J#Dr<*
+~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<ReportFitAttr fitStateInPC="3" fitFont="false"/>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1371600,0,997527,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[0,876300,12103330,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="0" cs="2" s="0">
+<O>
+<![CDATA[Honor information of the enterprise]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="1" r="1" s="1">
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="2" r="1" s="2">
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="2" s="3">
+<O t="DSColumn">
+<Attributes dsName="Embedded1" columnName="Message"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="1" r="2" cs="2" s="4">
+<O t="XMLable" class="com.fr.base.Formula">
+<Attributes>
+<![CDATA[="<marquee id='affiche' align='left' behavior='scroll' bgcolor='#ffffff' direction='left' height='250' width='400' hspace='0' vspace='2' loop='-1' scrollamount='"+(rand() * (11 - 1) + 1)+"' scrolldelay='100' onMouseOut='this.start()' onMouseOver='this.stop()'>" + REPLACE(A3, ",", "<br />") + "</marquee>"]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0" showAsHTML="true"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+<Background name="ColorBackground" color="-1"/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="true" currentIndex="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style imageLayout="1">
+<FRFont name="Arial" style="0" size="112" foreground="-1"/>
+<Background name="ColorBackground" color="-15634249"/>
+<Border>
+<Top style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Arial" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Left style="1"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Arial" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Right style="1"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Arial" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" textStyle="1" imageLayout="1">
+<FRFont name="Arial" style="0" size="80"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1" color="-16777216"/>
+<Left style="1" color="-16777216"/>
+<Right style="1" color="-16777216"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="KAA"/>
+<PreviewType PreviewType="0"/>
+<TemplateIdAttMark class="com.fr.base.iofile.attr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="5ba075d7-7aa5-400d-a9f4-96b890377680"/>
+</TemplateIdAttMark>
+</WorkBook>

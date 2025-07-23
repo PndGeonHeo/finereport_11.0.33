@@ -1,0 +1,77 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyName2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 106.461196965, 37.4948495297 ]
+			},
+			"properties" : {
+				"name" : "Hongsibao District",
+				"adcode" : "640303",
+				"adcode_s" : "6403",
+				"adcode_si" : "64",
+				"dname" : "Wuzhong City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 106.29458406, 37.7170972643 ]
+			},
+			"properties" : {
+				"name" : "Litong District",
+				"adcode" : "640302",
+				"adcode_s" : "6403",
+				"adcode_si" : "64",
+				"dname" : "Wuzhong City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 105.9519273628, 37.9333876435 ]
+			},
+			"properties" : {
+				"name" : "Qingtongxia City",
+				"adcode" : "640381",
+				"adcode_s" : "6403",
+				"adcode_si" : "64",
+				"dname" : "Wuzhong City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 106.2520196079, 36.9730384198 ]
+			},
+			"properties" : {
+				"name" : "Tongxin County",
+				"adcode" : "640324",
+				"adcode_s" : "6403",
+				"adcode_si" : "64",
+				"dname" : "Wuzhong City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 107.0528259731, 37.622766524 ]
+			},
+			"properties" : {
+				"name" : "Yanchi County",
+				"adcode" : "640323",
+				"adcode_s" : "6403",
+				"adcode_si" : "64",
+				"dname" : "Wuzhong City"
+			}
+		}
+	]
+}
+

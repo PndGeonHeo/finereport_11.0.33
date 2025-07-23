@@ -1,0 +1,105 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "Name2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.7087808738, 30.4415801658 ]
+			},
+			"properties" : {
+				"name" : "Haining City",
+				"adcode" : "330481",
+				"adcode_s" : "3304",
+				"adcode_si" : "33",
+				"dname" : "Jiaxing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.8749840112, 30.518989195 ]
+			},
+			"properties" : {
+				"name" : "Haiyan County",
+				"adcode" : "330424",
+				"adcode_s" : "3304",
+				"adcode_si" : "33",
+				"dname" : "Jiaxing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.8983548704, 30.9019182807 ]
+			},
+			"properties" : {
+				"name" : "Jiashan County",
+				"adcode" : "330421",
+				"adcode_s" : "3304",
+				"adcode_si" : "33",
+				"dname" : "Jiaxing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.8335699077, 30.7127726112 ]
+			},
+			"properties" : {
+				"name" : "Nanhu District",
+				"adcode" : "330402",
+				"adcode_s" : "3304",
+				"adcode_si" : "33",
+				"dname" : "Jiaxing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 121.094374012, 30.7132672182 ]
+			},
+			"properties" : {
+				"name" : "Pinghu City",
+				"adcode" : "330482",
+				"adcode_s" : "3304",
+				"adcode_si" : "33",
+				"dname" : "Jiaxing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.4787225574, 30.6087474492 ]
+			},
+			"properties" : {
+				"name" : "Tongxiang City",
+				"adcode" : "330483",
+				"adcode_s" : "3304",
+				"adcode_si" : "33",
+				"dname" : "Jiaxing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.6011809755, 30.7804125204 ]
+			},
+			"properties" : {
+				"name" : "Xiuzhou District",
+				"adcode" : "330411",
+				"adcode_s" : "3304",
+				"adcode_si" : "33",
+				"dname" : "Jiaxing City"
+			}
+		}
+	]
+}
+

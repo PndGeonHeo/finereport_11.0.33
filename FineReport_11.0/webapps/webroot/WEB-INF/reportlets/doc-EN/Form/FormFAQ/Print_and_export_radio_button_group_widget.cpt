@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="10.0.0">
+<TableDataMap>
+<TableData name="ds1" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM SProduct limit 5]]></Query>
+<PageQuery>
+<![CDATA[]]></PageQuery>
+</TableData>
+</TableDataMap>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1905000,1905000,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[4480560,13030200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" s="0">
+<O>
+<![CDATA[Product_name]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="0" s="0">
+<PrivilegeControl/>
+<CellGUIAttr showAsDefault="true"/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.RadioGroup">
+<Listener event="afterinit" name="After Initialization1">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[/*实现单元格按钮组居中，文档可参考：https://bbs.fanruan.com/thread-134001-1-1.html **/
+var el = $(this.element);
+var f = function() {
+	var w = 0;
+	var cs = el.children();
+	if (cs.length == 0) {
+		setTimeout(f, 100);
+		return;
+	}
+	for (var i = 0; i < cs.length; i++) {
+		w += cs.eq(i).width() + 5;
+	}
+	el.css({
+		width: w,
+		'margin-left': 'auto',
+		'margin-right': 'auto',
+		'height': ' auto',
+	});
+}
+setTimeout(f, 20);
+//延时根据需要调整，默认为0.02s]]></Content>
+</JavaScript>
+</Listener>
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="-1.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.TableDataDictionary">
+<FormulaDictAttr kiName="Product_name" viName="Product_name"/>
+<TableDataDictAttr>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[ds1]]></Name>
+</TableData>
+</TableDataDictAttr>
+</Dictionary>
+<widgetValue/>
+<BGAttr columnsInRow="1"/>
+<MaxRowsMobileAttr maxShowRows="5"/>
+</Widget>
+<Present class="com.fr.base.present.DictPresent">
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="Apple Juice" value="● Apple   juice ○ Milk ○ Ketchup ○ Salt ○ Sesame oil"/>
+<Dict key="Milk" value="○ Apple   juice ● Milk ○ Ketchup ○ Salt ○ Sesame oil"/>
+<Dict key="Ketchup" value="○ Apple   juice ○ Milk ● Ketchup ○ Salt ○ Sesame oil"/>
+<Dict key="Salt" value="○ Apple   juice ○ Milk ○ Ketchup ● Salt ○ Sesame oil"/>
+<Dict key="Sesame oil" value="○ Apple   juice ○ Milk ○ Ketchup ○ Salt ● Sesame oil"/>
+</CustomDictAttr>
+</Dictionary>
+</Present>
+<Expand/>
+</C>
+<C c="0" r="1" s="0">
+<O>
+<![CDATA[Product_name]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" s="0">
+<PrivilegeControl/>
+<CellGUIAttr showAsDefault="true"/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.RadioGroup">
+<Listener event="afterinit" name="After Initialization1">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[/*实现单元格按钮组居中，文档可参考：https://bbs.fanruan.com/thread-134001-1-1.html **/
+var el = $(this.element);
+var f = function() {
+	var w = 0;
+	var cs = el.children();
+	if (cs.length == 0) {
+		setTimeout(f, 100);
+		return;
+	}
+	for (var i = 0; i < cs.length; i++) {
+		w += cs.eq(i).width() + 5;
+	}
+	el.css({
+		width: w,
+		'margin-left': 'auto',
+		'margin-right': 'auto',
+		'height': ' auto',
+	});
+}
+setTimeout(f, 20);
+//延时根据需要调整，默认为0.02s]]></Content>
+</JavaScript>
+</Listener>
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="-1.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.TableDataDictionary">
+<FormulaDictAttr kiName="Product_name" viName="Product_name"/>
+<TableDataDictAttr>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[ds1]]></Name>
+</TableData>
+</TableDataDictAttr>
+</Dictionary>
+<widgetValue/>
+<BGAttr columnsInRow="1"/>
+<MaxRowsMobileAttr maxShowRows="5"/>
+</Widget>
+<Present class="com.fr.base.present.FormulaPresent">
+<Content>
+<![CDATA[=joinarray(MAPARRAY(value("ds1", "Product_name"), if(item = $$$, "●", "○") + item), "  ")]]></Content>
+</Present>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+<Background name="ColorBackground" color="-1"/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="true" currentIndex="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="KAA"/>
+<PreviewType PreviewType="1"/>
+<TemplateIdAttMark class="com.fr.base.iofile.attr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="0d09c6e9-f71d-4dc3-9328-5386858fbc0c"/>
+</TemplateIdAttMark>
+<TemplateCloudInfoAttrMark class="com.fr.plugin.cloud.analytics.attr.TemplateInfoAttrMark" pluginID="com.fr.plugin.cloud.analytics.v10" plugin-version="2.3.0.20210831">
+<TemplateCloudInfoAttrMark createTime="1632282038700"/>
+</TemplateCloudInfoAttrMark>
+</WorkBook>

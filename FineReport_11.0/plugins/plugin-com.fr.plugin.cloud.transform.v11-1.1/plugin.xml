@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <id>com.fr.plugin.cloud.transform.v11</id>
+    <name><![CDATA[cloud-transform]]></name>
+    <active>yes</active>
+    <hidden>yes</hidden>
+    <version>1.1</version>
+    <env-version>11.0~11.0</env-version>
+    <jartime>2018-09-10</jartime>
+    <vendor>FRInternational</vendor>
+    <description><![CDATA[cloud-transform v11]]></description>
+    <function-recorder class="com.fr.plugin.cloud.transform.handler.TransformHttpProvider"/>
+    <extra-core>
+        <SiteTransformer class="com.fr.plugin.cloud.transform.SiteTransformerImpl"/>
+        <LocaleFinder class="com.fr.plugin.cloud.transform.LocaleFinderImpl"/>
+    </extra-core>
+    <extra-decision>
+        <HttpHandlerProvider class="com.fr.plugin.cloud.transform.handler.TransformHttpProvider"/>
+        <URLAliasProvider class="com.fr.plugin.cloud.transform.handler.TransformURLAliasProvider"/>
+    </extra-decision>
+</plugin>

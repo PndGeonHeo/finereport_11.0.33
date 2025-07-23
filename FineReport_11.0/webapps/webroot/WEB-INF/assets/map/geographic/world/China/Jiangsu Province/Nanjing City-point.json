@@ -1,0 +1,161 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "Name2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.95102468, 31.3165178954 ]
+			},
+			"properties" : {
+				"name" : "Gaochun District",
+				"adcode" : "320118",
+				"adcode_s" : "3201",
+				"adcode_si" : "32",
+				"dname" : "Nanjing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.7015279207, 32.0086328211 ]
+			},
+			"properties" : {
+				"name" : "Jianye District",
+				"adcode" : "320105",
+				"adcode_s" : "3201",
+				"adcode_si" : "32",
+				"dname" : "Nanjing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.827200386, 31.8573104958 ]
+			},
+			"properties" : {
+				"name" : "Jiangning District",
+				"adcode" : "320115",
+				"adcode_s" : "3201",
+				"adcode_si" : "32",
+				"dname" : "Nanjing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.0280944359, 31.5929888325 ]
+			},
+			"properties" : {
+				"name" : "Lishui District",
+				"adcode" : "320117",
+				"adcode_s" : "3201",
+				"adcode_si" : "32",
+				"dname" : "Nanjing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.8361492153, 32.3969812439 ]
+			},
+			"properties" : {
+				"name" : "Liuhe District",
+				"adcode" : "320116",
+				"adcode_s" : "3201",
+				"adcode_si" : "32",
+				"dname" : "Nanjing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.5570792203, 32.0548747902 ]
+			},
+			"properties" : {
+				"name" : "Pukou District",
+				"adcode" : "320111",
+				"adcode_s" : "3201",
+				"adcode_si" : "32",
+				"dname" : "Nanjing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.9508552393, 32.1634788329 ]
+			},
+			"properties" : {
+				"name" : "Qixia District",
+				"adcode" : "320113",
+				"adcode_s" : "3201",
+				"adcode_si" : "32",
+				"dname" : "Nanjing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.8114475572, 32.0152235745 ]
+			},
+			"properties" : {
+				"name" : "Qinhuai District",
+				"adcode" : "320104",
+				"adcode_s" : "3201",
+				"adcode_si" : "32",
+				"dname" : "Nanjing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.8387274017, 32.0680656043 ]
+			},
+			"properties" : {
+				"name" : "Xuanwu District",
+				"adcode" : "320102",
+				"adcode_s" : "3201",
+				"adcode_si" : "32",
+				"dname" : "Nanjing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.6314670643, 31.9151501782 ]
+			},
+			"properties" : {
+				"name" : "Yuhuatai District",
+				"adcode" : "320114",
+				"adcode_s" : "3201",
+				"adcode_si" : "32",
+				"dname" : "Nanjing City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.7565876464, 32.0860131084 ]
+			},
+			"properties" : {
+				"name" : "Gulou District",
+				"adcode" : "320102",
+				"adcode_s" : "3201",
+				"adcode_si" : "32",
+				"dname" : "Nanjing City"
+			}
+		}
+	]
+}
+

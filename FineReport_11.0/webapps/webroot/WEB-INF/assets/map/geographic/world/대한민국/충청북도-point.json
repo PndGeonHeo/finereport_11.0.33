@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.3659, 36.9848] },
+      "properties": { "name": "단양군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.6906, 36.94] },
+      "properties": { "name": "음성군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.7866, 36.815] },
+      "properties": { "name": "괴산군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.4355, 36.8548] },
+      "properties": { "name": "진천군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.5819, 36.7854] },
+      "properties": { "name": "증평군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.7834432, 36.1747588] },
+      "properties": { "name": "영동군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.571482, 36.3061692] },
+      "properties": { "name": "옥천군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.729242, 36.4890118] },
+      "properties": { "name": "보은군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.1913508, 37.1326042] },
+      "properties": { "name": "제천시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.9259891, 36.9907334] },
+      "properties": { "name": "충주시" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.5051599, 36.5897219] },
+      "properties": { "name": "상당구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.4867, 36.6515] },
+      "properties": { "name": "청원구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.4698, 36.6374] },
+      "properties": { "name": "서원구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.4315, 36.6414] },
+      "properties": { "name": "흥덕구" }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyName2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.3569725942, 32.8786231306 ]
+			},
+			"properties" : {
+				"name" : "Bengshan District",
+				"adcode" : "340303",
+				"adcode_s" : "3403",
+				"adcode_si" : "34",
+				"dname" : "Bengbu City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.3397715139, 33.2831117384 ]
+			},
+			"properties" : {
+				"name" : "Guzhen County",
+				"adcode" : "340323",
+				"adcode_s" : "3403",
+				"adcode_si" : "34",
+				"dname" : "Bengbu City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.0101104943, 33.0508607765 ]
+			},
+			"properties" : {
+				"name" : "Huaiyuan County",
+				"adcode" : "340321",
+				"adcode_s" : "3403",
+				"adcode_si" : "34",
+				"dname" : "Bengbu City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.3326862579, 33.0206868596 ]
+			},
+			"properties" : {
+				"name" : "Huaishang District",
+				"adcode" : "340311",
+				"adcode_s" : "3403",
+				"adcode_si" : "34",
+				"dname" : "Bengbu City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.4494419764, 32.9166506023 ]
+			},
+			"properties" : {
+				"name" : "Longzihu District",
+				"adcode" : "340302",
+				"adcode_s" : "3403",
+				"adcode_si" : "34",
+				"dname" : "Bengbu City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.7776363553, 33.1481336916 ]
+			},
+			"properties" : {
+				"name" : "Wuhe County",
+				"adcode" : "340322",
+				"adcode_s" : "3403",
+				"adcode_si" : "34",
+				"dname" : "Bengbu City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.2180250819, 32.8535496501 ]
+			},
+			"properties" : {
+				"name" : "Yuhui District",
+				"adcode" : "340304",
+				"adcode_s" : "3403",
+				"adcode_si" : "34",
+				"dname" : "Bengbu City"
+			}
+		}
+	]
+}
+

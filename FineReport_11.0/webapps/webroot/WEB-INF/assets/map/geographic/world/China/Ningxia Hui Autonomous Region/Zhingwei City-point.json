@@ -1,0 +1,49 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyN2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 105.7908294892, 36.5139219925 ]
+			},
+			"properties" : {
+				"name" : "HaiyuanCounty",
+				"adcode" : "640522",
+				"adcode_s" : "6405",
+				"adcode_si" : "64",
+				"dname" : " Zhongwei City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 105.141512998, 37.2817852725 ]
+			},
+			"properties" : {
+				"name" : "Shapotou District",
+				"adcode" : "640502",
+				"adcode_s" : "6405",
+				"adcode_si" : "64",
+				"dname" : " Zhongwei City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 105.480391005, 37.0081376279 ]
+			},
+			"properties" : {
+				"name" : "Zhongning County",
+				"adcode" : "640521",
+				"adcode_s" : "6405",
+				"adcode_si" : "64",
+				"dname" : " Zhongwei City"
+			}
+		}
+	]
+}
+

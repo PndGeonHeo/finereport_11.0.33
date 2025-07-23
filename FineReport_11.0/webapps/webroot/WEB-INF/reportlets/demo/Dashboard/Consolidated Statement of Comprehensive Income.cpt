@@ -1,0 +1,1835 @@
+<?xml version="1.0" ?><WorkBook releaseVersion="10.0.0" xmlVersion="20170720">
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.page.First">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Fine-Engine_Report_ReportServerP_First')}]]></Text>
+<IconName>
+<![CDATA[first]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Previous">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Fine-Engine_Report_ReportServerP_Previous')}]]></Text>
+<IconName>
+<![CDATA[previous]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.PageNavi">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Next">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Fine-Engine_ReportServerP_Next')}]]></Text>
+<IconName>
+<![CDATA[next]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Last">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Fine-Engine_Report_ReportServerP_Last')}]]></Text>
+<IconName>
+<![CDATA[last]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.NewPrint">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Fine-Engine_Print')}]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons excelO="true" excelP="true" excelS="true" html="true" image="true" pdf="true" word="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.Email">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Fine-Engine_Report_Email')}]]></Text>
+<IconName>
+<![CDATA[email]]></IconName>
+<EmailButton consigneeByDepartment="false" consigneeByRole="false" customConsignee="true"/>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<WebPage autoScale="false" isPage="true" showAsImage="false" tdHeavy="false"/>
+</WebPageContent>
+<WebWriteContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.write.Submit">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Fine-Engine_Report_Utils_Submit')}]]></Text>
+<IconName>
+<![CDATA[submit]]></IconName>
+<Verify failVerifySubmit="false" value="true"/>
+<Sheet onlySubmitSelect="false"/>
+</Widget>
+<Widget class="com.fr.report.web.button.write.Verify">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Fine-Engine_Report_Verify_Data')}]]></Text>
+<IconName>
+<![CDATA[verify]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.NewPrint">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Fine-Engine_Print')}]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons excelO="true" excelP="true" excelS="true" html="true" image="true" pdf="true" word="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.Email">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Fine-Engine_Report_Email')}]]></Text>
+<IconName>
+<![CDATA[email]]></IconName>
+<EmailButton consigneeByDepartment="false" consigneeByRole="false" customConsignee="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.write.AppendColumnRow">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Fine-Engine_Add_Record')}]]></Text>
+<IconName>
+<![CDATA[appendrow]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.write.ShowCellValue">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<widgetValue/>
+<LabelAttr autoline="false" textalign="0" verticalcenter="true"/>
+<FRFont name="Arial" size="62" style="0"/>
+<border color="-723724" style="0"/>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<EditRowColor setColor="false"/>
+<WebWrite SheetPosition="3"/>
+<RptLocation isShowAtLeft="false"/>
+<UnloadCheck/>
+<ShowWidgets/>
+<OtherAttr autoStash="false"/>
+</WebWriteContent>
+</ReportWebAttr>
+<ElementCaseMobileAttr>
+<ElementCaseMobileAttrProvider allowDoubleClickOrZoom="true" allowFullScreen="false" appearRefresh="false" functionalWhenUnactivated="false" horizontal="1" isMobileCanvasSize="false" isUseHTML="false" refresh="false" vertical="1" zoom="true"/>
+</ElementCaseMobileAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="PL">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[723900,1008000,1008000,723900,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,864000,697484,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[17792700,3024000,3024000,3024000,2476500,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" cs="4" r="1" s="0">
+<O>
+<![CDATA[CONDENSED CONSOLIDATED STATEMENT OF COMPREHENSIVE INCOME]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" cs="4" r="2" s="0">
+<O>
+<![CDATA[FOR THE YEAR ENDED 31 DECEMBER, 2010]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="4" rs="2" s="1">
+<O>
+<![CDATA[Item]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="4" s="2">
+<O t="I">
+<![CDATA[2010]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="4" s="2">
+<O t="I">
+<![CDATA[2009]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="4" s="2">
+<O t="I">
+<![CDATA[2008]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="5" s="2">
+<O>
+<![CDATA[$ million]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="5" s="2">
+<O>
+<![CDATA[$ million]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="5" s="2">
+<O>
+<![CDATA[$ million]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="6" s="3">
+<O>
+<![CDATA[Revenue]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="6" s="4">
+<O t="I">
+<![CDATA[185685]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="6" s="4">
+<O t="I">
+<![CDATA[142331]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="6" s="4">
+<O t="I">
+<![CDATA[93088]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="7" s="5">
+<O>
+<![CDATA[Cost of sales]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="7" s="6">
+<O t="I">
+<![CDATA[-173745]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="7" s="6">
+<O t="I">
+<![CDATA[-133301]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="7" s="6">
+<O t="I">
+<![CDATA[-85646]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="8" s="3">
+<O>
+<![CDATA[Gross profit]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="8" s="7">
+<O t="I">
+<![CDATA[11940]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="8" s="7">
+<O t="I">
+<![CDATA[9030]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="8" s="7">
+<O t="I">
+<![CDATA[7442]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="9" s="5">
+<O>
+<![CDATA[Expenses]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="9" s="8">
+<O>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="9" s="8">
+<O>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="9" s="8">
+<O>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="10" s="5">
+<O>
+<![CDATA[    Selling and marketing expenses]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="10" s="8">
+<O t="I">
+<![CDATA[-623]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="10" s="8">
+<O t="I">
+<![CDATA[-495]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="10" s="8">
+<O t="I">
+<![CDATA[-497]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="11" s="5">
+<O>
+<![CDATA[    Administrative expenses]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="11" s="8">
+<O t="I">
+<![CDATA[-6400]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="11" s="8">
+<O t="I">
+<![CDATA[-4901]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="11" s="8">
+<O t="I">
+<![CDATA[-4163]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="12" s="5">
+<O>
+<![CDATA[    Share of profits of jointly controlled entities]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="12" s="8">
+<O t="I">
+<![CDATA[55]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="12" s="8">
+<O t="I">
+<![CDATA[-2]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="12" s="8">
+<O t="I">
+<![CDATA[-7]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="13" s="5">
+<O>
+<![CDATA[    Share of losses of associates]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="13" s="6">
+<O t="I">
+<![CDATA[-135]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="13" s="6">
+<O t="I">
+<![CDATA[24]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="13" s="6">
+<O t="I">
+<![CDATA[12]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="14" s="5">
+<O>
+<![CDATA[    Total Expenses]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="14" s="9">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=SUM(B11:B14)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="14" s="9">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=SUM(C11:C14)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="14" s="9">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=SUM(D11:D14)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="15" s="3">
+<O>
+<![CDATA[Operating Profit]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="15" s="4">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=B9 + B15]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="15" s="4">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=C9 + C15]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="15" s="4">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=D9 + D15]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="16" s="5">
+<O>
+<![CDATA[Other income]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="16" s="8">
+<O t="I">
+<![CDATA[309]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="16" s="8">
+<O t="I">
+<![CDATA[318]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="16" s="8">
+<O t="I">
+<![CDATA[575]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="17" s="5">
+<O>
+<![CDATA[Other gains and losses]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="17" s="8">
+<O t="I">
+<![CDATA[-289]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="17" s="8">
+<O t="I">
+<![CDATA[624]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="17" s="8">
+<O t="I">
+<![CDATA[-273]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="18" s="5">
+<O>
+<![CDATA[Interest income]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="18" s="8">
+<O t="I">
+<![CDATA[629]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="18" s="8">
+<O t="I">
+<![CDATA[508]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="18" s="8">
+<O t="I">
+<![CDATA[657]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="19" s="5">
+<O>
+<![CDATA[Interest expenses]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="19" s="6">
+<O t="I">
+<![CDATA[-962]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="19" s="6">
+<O t="I">
+<![CDATA[-1049]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="19" s="6">
+<O t="I">
+<![CDATA[-887]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="20" s="3">
+<O>
+<![CDATA[Profit before tax]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="20" s="4">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=SUM(B16:B20)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="20" s="4">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=SUM(C16:C20)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="20" s="4">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=SUM(D16:D20)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="21" s="5">
+<O>
+<![CDATA[Income tax expense]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="21" s="6">
+<O t="I">
+<![CDATA[-970]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="21" s="6">
+<O t="I">
+<![CDATA[-841]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="21" s="6">
+<O t="I">
+<![CDATA[-651]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="22" s="3">
+<O>
+<![CDATA[Profit for the period]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="22" s="10">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=B21 + B22]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="22" s="10">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=C21 + C22]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="22" s="10">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=D21 + D22]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="23" s="5">
+<O>
+<![CDATA[Other comprehensive income]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="23" s="8">
+<O>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="23" s="8">
+<O>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="23" s="8">
+<O>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="24" s="5">
+<O>
+<![CDATA[    Exchange differences arising on translation of foreign operations]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="24" s="8">
+<O t="I">
+<![CDATA[-58]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="24" s="8">
+<O t="I">
+<![CDATA[-4]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="24" s="8">
+<O t="I">
+<![CDATA[9]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="25" s="5">
+<O>
+<![CDATA[    Fair value (loss) gain on available-for-sale financial assets]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="25" s="8">
+<O t="I">
+<![CDATA[-116]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="25" s="8">
+<O t="I">
+<![CDATA[385]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="25" s="8">
+<O t="I">
+<![CDATA[-860]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="26" s="5">
+<O>
+<![CDATA[    Share of other comprehensive income of associates]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="26" s="8">
+<O>
+<![CDATA[-   ]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="26" s="8">
+<O t="I">
+<![CDATA[1]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="26" s="8">
+<O t="I">
+<![CDATA[0]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="27" s="5">
+<O>
+<![CDATA[    Income tax relating to fair value change on available-for-sale financial assets]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="27" s="6">
+<O t="I">
+<![CDATA[23]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="27" s="6">
+<O t="I">
+<![CDATA[-67]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="27" s="6">
+<O t="I">
+<![CDATA[0]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="28" s="5">
+<O>
+<![CDATA[    Other comprehensive income for the year (net of tax)]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="28" s="9">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=SUM(B25:B28)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="28" s="9">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=SUM(C25:C28)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="28" s="9">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=SUM(D25:D28)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="29" s="3">
+<O>
+<![CDATA[Total comprehensive income for the year]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="29" s="10">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=B23 + B29]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="29" s="10">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=C23 + C29]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="29" s="10">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=D23 + D29]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="30" s="11">
+<O>
+<![CDATA[Profit for the period attributable to:]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="30" s="8">
+<O>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="30" s="8">
+<O>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="30" s="8">
+<O>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="31" s="5">
+<O>
+<![CDATA[    Owners of the Company]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="31" s="8">
+<O t="I">
+<![CDATA[3286]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="31" s="8">
+<O t="I">
+<![CDATA[3081]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="31" s="8">
+<O t="I">
+<![CDATA[1919]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="32" s="5">
+<O>
+<![CDATA[    Non-controlling interests]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="32" s="6">
+<O t="I">
+<![CDATA[268]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="32" s="6">
+<O t="I">
+<![CDATA[135]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="32" s="6">
+<O t="I">
+<![CDATA[289]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="1" r="33" s="12">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=B32 + B33]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="33" s="12">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=C32 + C33]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="33" s="12">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=D32 + D33]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="34" s="11">
+<O>
+<![CDATA[Total comprehensive income attributable to:]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="34" s="8">
+<O>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="34" s="8">
+<O>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="34" s="8">
+<O>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="35" s="5">
+<O>
+<![CDATA[    Owners of the Company]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="35" s="8">
+<O t="I">
+<![CDATA[3130]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="35" s="8">
+<O t="I">
+<![CDATA[3344]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="35" s="8">
+<O t="I">
+<![CDATA[1245]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="36" s="5">
+<O>
+<![CDATA[    Non-controlling interests]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="36" s="6">
+<O t="I">
+<![CDATA[273]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="36" s="6">
+<O t="I">
+<![CDATA[187]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="36" s="6">
+<O t="I">
+<![CDATA[112]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="1" r="37" s="12">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=B36 + B37]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="37" s="12">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=C36 + C37]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="37" s="12">
+<O class="com.fr.base.Formula" t="XMLable">
+<Attributes>
+<![CDATA[=D36 + D37]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="38" s="3">
+<O>
+<![CDATA[Earnings per share (Basic)]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="38" s="13">
+<O t="BigDecimal">
+<![CDATA[0.154]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="38" s="13">
+<O t="BigDecimal">
+<![CDATA[0.145]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="3" r="38" s="13">
+<O t="BigDecimal">
+<![CDATA[0.09]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<EMSG>
+<![CDATA[Not null!]]></EMSG>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="1" r="39" s="14">
+<O>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="39" s="14">
+<O>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="39" s="14">
+<O>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings footerHeight="1828800" headerHeight="1828800">
+<PaperSetting>
+<Margin bottom="720000" left="720000" right="720000" top="720000"/>
+</PaperSetting>
+<Background color="-1" name="ColorBackground"/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes align="0" delayPlaying="true" showWindow="true" useParamsTemplate="true" windowPosition="1"/>
+<PWTitle>
+<![CDATA[Parameter]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Arial" size="70" style="1"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont foreground="-1" name="Arial" size="70" style="1"/>
+<Background color="-10460775" name="ColorBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1" textStyle="1">
+<FRFont foreground="-1" name="Arial" size="70" style="1"/>
+<Background color="-10460775" name="ColorBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Arial" size="70" style="1"/>
+<Background color="-4671023" name="ColorBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1" textStyle="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#,##0;(#,##0)]]></Format>
+<FRFont name="Arial" size="70" style="0"/>
+<Background color="-4671023" name="ColorBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Arial" size="70" style="0"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1" textStyle="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#,##0;(#,##0)]]></Format>
+<FRFont name="Arial" size="70" style="0"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1" textStyle="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#,##0;(#,##0)]]></Format>
+<FRFont name="Arial" size="70" style="0"/>
+<Background color="-4671023" name="ColorBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1" textStyle="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#,##0;(#,##0)]]></Format>
+<FRFont name="Arial" size="70" style="0"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1" textStyle="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#,##0;(#,##0)]]></Format>
+<FRFont name="Arial" size="70" style="0"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1" textStyle="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#,##0;(#,##0)]]></Format>
+<FRFont name="Arial" size="70" style="0"/>
+<Background color="-4671023" name="ColorBackground"/>
+<Border>
+<Bottom style="6"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Arial" size="70" style="1"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1" textStyle="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#,##0;(#,##0)]]></Format>
+<FRFont name="Arial" size="70" style="0"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="6"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1" textStyle="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.00]]></Format>
+<FRFont name="Arial" size="70" style="0"/>
+<Background color="-4671023" name="ColorBackground"/>
+<Border>
+<Bottom style="6"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1" textStyle="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[ #,##0]]></Format>
+<FRFont name="Arial" size="70" style="0"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="KAA"/>
+<PreviewType PreviewType="1"/>
+<TemplateIdAttMark class="com.fr.base.iofile.attr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="8cb38b78-f9bd-44da-b37e-69c05f397bb7"/>
+</TemplateIdAttMark>
+</WorkBook>

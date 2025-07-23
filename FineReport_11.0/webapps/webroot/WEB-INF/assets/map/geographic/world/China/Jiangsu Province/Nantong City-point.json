@@ -1,0 +1,105 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "Name2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.8935147987, 31.9586987854 ]
+			},
+			"properties" : {
+				"name" : "Chongchuan District",
+				"adcode" : "320602",
+				"adcode_s" : "3206",
+				"adcode_si" : "32",
+				"dname" : "Nantong City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.471226191, 32.5513508434 ]
+			},
+			"properties" : {
+				"name" : "Haian City",
+				"adcode" : "320685",
+				"adcode_s" : "3206",
+				"adcode_si" : "32",
+				"dname" : "Nantong City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 121.3030061794, 31.9621412391 ]
+			},
+			"properties" : {
+				"name" : "Haimen District",
+				"adcode" : "320684",
+				"adcode_s" : "3206",
+				"adcode_si" : "32",
+				"dname" : "Nantong City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 121.6881854572, 31.8781338568 ]
+			},
+			"properties" : {
+				"name" : "Qidong City",
+				"adcode" : "320681",
+				"adcode_s" : "3206",
+				"adcode_si" : "32",
+				"dname" : "Nantong City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 121.0727069374, 32.3842457587 ]
+			},
+			"properties" : {
+				"name" : "Rudong County",
+				"adcode" : "320623",
+				"adcode_s" : "3206",
+				"adcode_si" : "32",
+				"dname" : "Nantong City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120.5690310569, 32.2693408927 ]
+			},
+			"properties" : {
+				"name" : "Rugao City",
+				"adcode" : "320682",
+				"adcode_s" : "3206",
+				"adcode_si" : "32",
+				"dname" : "Nantong City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 121.0347297519, 32.1127540187 ]
+			},
+			"properties" : {
+				"name" : "Tongzhou District",
+				"adcode" : "320612",
+				"adcode_s" : "3206",
+				"adcode_si" : "32",
+				"dname" : "Nantong City"
+			}
+		}
+	]
+}
+

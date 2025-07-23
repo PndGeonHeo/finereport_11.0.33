@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="10.0.0">
+<TableDataMap>
+<TableData name="ds1" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM CorporationDepartment]]></Query>
+<PageQuery>
+<![CDATA[]]></PageQuery>
+</TableData>
+<TableData name="Tree1" class="com.fr.data.impl.RecursionTableData">
+<markFields>
+<![CDATA[0]]></markFields>
+<parentmarkFields>
+<![CDATA[1]]></parentmarkFields>
+<markFieldsName>
+<![CDATA[部门ID]]></markFieldsName>
+<parentmarkFieldsName>
+<![CDATA[上级ID]]></parentmarkFieldsName>
+<originalTableDataName>
+<![CDATA[ds1]]></originalTableDataName>
+</TableData>
+</TableDataMap>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+<Background name="ColorBackground" color="-1"/>
+</ReportSettings>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="true" currentIndex="4"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+<ParameterUI class="com.fr.form.main.parameter.FormParameterUI">
+<Parameters/>
+<Layout class="com.fr.form.ui.container.WParameterLayout">
+<WidgetName name="para"/>
+<WidgetAttr description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Margin top="0" left="0" bottom="0" right="0"/>
+<Border>
+<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<WidgetTitle>
+<O>
+<![CDATA[新建标题]]></O>
+<FRFont name="Hiragino Sans GB" style="0" size="72"/>
+<Position pos="0"/>
+</WidgetTitle>
+<Alpha alpha="1.0"/>
+</Border>
+<Background name="ColorBackground" color="-526086"/>
+<LCAttr vgap="0" hgap="0" compInterval="0"/>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.TextEditor">
+<WidgetName name="t5"/>
+<WidgetID widgetID="6029eef9-edf4-4e2f-b6c5-158d87e5332f"/>
+<WidgetAttr description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue>
+<O>
+<![CDATA[]]></O>
+</widgetValue>
+<MobileScanCodeAttr scanCode="true" textInputMode="0"/>
+</InnerWidget>
+<BoundsAttr x="668" y="13" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.RadioGroup">
+<WidgetName name="t2"/>
+<WidgetID widgetID="107a9b7a-e565-42d0-9a3f-653668532c6a"/>
+<WidgetAttr description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="A" value="Meteor Garden"/>
+<Dict key="B" value="Optics Valley World"/>
+<Dict key="C" value="Chaoyang Garden"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue>
+<O>
+<![CDATA[]]></O>
+</widgetValue>
+<MaxRowsMobileAttr maxShowRows="5"/>
+</InnerWidget>
+<BoundsAttr x="102" y="13" width="220" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.ComboCheckBox">
+<WidgetName name="t4"/>
+<WidgetID widgetID="de0e1c4e-3769-428f-a03a-8359a42123f0"/>
+<WidgetAttr description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="A" value="Meteor Garden"/>
+<Dict key="B" value="Optics Valley World"/>
+<Dict key="C" value="Chaoyang Garden"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue>
+<O>
+<![CDATA[]]></O>
+</widgetValue>
+<RAAttr/>
+</InnerWidget>
+<BoundsAttr x="575" y="13" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.CheckBoxGroup">
+<WidgetName name="t3"/>
+<WidgetID widgetID="44d39dd0-9d6c-4fa0-8347-3c837d3ba0e4"/>
+<WidgetAttr description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="A" value="Chenglong Garden"/>
+<Dict key="B" value="Meteor Garden"/>
+<Dict key="C" value="Optics Valley World"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue>
+<O>
+<![CDATA[]]></O>
+</widgetValue>
+<MaxRowsMobileAttr maxShowRows="5"/>
+</InnerWidget>
+<BoundsAttr x="331" y="13" width="230" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.ComboBox">
+<WidgetName name="t1"/>
+<WidgetID widgetID="95ae4e79-2aa0-4ca7-b005-6e64734fe9ad"/>
+<WidgetAttr description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="A" value="Meteor Garden"/>
+<Dict key="B" value="Optics Valley World"/>
+<Dict key="C" value="Chaoyang Park"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue>
+<O>
+<![CDATA[]]></O>
+</widgetValue>
+</InnerWidget>
+<BoundsAttr x="11" y="13" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.FreeButton">
+<Listener event="click">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[var Widget1 = this.options.form.getWidgetByName("t1"); //To obtain the widget in the parameter interface, first obtain the decision report, and then obtain the widget by the widget name 
+var value_1 = Widget1.getValue(); //Get the actual value of the widget 
+alert('My actual value is:' + value_1); //Actual value of pop-up widget 
+var text_1 = Widget1.getText(); //Get the display value of the widget 
+alert('My diaplay value is:' + text_1); //Display value of pop-up widget
+
+var Widget2 = this.options.form.getWidgetByName("t2");
+var value_2 = Widget2.getValue();
+var text_2 = Widget2.getText();
+alert('My actual value is:' + value_2 + ';My diaplay value is:' + text_2);
+
+var Widget3 = this.options.form.getWidgetByName("t3");
+var value_3 = Widget3.getValue();
+var text_3 = Widget3.getText();
+alert('My actual value is:' + value_3 + ';My diaplay value is:' + text_3);
+
+var Widget4 = this.options.form.getWidgetByName("t4");
+var value_4 = Widget4.getValue();
+var text_4 = Widget4.getText();
+alert('My actual value is:' + value_4 + ';My diaplay value is:' + text_4);
+
+var Widget5 = this.options.form.getWidgetByName("t5");
+var value_5 = Widget5.getValue();
+var text_5 = Widget5.getText();
+alert('My actual value is:' + value_5 + ';My diaplay value is:' + text_5);]]></Content>
+</JavaScript>
+</Listener>
+<WidgetName name="button"/>
+<WidgetID widgetID="d8371334-73ae-4c8f-a7d5-6aa82638581f"/>
+<WidgetAttr description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false"/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[Query]]></Text>
+</InnerWidget>
+<BoundsAttr x="768" y="13" width="80" height="21"/>
+</Widget>
+<ShowBookmarks showBookmarks="false"/>
+<Sorted sorted="false"/>
+<MobileWidgetList>
+<Widget widgetName="t1"/>
+<Widget widgetName="t2"/>
+<Widget widgetName="t3"/>
+<Widget widgetName="t4"/>
+<Widget widgetName="t5"/>
+<Widget widgetName="button"/>
+</MobileWidgetList>
+<FrozenWidgets/>
+<MobileBookMarkStyle class="com.fr.form.ui.mobile.impl.DefaultMobileBookMarkStyle"/>
+<Display display="true"/>
+<DelayDisplayContent delay="true"/>
+<UseParamsTemplate use="true"/>
+<Position position="0"/>
+<Design_Width design_width="960"/>
+<NameTagModified/>
+<WidgetNameTagMap/>
+<ParamAttr class="com.fr.report.mobile.DefaultMobileParamStyle"/>
+<ParamStyle class="com.fr.report.mobile.EmptyMobileParamStyle"/>
+</Layout>
+<DesignAttr width="960" height="80"/>
+</ParameterUI>
+</ReportParameterAttr>
+<StyleList/>
+<DesignerVersion DesignerVersion="KAA"/>
+<PreviewType PreviewType="0"/>
+<TemplateIdAttMark class="com.fr.base.iofile.attr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="1bb37f63-b294-4f8f-8e3a-f942aefd471f"/>
+</TemplateIdAttMark>
+</WorkBook>

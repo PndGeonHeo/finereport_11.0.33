@@ -1,0 +1,119 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyName2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 115.633057205, 32.6419488908 ]
+			},
+			"properties" : {
+				"name" : "Funan County",
+				"adcode" : "341225",
+				"adcode_s" : "3412",
+				"adcode_si" : "34",
+				"dname" : "Fuyang City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 115.3864443362, 33.2214542941 ]
+			},
+			"properties" : {
+				"name" : "Jieshou City",
+				"adcode" : "341282",
+				"adcode_s" : "3412",
+				"adcode_si" : "34",
+				"dname" : "Fuyang City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 115.358132025, 32.8608260442 ]
+			},
+			"properties" : {
+				"name" : "Linquan County",
+				"adcode" : "341221",
+				"adcode_s" : "3412",
+				"adcode_si" : "34",
+				"dname" : "Fuyang City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 115.6369002985, 33.3333073029 ]
+			},
+			"properties" : {
+				"name" : "Taihe County",
+				"adcode" : "341222",
+				"adcode_s" : "3412",
+				"adcode_si" : "34",
+				"dname" : "Fuyang City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.0153915687, 32.9245315373 ]
+			},
+			"properties" : {
+				"name" : "Yingdong District",
+				"adcode" : "341203",
+				"adcode_s" : "3412",
+				"adcode_si" : "34",
+				"dname" : "Fuyang City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 115.7228866445, 33.0366423593 ]
+			},
+			"properties" : {
+				"name" : "Yingquan District",
+				"adcode" : "341204",
+				"adcode_s" : "3412",
+				"adcode_si" : "34",
+				"dname" : "Fuyang City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.2537360086, 32.6578681987 ]
+			},
+			"properties" : {
+				"name" : "Yingshang County",
+				"adcode" : "341226",
+				"adcode_s" : "3412",
+				"adcode_si" : "34",
+				"dname" : "Fuyang City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 115.7177208431, 32.8609371244 ]
+			},
+			"properties" : {
+				"name" : "Yingzhou District",
+				"adcode" : "341202",
+				"adcode_s" : "3412",
+				"adcode_si" : "34",
+				"dname" : "Fuyang City"
+			}
+		}
+	]
+}
+

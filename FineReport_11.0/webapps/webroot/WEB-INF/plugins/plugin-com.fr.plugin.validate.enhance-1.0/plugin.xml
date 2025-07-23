@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <id>com.fr.plugin.validate.enhance</id>
+    <name><![CDATA[Text Widget Validation Internationalization]]></name>
+    <active>yes</active>
+    <version>1.0</version>
+    <env-version>10.0~11.0</env-version>
+    <jartime>2021-09-01</jartime>
+    <vendor>FRInternational</vendor>
+    <description><![CDATA[Text widget validation supports internationalization categories]]></description>
+    <change-notes><![CDATA[
+      <p> [2021-10-08]Initialization </p>
+    ]]></change-notes>
+    <main-package>com.fr.plugin.validate.enhance</main-package>
+    <function-recorder class="com.fr.plugin.validate.enhance.RegPaneImpl"/>
+    <extra-designer>
+        <RegPaneProvider class="com.fr.plugin.validate.enhance.RegPaneImpl"/>
+    </extra-designer>
+    <extra-core>
+        <LocaleFinder class="com.fr.plugin.validate.enhance.LocaleFinderImpl"/>
+    </extra-core>
+</plugin>

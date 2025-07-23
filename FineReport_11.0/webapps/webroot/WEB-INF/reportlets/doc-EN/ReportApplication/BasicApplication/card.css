@@ -1,0 +1,52 @@
+.flip-container {
+   /*设置元素被查看位置的视图*/
+	-webkit-perspective: 1000;
+}
+	/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    /*定义沿着Y轴的3D旋转(旋转的角度)*/
+	transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+	width: 120px;
+	height: 120px;
+}
+
+/* flip speed goes here */
+.flipper {
+    /*完成过渡效果所需的时间*/
+	transition: 0.6s;
+	/*转换的子元素保留其3D转换（保持运动完的状态）*/
+	transform-style: preserve-3d;
+    /*设置元素相对定位*/
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    /*设置元素的背面不可见*/
+	backface-visibility: hidden;
+    /*设置元素的边框属性*/
+    border:1px solid #d6ccc4;
+    /*设置元素的边框圆角*/
+    border-radius:10px;
+    /*设置元素绝对定位*/
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    /*设置元素的堆叠顺序，顺序高的显示在前面*/
+	z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+    /*设置元素背景颜色*/
+    background-color:#e7e5e1;
+	/*定义沿着Y轴的3D旋转(旋转的角度)*/
+	transform: rotateY(180deg);
+}

@@ -1,0 +1,130 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9367861, 37.5790747] },
+      "properties": { "name": "서대문구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9293, 37.6024] },
+      "properties": { "name": "은평구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0567, 37.654] },
+      "properties": { "name": "노원구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0466, 37.6686] },
+      "properties": { "name": "도봉구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0255, 37.6395] },
+      "properties": { "name": "강북구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0165, 37.59] },
+      "properties": { "name": "성북구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.093, 37.6063] },
+      "properties": { "name": "중랑구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0395092, 37.5741982] },
+      "properties": { "name": "동대문구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0828, 37.5384] },
+      "properties": { "name": "광진구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0365, 37.5635] },
+      "properties": { "name": "성동구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.99, 37.5323] },
+      "properties": { "name": "용산구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9975097, 37.5636559] },
+      "properties": { "name": "중구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9827989, 37.5806949] },
+      "properties": { "name": "종로구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.1237, 37.53] },
+      "properties": { "name": "강동구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.1058, 37.5145] },
+      "properties": { "name": "송파구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0473, 37.5177] },
+      "properties": { "name": "강남구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0322, 37.4835] },
+      "properties": { "name": "서초구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9518, 37.4782] },
+      "properties": { "name": "관악구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9395, 37.5120999] },
+      "properties": { "name": "동작구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.8959, 37.5262] },
+      "properties": { "name": "영등포구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.8954, 37.4565] },
+      "properties": { "name": "금천구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.8877, 37.4951999] },
+      "properties": { "name": "구로구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.8497, 37.5509] },
+      "properties": { "name": "강서구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.8663, 37.5171] },
+      "properties": { "name": "양천구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9015317, 37.566571] },
+      "properties": { "name": "마포구" }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyName2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.7532986385, 31.5728266525 ]
+			},
+			"properties" : {
+				"name" : "Bowang District",
+				"adcode" : "340506",
+				"adcode_s" : "3405",
+				"adcode_si" : "34",
+				"dname" : "Maanshan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.5949142206, 31.4672411008 ]
+			},
+			"properties" : {
+				"name" : "Dangtu County",
+				"adcode" : "340521",
+				"adcode_s" : "3405",
+				"adcode_si" : "34",
+				"dname" : "Maanshan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.0424914383, 31.657314632 ]
+			},
+			"properties" : {
+				"name" : "Hanshan County",
+				"adcode" : "340522",
+				"adcode_s" : "3405",
+				"adcode_si" : "34",
+				"dname" : "Maanshan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.2930929387, 31.7548396764 ]
+			},
+			"properties" : {
+				"name" : "He County",
+				"adcode" : "340523",
+				"adcode_s" : "3405",
+				"adcode_si" : "34",
+				"dname" : "Maanshan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.54619541, 31.7084814399 ]
+			},
+			"properties" : {
+				"name" : "Huashan District",
+				"adcode" : "340503",
+				"adcode_s" : "3405",
+				"adcode_si" : "34",
+				"dname" : "Maanshan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.54122885, 31.6333920724 ]
+			},
+			"properties" : {
+				"name" : "Yushan District",
+				"adcode" : "340504",
+				"adcode_s" : "3405",
+				"adcode_si" : "34",
+				"dname" : "Maanshan City"
+			}
+		}
+	]
+}
+

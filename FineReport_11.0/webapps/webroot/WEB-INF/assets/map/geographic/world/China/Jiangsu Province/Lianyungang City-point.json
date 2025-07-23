@@ -1,0 +1,91 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyN2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.7513985568, 34.5446725529 ]
+			},
+			"properties" : {
+				"name" : "Donghai County",
+				"adcode" : "320722",
+				"adcode_s" : "3207",
+				"adcode_si" : "32",
+				"dname" : "Lianyungang City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.0329134641, 34.8839629337 ]
+			},
+			"properties" : {
+				"name" : "Ganyu District",
+				"adcode" : "320707",
+				"adcode_s" : "3207",
+				"adcode_si" : "32",
+				"dname" : "Lianyungang City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.4344408211, 34.1701713241 ]
+			},
+			"properties" : {
+				"name" : "Guannan County",
+				"adcode" : "320724",
+				"adcode_s" : "3207",
+				"adcode_si" : "32",
+				"dname" : "Lianyungang City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.3872004475, 34.3669665684 ]
+			},
+			"properties" : {
+				"name" : "Guanyun County",
+				"adcode" : "320723",
+				"adcode_s" : "3207",
+				"adcode_si" : "32",
+				"dname" : "Lianyungang City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.410883256, 34.5538140108 ]
+			},
+			"properties" : {
+				"name" : "LianyunDistrict",
+				"adcode" : "320703",
+				"adcode_s" : "3207",
+				"adcode_si" : "32",
+				"dname" : "Lianyungang City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.19127968, 34.546941383 ]
+			},
+			"properties" : {
+				"name" : "Haizhou District",
+				"adcode" : "320706",
+				"adcode_s" : "3207",
+				"adcode_si" : "32",
+				"dname" : "Lianyungang City"
+			}
+		}
+	]
+}
+

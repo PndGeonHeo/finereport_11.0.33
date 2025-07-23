@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.1638, 35.1629] },
+      "properties": { "name": "해운대구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.9901999, 35.1969] },
+      "properties": { "name": "북구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.0843999, 35.1361] },
+      "properties": { "name": "남구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.0837, 35.2052] },
+      "properties": { "name": "동래구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.0529462, 35.1632335] },
+      "properties": { "name": "부산진구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.0678, 35.0908] },
+      "properties": { "name": "영도구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.0455, 35.129] },
+      "properties": { "name": "동구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.0241, 35.0974999] },
+      "properties": { "name": "서구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.0325814, 35.106501] },
+      "properties": { "name": "중구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.223, 35.2446] },
+      "properties": { "name": "기장군" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.9911, 35.1521] },
+      "properties": { "name": "사상구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.1127, 35.1454] },
+      "properties": { "name": "수영구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.0793, 35.1765] },
+      "properties": { "name": "연제구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.9805, 35.212] },
+      "properties": { "name": "강서구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.0926, 35.2429] },
+      "properties": { "name": "금정구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.9751, 35.1041] },
+      "properties": { "name": "사하구" }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyName2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.8864025272, 34.0201573746 ]
+			},
+			"properties" : {
+				"name" : "Duji District",
+				"adcode" : "340602",
+				"adcode_s" : "3406",
+				"adcode_si" : "34",
+				"dname" : "Huaibei City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.8799906374, 33.835043954 ]
+			},
+			"properties" : {
+				"name" : "Lieshan District",
+				"adcode" : "340604",
+				"adcode_s" : "3406",
+				"adcode_si" : "34",
+				"dname" : "Huaibei City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.6969363536, 33.6491697247 ]
+			},
+			"properties" : {
+				"name" : "Suixi County",
+				"adcode" : "340621",
+				"adcode_s" : "3406",
+				"adcode_si" : "34",
+				"dname" : "Huaibei City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.72549937, 33.9839843094 ]
+			},
+			"properties" : {
+				"name" : "Xiangshan District",
+				"adcode" : "340603",
+				"adcode_s" : "3406",
+				"adcode_si" : "34",
+				"dname" : "Huaibei City"
+			}
+		}
+	]
+}
+

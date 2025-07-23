@@ -1,0 +1,21 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "County2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 109.4050408434, 19.5683030674 ]
+			},
+			"properties" : {
+				"name" : "Danzhou City",
+				"adcode" : "460400",
+				"adcode_s" : "4604",
+				"adcode_si" : "46",
+				"dname" : "Danzhou City"
+			}
+		}
+	]
+}
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <id>com.fr.plugin.assistant</id>
+    <name><![CDATA[Template Assistant]]></name>
+    <active>yes</active>
+    <version>1.2.30</version>
+    <env-version>11.0~11.0</env-version>
+    <jartime>2022-04-13</jartime>
+    <vendor>finereport</vendor>
+    <description><![CDATA[Template Assistant]]></description>
+    <change-notes><![CDATA[
+      [2025-05-16] 修复安全问题<br/>
+      [2025-04-16] 修复死循环问题<br/>
+      [2024-02-28] 更新第三方组件<br/>
+      [2023-12-15] SQL自动优化功能去除<br/>
+      [2023-11-02] 国际化更新<br/>
+      [2023-09-22] 修复冗余数据列检测缺陷<br/>
+      [2023-09-22] 国际化更新<br/>
+      [2023-08-25] 国际化更新<br/>
+      [2023-07-27] 更新第三方组件<br/>
+      [2023-07-26] 国际化更新<br/>
+      [2023-05-19] 导出打印功能检测<br/>
+      [2023-05-10] 修复权限相关问题<br/>
+      [2023-05-04] 查询logdb表数据量限制为3万条，用于抽数缓存推荐<br/>
+      [2023-03-08] 修复BUG<br/>
+      [2022-11-29] 修复BUG<br/>
+      [2022-10-31] 修改shadow目录位置<br/>
+      [2022-10-18] 修复BUG<br/>
+      [2022-09-05] 修复日志报错<br/>
+      [2022-07-11] 修复不兼容主jar的问题<br/>
+      [2022-06-10] 修复控制台报错BUG<br/>
+      [2022-06-07] 修复类加载死锁问题<br/>
+      [2022-04-11] shutdown时线程关闭<br/>
+	  [2022-03-07] 国际化更新<br/>
+      [2021-10-25] v1.1 新增分组转列表自动优化规则和隐藏格条件属性自动优化规则<br/>
+      [2021-10-25] v1.1 界面交互调整优化<br/>
+      [2021-10-25] v1.1 使用此版本时请勿设置日志级别为debug<br/>
+      [2021-10-25] v1.1 新增SQL自动优化功能<br/>
+      [2021-10-13] v1.1 新增功能引导优化建议<br/>
+      [2021-09-27]模板助手从新引擎插件中独立出来<br/>
+    ]]></change-notes>
+    <main-package>com.fr.plugin</main-package>
+    <function-recorder class="com.fr.plugin.assistant.resource.LocaleFinder"/>
+    <prefer-packages>
+        <prefer-package>com.fr.plugin</prefer-package>
+        <prefer-package>com.fr.nx</prefer-package>
+    </prefer-packages>
+    <conditional-trigger class="com.fr.plugin.assistant.monitor.AssistantPluginConditionalTrigger"/>
+    <auto-update>true</auto-update>
+    <extra-core>
+        <LocaleFinder class="com.fr.plugin.assistant.resource.LocaleFinder"/>
+        <IOFileAttrMark class="com.fr.plugin.attr.mark.SCRecordsAttrMark"/>
+        <IOFileAttrMark class="com.fr.plugin.attr.mark.SCOptionAttrMark"/>
+        <StableKeyArgsProvider class="com.fr.plugin.shadow.runtime.SCRPCRegister"/>
+    </extra-core>
+
+    <extra-decision>
+        <ControllerRegisterProvider class="com.fr.plugin.assistant.web.ControllersBridge"/>
+        <WebResourceProvider class="com.fr.plugin.assistant.web.component.SCConfigWebResource"/>
+    </extra-decision>
+
+    <extra-report>
+        <JavaScriptFileHandler class="com.fr.plugin.assistant.web.component.JavaScriptFile"/>
+        <CssFileHandler class="com.fr.plugin.assistant.web.component.CssFile"/>
+    </extra-report>
+
+    <extra-designer>
+        <DesignerFrameUpButtonProvider class="com.fr.plugin.designer.ui.TemplateHelperUIButton"/>
+    </extra-designer>
+</plugin>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <id>com.fr.plugin.bigScreen.v11</id>
+    <name><![CDATA[Extended Chart]]></name>
+    <active>yes</active>
+    <version>4.6.16</version>
+    <env-version>11.0~11.0</env-version>
+    <jartime>2021-10-26</jartime>
+    <vendor>finereport.chart</vendor>
+    <description><![CDATA[Extended Chart]]></description>
+    <change-notes><![CDATA[
+	<p>[2024-07-04]<a>Modified the black GIS layer URL of the carousel GIS point map.</a></p>
+	<p>[2024-01-25]<a>International update,Fixed some known issues</a></p>
+	<p>[2023-09-07]<a>Fixed problems of scene map getting stuck, no gradient effect when the minimum value of the Y-axis of a column chart in special shape is not 0, and the issue of the ten-segment line in the carousel 3D combination map.</a></p>
+	<p>[2023-07-07]<a>Fixed the problem that carousel settings of KPI card does not take effect. Supported the use of MacBook with M1 chip to edit scene maps</a></p>
+    <p>[2023-06-02]<a>Fix the truncation problem of the special shape column chart, optimize the scene map automatic simplification logic</a></p>
+    <p>[2023-05-23]<a>Fix the incorrect data format of the smart tree map</a></p>
+    <p>[2023-04-21]<a>Fixed the problem that the sequence number of the carousel directory gear map is missing</a></p>
+    <p>[2023-02-22]<a>Fixed the security issues</a></p>
+    <p>[2022-12-28]<a>Fixed issues such as incorrect display of extended chart data</a></p>
+    <p>[2022-10-28]<a>Extended chart adapted to the latest data logic, and fixed the compatibility failure of the color scheme of the column chart with special shapes, etc.</a></p>
+    <p>[2022-05-23]<a>Adapt to 11.0.5, fix the issue of empty data when refreshing carousel pie chart</a></p>
+    <p>[2022-04-11]<a>International update</a></p>
+    <p>[2022-03-02]<a>Optimize the percentage display problem of the flashing gauge</a></p>
+    <p>[2022-02-18]<a>Fixed scene map drill map performance and other issues</a></p>
+    <p>[2022-01-13]<a>Fixed the issue of false save when modifying the color matching of the special shape column chart</a></p>
+    <p>[2021-12-16]<a>Fixed the issue that the title font size of the carousel GIS point map is displayed incorrectly</a></p>
+    <p>[2021-10-20]<a>Fixed issues such as empty series of column charts with special shapes, unsaved coordinate axes, abnormal display of gear switch in carousel directory, etc.</a></p>
+    <p>[2021-09-23]<a>Develop env-version</a></p>
+    <p>[2021-07-30]<a>Fixed the issue that the "shape" of the scene map is displayed incorrectly</a></p>
+    <p>[2021-06-25]<a>Fixed lack of jxbrowser.jar unable to install extended chart plugin; Fancy tree chart consumes a lot of CPU, etc.</a></p>
+    <p>[2021-05-08]<a>Fixed the issue that special browsers did not display the fancy tree</a></p>
+    <p>[2021-04-28]<a>Fixed the problem that the spider dataset cannot be used in the scene map and the ‘Qiao’ is not displayed</a></p>
+    <p>[2021-03-25]<a>Fixed IE8 access template error and other issues</a></p>
+    <p>[2021-03-15]<a>Fixed some known issues</a></p>
+    <p>[2021-02-04]<a>Added carousel pie chart & added opening effect</a></p>
+    <p>[2020-12-31]<a>New carousel bar chart & new carousel catalog gear chart to adjust the color size</a></p>
+    <p>[2020-12-12]<a>Fixed 4.3 plugin previews common chart error by IE & scene map interaction optimization & lic internationalization</a></p>
+    <p>[2020-12-06]<a>Added pixel point map and special shape column chart & fancy tree chart interaction optimization</a></p>
+    <p>[2020-11-25]<a>Fixed the issue of scene map data loss</a></p>
+    <p>[2020-11-07]<a>Added fancy tree chart iteration & scene map drill directory support hyperlink & open scene switching interface & json simplify automatically</a></p>
+    <p>[2020-9-24]<a>Added color size iteration & internationalization of thumbnails in the designer</a></p>
+    <p>[2020-9-8]<a>Added scene switching map & water polo map internationalization issues</a></p>
+    <p>[2020-7-30]<a>New extended chart refresh function automatically & extended chart version authorization issue & bugs such as front-end error report of carousel gis point map</a></p>
+	<p>[2020-6-24]<a>Added function of water polo chart displays negative number & fixed bugs such as extended chart memory leak & plugin registration issues</a></p>
+    <p>[2020-2-7]<a>Fix bugs such as abnormal display of indicator values on the carousel luminous dashboard & incorrect throwing of the linked water polo chart and memory usage issues</a></p>
+	<p>[2019-12-6]<a>Modify the error of indicator card with no background & adapt to 10.0.4</a></p>
+    <p>[2019-9-16]<a>Fixed bugs such as the order of carousel 3D combination map data & custom json display</a></p>
+    <p>[2019-4-26]<a>Added 3D carousel combination map</a></p>
+    <p>[2019-3-13]<a>Added arc column chart & water polo chart & playback automatically</a></p>
+    <p>[2018-11-5]<a>Fixed the problem that the plugin fails to load when deployed to tomcat</a></p>
+    <p>[2018-8-8]Adapt to 10.0</p>
+    ]]></change-notes>
+
+    <extra-core>
+        <WebService class="com.fr.plugin.chart.u3d.MapGet3dJSONService"/>
+        <WebService class="com.fr.plugin.chart.ChartGetVideoService"/>
+        <WebService class="com.fr.plugin.chart.openvideo.GetOpenVideoSettingsService"/>
+        <LocaleFinder class="com.fr.plugin.chart.locale.EChartFinder"/>
+        <JavaScriptFileHandler class="com.fr.plugin.chart.BigScreenJSFileHandler"/>
+        <IOFileAttrMark class="com.fr.plugin.chart.openvideo.OpenVideoSettings"/>
+    </extra-core>
+
+    <extra-form>
+        <JavaScriptFileHandler class="com.fr.plugin.chart.openvideo.OpenVideoJSHandler"/>
+        <CssFileHandler class="com.fr.plugin.chart.openvideo.OpenVideoCSSHandler"/>
+    </extra-form>
+
+    <extra-designer>
+        <MenuHandler class="com.fr.plugin.chart.openvideo.FormOpenVideoHandler"/>
+    </extra-designer>
+
+    <function-recorder class="com.fr.plugin.chart.AbstractECharts"/>
+
+    <extra-chart>
+        <ChartTypeProvider class="com.fr.plugin.chart.u3d.geoland.UGeoLandChartType"
+                           chartID="UGeoLandChart"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.globe.GlobeMainType"
+                                  plotID="GLOBE_MAIN_TYPE"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.map.MapMainType"
+                                  plotID="MAP_MAIN_TYPE"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.meter.MeterMainType"
+                                  plotID="METER_MAIN_TYPE"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.kpi.KPIMainType"
+                                  plotID="KPI_MAIN_TYPE"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.time.TimeMainType"
+                                  plotID="TIME_MAIN_TYPE"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.column.ColumnMainType"
+                                  plotID="COLUMN_MAIN_TYPE"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.pie.PieMainType"
+                                  plotID="PIE_MAIN_TYPE"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.catalog.CatalogMainType"
+                                  plotID="CATALOG_MAIN_TYPE"/>
+    </extra-chart>
+
+    <extra-chart-designer>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.u3d.designer.geoland.UGeoLandChartTypeUI"
+                             chartID="UGeoLandChart"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.designer.globe.GlobeMainTypeUI"
+                                    plotID="GLOBE_MAIN_TYPE"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.designer.map.MapMainTypeUI"
+                                    plotID="MAP_MAIN_TYPE"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.designer.meter.MeterMainTypeUI"
+                                    plotID="METER_MAIN_TYPE"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.designer.kpi.KPIMainTypeUI"
+                                    plotID="KPI_MAIN_TYPE"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.designer.time.TimeMainTypeUI"
+                                    plotID="TIME_MAIN_TYPE"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.designer.column.ColumnMainTypeUI"
+                                    plotID="COLUMN_MAIN_TYPE"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.designer.pie.PieMainTypeUI"
+                                    plotID="PIE_MAIN_TYPE"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.designer.catalog.CatalogMainTypeUI"
+                                    plotID="CATALOG_MAIN_TYPE"/>
+    </extra-chart-designer>
+   <plugin-xml-i18n resource="fr-plugin-extendedCharts-*.jar" location="com.fr.plugin.chart.locale">
+      <name key="Plugin-Xml-ExtendedCharts_Name"/>
+      <description key="Plugin-Xml-ExtendedCharts_Description"/>
+      <change-notes key="Plugin-Xml-ExtendedCharts_Change_Notes"/>
+    </plugin-xml-i18n>
+</plugin>

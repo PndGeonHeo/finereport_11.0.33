@@ -1,0 +1,105 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyName2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.8188101279, 32.653640179 ]
+			},
+			"properties" : {
+				"name" : "Bagongshan District",
+				"adcode" : "340405",
+				"adcode_s" : "3404",
+				"adcode_si" : "34",
+				"dname" : "Huainan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 117.1140733688, 32.6292715139 ]
+			},
+			"properties" : {
+				"name" : "Datong District",
+				"adcode" : "340402",
+				"adcode_s" : "3404",
+				"adcode_si" : "34",
+				"dname" : "Huainan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.5729045255, 32.7849756049 ]
+			},
+			"properties" : {
+				"name" : "Fengtai County",
+				"adcode" : "340421",
+				"adcode_s" : "3404",
+				"adcode_si" : "34",
+				"dname" : "Huainan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.8485843404, 32.7816230214 ]
+			},
+			"properties" : {
+				"name" : "Panji District",
+				"adcode" : "340406",
+				"adcode_s" : "3404",
+				"adcode_si" : "34",
+				"dname" : "Huainan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.7560215051, 32.2595948341 ]
+			},
+			"properties" : {
+				"name" : "Shou County",
+				"adcode" : "340422",
+				"adcode_s" : "3404",
+				"adcode_si" : "34",
+				"dname" : "Huainan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.9961330908, 32.5599453139 ]
+			},
+			"properties" : {
+				"name" : "TianjiaanDistrict",
+				"adcode" : "340403",
+				"adcode_s" : "3404",
+				"adcode_si" : "34",
+				"dname" : "Huainan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.9151114452, 32.5175433576 ]
+			},
+			"properties" : {
+				"name" : "Xiejiaji District",
+				"adcode" : "340404",
+				"adcode_s" : "3404",
+				"adcode_si" : "34",
+				"dname" : "Huainan City"
+			}
+		}
+	]
+}
+

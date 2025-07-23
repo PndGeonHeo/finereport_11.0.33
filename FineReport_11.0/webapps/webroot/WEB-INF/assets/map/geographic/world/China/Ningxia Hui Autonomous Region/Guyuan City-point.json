@@ -1,0 +1,77 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyName2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 106.3434505267, 35.5234176531 ]
+			},
+			"properties" : {
+				"name" : "Jingyuan County",
+				"adcode" : "640424",
+				"adcode_s" : "6404",
+				"adcode_si" : "64",
+				"dname" : "Guyuan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 106.0689828108, 35.590259068 ]
+			},
+			"properties" : {
+				"name" : "Longde County",
+				"adcode" : "640423",
+				"adcode_s" : "6404",
+				"adcode_si" : "64",
+				"dname" : "Guyuan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 106.6517574752, 35.9661408476 ]
+			},
+			"properties" : {
+				"name" : "Pengyang County",
+				"adcode" : "640425",
+				"adcode_s" : "6404",
+				"adcode_si" : "64",
+				"dname" : "Guyuan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 105.7165079704, 35.9334852766 ]
+			},
+			"properties" : {
+				"name" : "Xiji County",
+				"adcode" : "640422",
+				"adcode_s" : "6404",
+				"adcode_si" : "64",
+				"dname" : "Guyuan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 106.2552831948, 36.1249447039 ]
+			},
+			"properties" : {
+				"name" : "Yuanzhou District",
+				"adcode" : "640402",
+				"adcode_s" : "6404",
+				"adcode_si" : "64",
+				"dname" : "Guyuan City"
+			}
+		}
+	]
+}
+

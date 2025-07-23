@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <id>com.fr.plugin.i18n.changer</id>
+    <name><![CDATA[I18N Changer]]></name>
+    <active>yes</active>
+    <version>1.0</version>
+    <env-version>10.0~11.0</env-version>
+    <jartime>2020-07-01</jartime>
+    <vendor>FRInternational</vendor>
+    <description><![CDATA[I18N Changer]]></description>
+    <change-notes><![CDATA[
+      <p> [2021-12-06]Initialization. </p>
+    ]]></change-notes>
+    <main-package>com.fr.plugin.i18n.changer</main-package>
+    <function-recorder class="com.fr.plugin.i18n.changer.web.I18NPlatformComponent"/>
+    <extra-decision>
+        <WebResourceProvider class="com.fr.plugin.i18n.changer.PlatformWebImpl"/>
+        <ControllerRegisterProvider class="com.fr.plugin.i18n.changer.ControllerBridge"/>
+    </extra-decision>
+</plugin>

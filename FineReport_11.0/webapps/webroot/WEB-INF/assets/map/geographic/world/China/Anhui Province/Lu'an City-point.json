@@ -1,0 +1,105 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyName2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.1817997387, 32.253794916 ]
+			},
+			"properties" : {
+				"name" : "Huoqiu County",
+				"adcode" : "341522",
+				"adcode_s" : "3415",
+				"adcode_si" : "34",
+				"dname" : "Luan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.2350371782, 31.2830874841 ]
+			},
+			"properties" : {
+				"name" : "Huoshan County",
+				"adcode" : "341525",
+				"adcode_s" : "3415",
+				"adcode_si" : "34",
+				"dname" : "Luan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.6181039734, 31.6597893356 ]
+			},
+			"properties" : {
+				"name" : "Jinan District",
+				"adcode" : "341502",
+				"adcode_s" : "3415",
+				"adcode_si" : "34",
+				"dname" : "Luan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 115.7670926386, 31.4748861243 ]
+			},
+			"properties" : {
+				"name" : "Jinzhai County",
+				"adcode" : "341524",
+				"adcode_s" : "3415",
+				"adcode_si" : "34",
+				"dname" : "Luan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.8164575099, 31.3056916828 ]
+			},
+			"properties" : {
+				"name" : "Shucheng County",
+				"adcode" : "341523",
+				"adcode_s" : "3415",
+				"adcode_si" : "34",
+				"dname" : "Luan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.0463707609, 31.8707415533 ]
+			},
+			"properties" : {
+				"name" : "Yeji District",
+				"adcode" : "341504",
+				"adcode_s" : "3415",
+				"adcode_si" : "34",
+				"dname" : "Luan City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.3204586582, 31.7526923761 ]
+			},
+			"properties" : {
+				"name" : "Yuan District",
+				"adcode" : "341503",
+				"adcode_s" : "3415",
+				"adcode_si" : "34",
+				"dname" : "Luan City"
+			}
+		}
+	]
+}
+

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="10.0.0">
+<TableDataMap>
+<TableData name="ds1" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[Title,,.,,Article]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String">
+<![CDATA[X]A3J]AgFs1$pFl4Q+9;V_G1*s9:BcnK%gcJt5gM9pQ56/bKb#-6j[7aobEm=;P3l@o+,:mG=O
+_)/Ap/t(\:*sF;ZMl\o+=,&<8M'jC[W0t2$2J@H"S)';&O&\Ml7j\$RN7(7l^g'\l0WnYPAP
+@6##_68[a671.J7;3Zu.!J%o%d_0AUc9Zh<5'QgI)Ks3u&:k[.<,\8jMf.KI-?ClW\o!q7er
+0pJ86.ll_QOB\3bZdjD6Vj@U)[,0h=\,#D-t_.Eg]A1k@%DcdIP2!9[_.j^OnEVi`kQu=,93t
+#)Lm\t8f!)8Jf,7s[SLn0aA&B<i8UsXLA4frIKXBa)&^(JCm&A=6kFc,0.P!ZfM#$/5P:abB
+O)8?HrEOq6Ce1<116Ap8)TDIXHj[`)G4f9)Q'tD4.b<9%iE^^;\`@sL%rGJ95Z]A9kl<gU-HI
+256iRr(pF:aDc()\S\HYm*0mR'68/d8C7Wi?2DKf'Z#CE<Zn@g*$W^HO"7lYI'(a7JNX]A_?Z
+pR;E"?>*H)2$Wdbnk(X*3hK]Ai5$sG2/n'4,6gCnD/Zpm39KKY\%g&((5)4NBVblG:srfQrp.
+pHGS[QI9o,>4F25Mp3g>h.qEg`?N$YiEq1LEMp]A.RB%,q2UZqmn$QBGB\g*>4$@&bs"K>BnP
+\%qB(p/-"A2CK,I$A@+e>ApuC,(HY7W6GA[obNlS%c5,\Aj(Y(!\<%4_1ES")n,9?[FBo9c_
+/a!/p#s1US7rt!m[F8iV1%P67$b)4"nqKIP]AlZm+hqqqb9_tkPD/t0u`n=I`Y(3FGjNa(+Jo
+j]AR!]A[L%$0Ati=O5,t?cW_`,GA1S;mTp79OFQUZmO$j)0WLPY_l2#o3Ii@7"!hE5dB'\$e`l
+:?4SD.$hsH[WFu@rh\(=qPNq-T~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[723900,3657600,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2819400,5753100,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" s="0">
+<O>
+<![CDATA[Title]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="0" s="0">
+<O>
+<![CDATA[Article]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1" s="1">
+<O t="DSColumn">
+<Attributes dsName="ds1" columnName="Title"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="1" r="1" s="1">
+<O t="DSColumn">
+<Attributes dsName="ds1" columnName="Article"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[="<div style=\"height:60px;width:150px;overflow-y:scroll;\">"+$$$+"</div>"]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0" showAsHTML="true"/>
+<CellPageAttr/>
+<Expand dir="0"/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+<Background name="ColorBackground" color="-1"/>
+</ReportSettings>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="true" currentIndex="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Arial" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Arial" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="KAA"/>
+<PreviewType PreviewType="0"/>
+<TemplateIdAttMark class="com.fr.base.iofile.attr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="b43a072e-9bd9-4bb8-9f26-84e01cacfe72"/>
+</TemplateIdAttMark>
+</WorkBook>

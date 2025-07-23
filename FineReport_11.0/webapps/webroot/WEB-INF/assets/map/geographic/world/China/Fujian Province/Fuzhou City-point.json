@@ -1,0 +1,189 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "CountyName2",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.3229373304, 26.0170697417 ]
+			},
+			"properties" : {
+				"name" : "Cangshan District",
+				"adcode" : "350104",
+				"adcode_s" : "3501",
+				"adcode_si" : "35",
+				"dname" : "Fuzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.3694214861, 25.6305427747 ]
+			},
+			"properties" : {
+				"name" : "Fuqing City",
+				"adcode" : "350181",
+				"adcode_s" : "3501",
+				"adcode_si" : "35",
+				"dname" : "Fuzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.3016539739, 26.2210511628 ]
+			},
+			"properties" : {
+				"name" : "Jinan District",
+				"adcode" : "350111",
+				"adcode_s" : "3501",
+				"adcode_si" : "35",
+				"dname" : "Fuzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.547163542, 26.3054037885 ]
+			},
+			"properties" : {
+				"name" : "Lianjiang County",
+				"adcode" : "350122",
+				"adcode_s" : "3501",
+				"adcode_si" : "35",
+				"dname" : "Fuzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.4592413992, 26.5024940801 ]
+			},
+			"properties" : {
+				"name" : "Luoyuan County",
+				"adcode" : "350123",
+				"adcode_s" : "3501",
+				"adcode_si" : "35",
+				"dname" : "Fuzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.4591639115, 26.0714982768 ]
+			},
+			"properties" : {
+				"name" : "Mawei District",
+				"adcode" : "350105",
+				"adcode_s" : "3501",
+				"adcode_si" : "35",
+				"dname" : "Fuzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.1118030273, 26.1790004877 ]
+			},
+			"properties" : {
+				"name" : "Minhou County",
+				"adcode" : "350121",
+				"adcode_s" : "3501",
+				"adcode_si" : "35",
+				"dname" : "Fuzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.7676160816, 26.2092301055 ]
+			},
+			"properties" : {
+				"name" : "Minqing County",
+				"adcode" : "350124",
+				"adcode_s" : "3501",
+				"adcode_si" : "35",
+				"dname" : "Fuzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.7612620602, 25.5301948733 ]
+			},
+			"properties" : {
+				"name" : "Pingtan County",
+				"adcode" : "350128",
+				"adcode_s" : "3501",
+				"adcode_si" : "35",
+				"dname" : "Fuzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.289811365, 26.0605974644 ]
+			},
+			"properties" : {
+				"name" : "Taijiang District",
+				"adcode" : "350103",
+				"adcode_s" : "3501",
+				"adcode_si" : "35",
+				"dname" : "Fuzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 118.7835338133, 25.8543889883 ]
+			},
+			"properties" : {
+				"name" : "Yongtai County",
+				"adcode" : "350125",
+				"adcode_s" : "3501",
+				"adcode_si" : "35",
+				"dname" : "Fuzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.550722099, 25.9103460795 ]
+			},
+			"properties" : {
+				"name" : "Changle District",
+				"adcode" : "350112",
+				"adcode_s" : "3501",
+				"adcode_si" : "35",
+				"dname" : "Fuzhou City"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119.2783395594, 26.0948291308 ]
+			},
+			"properties" : {
+				"name" : "Gulou District",
+				"adcode" : "350102",
+				"adcode_s" : "3501",
+				"adcode_si" : "35",
+				"dname" : "Fuzhou City"
+			}
+		}
+	]
+}
+

@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.7938232, 35.1396428] },
+      "properties": { "name": "광산구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9122, 35.1741] },
+      "properties": { "name": "북구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9025, 35.1327] },
+      "properties": { "name": "남구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.8900561, 35.1521401] },
+      "properties": { "name": "서구" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.9229, 35.1462] },
+      "properties": { "name": "동구" }
+    }
+  ]
+}

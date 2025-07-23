@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <id>com.fr.plugin.report.system.check.v11</id>
+    <name><![CDATA[系统检查]]></name>
+    <active>yes</active>
+    <version>1.5.1</version>
+    <auto-update>true</auto-update>
+    <env-version>11.0~11.0</env-version>
+    <jartime>2022-05-17</jartime>
+    <vendor email="bryant@fanruan.com">fanruan.bryant</vendor>
+    <description><![CDATA[帮助用户检查系统中的各项配置是否合理，以辅助用户优化配置，更好地防止宕机情况的发生]]></description>
+    <change-notes><![CDATA[
+        [2025-05-21]修复已知问题<br/>
+        [2025-04-14]插件依赖更新<br/>
+        [2025-01-14]修复已知安全漏洞<br/>
+        [2024-11-21]国际化更新<br/>
+        [2024-06-25]国际化更新<br/>
+        [2024-03-01]国际化更新<br/>
+        [2023-10-25]国际化更新<br/>
+        [2023-10-25]修复部分接口接口未限制权限<br/>
+        [2023-08-24]状态服务器是redis集群,单节点检测失败<br/>
+        [2023-07-28]补充操作日志埋点<br/>
+        [2023-07-26]插件依赖更新<br/>
+        [2023-04-25]数据连接组件检测默认语句更换为Dialect的默认校验语句<br/>
+        [2023-03-24]record接口防xss注入<br/>
+        [2022-12-28]插件国际化布局调整<br/>
+        [2022-12-28]插件国际化完善<br/>
+        [2022-11-11]检测插件兼容性<br/>
+        [2022-11-03]打包时去掉单元测试类<br/>
+        [2022-07-28]网络组件检测<br/>
+        [2022-07-11]巡检工具功能<br/>
+        [2022-07-08]提供网络检测功能<br/>
+        [2022-06-15]插件运维平台密钥配置<br/>
+        [2022-05-27]基础网络检测<br/>
+        [2022-04-21]运维平台客户端<br/>
+		[2022-02-28]插件国际化完善<br/>
+		[2021-07-21]插件国际化完善<br/>
+        [2021-05-14]插件国际化<br/>
+        [2020-05-14]系统配置检查<br/>
+    ]]></change-notes>
+    <!--主包-->
+    <main-package>com.fr.plugin.report.system.check</main-package>
+    <!--全局入口和出口-->
+    <lifecycle-monitor class="com.fr.plugin.report.system.check.SystemOperationLifecycle"/>
+    <extra-core>
+        <LocaleFinder class="com.fr.plugin.report.system.check.SystemOperationLocaleFinder"/>
+        <DBAccessProvider class="com.fr.plugin.report.system.check.network.db.NetCheckDBAccessBridge"/>
+    </extra-core>
+    <extra-decision>
+        <SystemOptionProvider class="com.fr.plugin.report.system.check.NetCheckOption"/>
+        <ControllerRegisterProvider class="com.fr.plugin.report.system.check.SystemOperationControllerRegister"/>
+    </extra-decision>
+    <function-recorder class="com.fr.plugin.report.system.check.NetCheckOption"/>
+  <plugin-xml-i18n resource="fr-plugin-report-system-check-*.jar" location="com.fr.plugin.report.system.check.locale">
+      <name key="Plugin-Xml-I18n-Report-System-Check_Name"/>
+      <description key="Plugin-Xml-I18n-Report-System-Check_Description"/>
+      <change-notes key="Plugin-Xml-I18nReport-System-Check_Change_Notes"/>
+    </plugin-xml-i18n>
+</plugin>
